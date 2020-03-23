@@ -23,5 +23,10 @@ namespace GDN_Toolbox
             formLogin.Show();
             this.Hide();
         }
+
+        private void textBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+            ProgressPassword.Value = textBoxPassword.Text.Count() * 3;
+        }
     }
 }

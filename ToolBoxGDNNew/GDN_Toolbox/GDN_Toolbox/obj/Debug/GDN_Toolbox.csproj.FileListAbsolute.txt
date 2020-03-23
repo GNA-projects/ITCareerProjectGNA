@@ -1,0 +1,11 @@
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe.config
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.Form1.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.Properties.Resources.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.GenerateResource.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.FormDesign.resources

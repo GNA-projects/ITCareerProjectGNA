@@ -21,3 +21,6 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.FormRegister.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\bin\Debug\CircularProgressBar.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\bin\Debug\WinFormAnimation.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDN\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CopyComplete

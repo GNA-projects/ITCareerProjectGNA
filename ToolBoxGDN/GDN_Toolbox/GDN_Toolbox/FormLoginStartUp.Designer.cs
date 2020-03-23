@@ -49,7 +49,7 @@
             // 
             // ButtonLogin
             // 
-            this.ButtonLogin.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.ButtonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ButtonLogin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ButtonLogin.FlatAppearance.BorderSize = 0;
             this.ButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -65,7 +65,7 @@
             // 
             // ButtonRegister
             // 
-            this.ButtonRegister.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.ButtonRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ButtonRegister.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ButtonRegister.FlatAppearance.BorderSize = 0;
             this.ButtonRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -115,7 +115,7 @@
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -165,7 +165,7 @@
             // 
             // textBoxUsername
             // 
-            this.textBoxUsername.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxUsername.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,6 +191,7 @@
             // 
             // LabelName
             // 
+            this.LabelName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.LabelName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LabelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelName.Location = new System.Drawing.Point(0, 0);
@@ -205,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(397, 414);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

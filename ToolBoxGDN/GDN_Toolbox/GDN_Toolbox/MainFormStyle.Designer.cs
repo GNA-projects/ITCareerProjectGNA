@@ -41,7 +41,7 @@
             this.PanelUpBorder.Controls.Add(this.ButtonExit);
             this.PanelUpBorder.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelUpBorder.Location = new System.Drawing.Point(0, 0);
-            this.PanelUpBorder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelUpBorder.Margin = new System.Windows.Forms.Padding(2);
             this.PanelUpBorder.Name = "PanelUpBorder";
             this.PanelUpBorder.Size = new System.Drawing.Size(549, 28);
             this.PanelUpBorder.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.ButtonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonMinimize.ForeColor = System.Drawing.Color.White;
             this.ButtonMinimize.Location = new System.Drawing.Point(492, 0);
-            this.ButtonMinimize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonMinimize.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonMinimize.Name = "ButtonMinimize";
             this.ButtonMinimize.Size = new System.Drawing.Size(28, 28);
             this.ButtonMinimize.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.ButtonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonExit.ForeColor = System.Drawing.Color.White;
             this.ButtonExit.Location = new System.Drawing.Point(520, 0);
-            this.ButtonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonExit.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonExit.Name = "ButtonExit";
             this.ButtonExit.Size = new System.Drawing.Size(29, 28);
             this.ButtonExit.TabIndex = 0;
@@ -86,11 +86,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(549, 386);
             this.Controls.Add(this.PanelUpBorder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainFormStyle";
             this.Text = "FormRegister";
             this.PanelUpBorder.ResumeLayout(false);

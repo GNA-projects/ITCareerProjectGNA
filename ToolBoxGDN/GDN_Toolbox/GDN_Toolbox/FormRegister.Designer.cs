@@ -30,6 +30,9 @@
         {
             this.LabelName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.ButtonLogin = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -37,17 +40,15 @@
             this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.ButtonRevealPassword = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ProgressPassword = new CircularProgressBar.CircularProgressBar();
             this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // LabelName
@@ -73,13 +74,43 @@
             this.panel1.Size = new System.Drawing.Size(397, 166);
             this.panel1.TabIndex = 4;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(0, 71);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(397, 45);
+            this.panel5.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(397, 45);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Just 2 easy steps";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 116);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(397, 50);
+            this.panel4.TabIndex = 4;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.ButtonLogin);
+            this.panel2.Controls.Add(this.ProgressPassword);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 282);
+            this.panel2.Location = new System.Drawing.Point(0, 324);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(397, 132);
+            this.panel2.Size = new System.Drawing.Size(397, 90);
             this.panel2.TabIndex = 5;
             // 
             // ButtonLogin
@@ -89,10 +120,10 @@
             this.ButtonLogin.FlatAppearance.BorderSize = 0;
             this.ButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonLogin.Location = new System.Drawing.Point(0, 0);
+            this.ButtonLogin.Location = new System.Drawing.Point(88, 0);
             this.ButtonLogin.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonLogin.Name = "ButtonLogin";
-            this.ButtonLogin.Size = new System.Drawing.Size(397, 132);
+            this.ButtonLogin.Size = new System.Drawing.Size(309, 90);
             this.ButtonLogin.TabIndex = 4;
             this.ButtonLogin.Text = "Register";
             this.ButtonLogin.UseVisualStyleBackColor = false;
@@ -103,7 +134,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 194);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(397, 88);
+            this.panel3.Size = new System.Drawing.Size(397, 130);
             this.panel3.TabIndex = 6;
             // 
             // splitContainer1
@@ -121,8 +152,8 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.textBoxPassword);
             this.splitContainer1.Panel2.Controls.Add(this.ButtonRevealPassword);
-            this.splitContainer1.Size = new System.Drawing.Size(397, 88);
-            this.splitContainer1.SplitterDistance = 41;
+            this.splitContainer1.Size = new System.Drawing.Size(397, 130);
+            this.splitContainer1.SplitterDistance = 60;
             this.splitContainer1.TabIndex = 0;
             // 
             // textBoxUsername
@@ -154,6 +185,7 @@
             this.textBoxPassword.TabIndex = 3;
             this.textBoxPassword.Text = "Password";
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
             // ButtonRevealPassword
             // 
@@ -164,39 +196,43 @@
             this.ButtonRevealPassword.Location = new System.Drawing.Point(341, 0);
             this.ButtonRevealPassword.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonRevealPassword.Name = "ButtonRevealPassword";
-            this.ButtonRevealPassword.Size = new System.Drawing.Size(56, 43);
+            this.ButtonRevealPassword.Size = new System.Drawing.Size(56, 66);
             this.ButtonRevealPassword.TabIndex = 4;
             this.ButtonRevealPassword.Text = "Reveal / Hide";
             this.ButtonRevealPassword.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // ProgressPassword
             // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 116);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(397, 50);
-            this.panel4.TabIndex = 4;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.label2);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 71);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(397, 45);
-            this.panel5.TabIndex = 5;
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(397, 45);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Just 2 easy steps";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ProgressPassword.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.ProgressPassword.AnimationSpeed = 500;
+            this.ProgressPassword.BackColor = System.Drawing.Color.Transparent;
+            this.ProgressPassword.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ProgressPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
+            this.ProgressPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ProgressPassword.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ProgressPassword.InnerMargin = 2;
+            this.ProgressPassword.InnerWidth = -1;
+            this.ProgressPassword.Location = new System.Drawing.Point(0, 0);
+            this.ProgressPassword.MarqueeAnimationSpeed = 2000;
+            this.ProgressPassword.MaximumSize = new System.Drawing.Size(88, 88);
+            this.ProgressPassword.Name = "ProgressPassword";
+            this.ProgressPassword.OuterColor = System.Drawing.Color.Gray;
+            this.ProgressPassword.OuterMargin = -25;
+            this.ProgressPassword.OuterWidth = 26;
+            this.ProgressPassword.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ProgressPassword.ProgressWidth = 25;
+            this.ProgressPassword.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
+            this.ProgressPassword.Size = new System.Drawing.Size(88, 88);
+            this.ProgressPassword.StartAngle = 270;
+            this.ProgressPassword.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.ProgressPassword.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.ProgressPassword.SubscriptText = ".23";
+            this.ProgressPassword.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.ProgressPassword.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.ProgressPassword.SuperscriptText = "°C";
+            this.ProgressPassword.TabIndex = 5;
+            this.ProgressPassword.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.ProgressPassword.Value = 1;
             // 
             // FormRegister
             // 
@@ -212,6 +248,7 @@
             this.Controls.SetChildIndex(this.panel2, 0);
             this.Controls.SetChildIndex(this.panel3, 0);
             this.panel1.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -220,7 +257,6 @@
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -238,5 +274,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
+        private CircularProgressBar.CircularProgressBar ProgressPassword;
     }
 }
