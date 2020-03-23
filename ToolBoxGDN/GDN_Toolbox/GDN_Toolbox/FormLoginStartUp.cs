@@ -45,6 +45,18 @@ namespace GDN_Toolbox
 				textBoxPassword.PasswordChar = '*';
 			}
 		}
+
+		private void ButtonLogin_Click(object sender, EventArgs e)
+		{
+		
+		}
+
+		private void ButtonRegister_Click(object sender, EventArgs e)
+		{
+			FormRegister formRegister = new FormRegister();
+			formRegister.Show();
+			this.Hide();
+		}
 	}
 }
 
