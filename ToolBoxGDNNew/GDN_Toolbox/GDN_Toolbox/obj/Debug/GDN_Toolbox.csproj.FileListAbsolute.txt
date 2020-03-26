@@ -26,5 +26,4 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.HintUsernameBox.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache

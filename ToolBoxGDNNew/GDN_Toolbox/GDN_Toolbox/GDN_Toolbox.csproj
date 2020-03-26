@@ -88,12 +88,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HintUsernameBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="HintUsernameBox.Designer.cs">
-      <DependentUpon>HintUsernameBox.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,9 +104,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="HintUsernameBox.resx">
-      <DependentUpon>HintUsernameBox.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
