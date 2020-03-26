@@ -9,3 +9,22 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.FormDesign.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.LoginForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainDesignForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Bunifu_UI_v1.5.3 (1).dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CopyComplete
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.HintUsernameBox.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache

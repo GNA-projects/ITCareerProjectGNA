@@ -16,7 +16,7 @@ namespace GDN_Toolbox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormDesign());
+            Application.Run(new LoginForm());
         }
     }
 }
