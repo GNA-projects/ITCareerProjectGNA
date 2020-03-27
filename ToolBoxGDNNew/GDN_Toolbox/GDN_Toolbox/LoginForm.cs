@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GDN_Toolbox.Data.UserDataLogin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +26,8 @@ namespace GDN_Toolbox
 
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
-
+            UserDataLogin.Username = TextBoxUsername.Text;
+            UserDataLogin.Password = TextBoxPassword.Text;
         }
     }
 }

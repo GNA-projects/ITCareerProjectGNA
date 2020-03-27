@@ -73,7 +73,8 @@
     <Compile Include="CustomControls\HintPassword.Designer.cs">
       <DependentUpon>HintPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\UserData\UserData.cs" />
+    <Compile Include="Data\UserDataRegister\UserDataRegister.cs" />
+    <Compile Include="Data\UserDataLogin\UserDataLogin.cs" />
     <Compile Include="GlobalVariables\MousePosition\LastMousePosition.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
