@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace GDN_Toolbox
 {
-    public partial class LoginForm : MainDesignForm
+    public partial class RegisterForm : MainDesignForm
     {
-        public LoginForm()
+        public RegisterForm()
         {
             InitializeComponent();
         }
         private void ButtonRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegisterForm registerForm = new RegisterForm();
-            registerForm.Show();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }

@@ -35,12 +35,12 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.ButtonLogin = new System.Windows.Forms.Button();
+            this.ProgressPassword = new CircularProgressBar.CircularProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.ButtonRevealPassword = new System.Windows.Forms.Button();
-            this.ProgressPassword = new CircularProgressBar.CircularProgressBar();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -128,6 +128,39 @@
             this.ButtonLogin.Text = "Register";
             this.ButtonLogin.UseVisualStyleBackColor = false;
             // 
+            // ProgressPassword
+            // 
+            this.ProgressPassword.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.ProgressPassword.AnimationSpeed = 500;
+            this.ProgressPassword.BackColor = System.Drawing.Color.Transparent;
+            this.ProgressPassword.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ProgressPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
+            this.ProgressPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ProgressPassword.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ProgressPassword.InnerMargin = 2;
+            this.ProgressPassword.InnerWidth = -1;
+            this.ProgressPassword.Location = new System.Drawing.Point(0, 0);
+            this.ProgressPassword.MarqueeAnimationSpeed = 2000;
+            this.ProgressPassword.MaximumSize = new System.Drawing.Size(88, 88);
+            this.ProgressPassword.Name = "ProgressPassword";
+            this.ProgressPassword.OuterColor = System.Drawing.Color.Gray;
+            this.ProgressPassword.OuterMargin = -25;
+            this.ProgressPassword.OuterWidth = 26;
+            this.ProgressPassword.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ProgressPassword.ProgressWidth = 25;
+            this.ProgressPassword.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
+            this.ProgressPassword.Size = new System.Drawing.Size(88, 88);
+            this.ProgressPassword.StartAngle = 270;
+            this.ProgressPassword.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.ProgressPassword.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.ProgressPassword.SubscriptText = ".23";
+            this.ProgressPassword.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.ProgressPassword.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.ProgressPassword.SuperscriptText = "°C";
+            this.ProgressPassword.TabIndex = 5;
+            this.ProgressPassword.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.ProgressPassword.Value = 1;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.splitContainer1);
@@ -200,39 +233,6 @@
             this.ButtonRevealPassword.TabIndex = 4;
             this.ButtonRevealPassword.Text = "Reveal / Hide";
             this.ButtonRevealPassword.UseVisualStyleBackColor = true;
-            // 
-            // ProgressPassword
-            // 
-            this.ProgressPassword.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.ProgressPassword.AnimationSpeed = 500;
-            this.ProgressPassword.BackColor = System.Drawing.Color.Transparent;
-            this.ProgressPassword.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ProgressPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
-            this.ProgressPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ProgressPassword.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ProgressPassword.InnerMargin = 2;
-            this.ProgressPassword.InnerWidth = -1;
-            this.ProgressPassword.Location = new System.Drawing.Point(0, 0);
-            this.ProgressPassword.MarqueeAnimationSpeed = 2000;
-            this.ProgressPassword.MaximumSize = new System.Drawing.Size(88, 88);
-            this.ProgressPassword.Name = "ProgressPassword";
-            this.ProgressPassword.OuterColor = System.Drawing.Color.Gray;
-            this.ProgressPassword.OuterMargin = -25;
-            this.ProgressPassword.OuterWidth = 26;
-            this.ProgressPassword.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.ProgressPassword.ProgressWidth = 25;
-            this.ProgressPassword.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
-            this.ProgressPassword.Size = new System.Drawing.Size(88, 88);
-            this.ProgressPassword.StartAngle = 270;
-            this.ProgressPassword.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.ProgressPassword.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
-            this.ProgressPassword.SubscriptText = ".23";
-            this.ProgressPassword.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.ProgressPassword.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.ProgressPassword.SuperscriptText = "°C";
-            this.ProgressPassword.TabIndex = 5;
-            this.ProgressPassword.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
-            this.ProgressPassword.Value = 1;
             // 
             // FormRegister
             // 

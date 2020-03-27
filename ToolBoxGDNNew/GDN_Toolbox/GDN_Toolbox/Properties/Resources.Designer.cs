@@ -63,6 +63,16 @@ namespace GDN_Toolbox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _518_5186675_computer_icons_user_avatar_icon_design_login_user_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("518-5186675_computer-icons-user-avatar-icon-design-login-user-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CloseButtonPicture {
             get {
                 object obj = ResourceManager.GetObject("CloseButtonPicture", resourceCulture);
