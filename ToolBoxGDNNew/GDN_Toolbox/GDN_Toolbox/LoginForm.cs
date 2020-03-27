@@ -26,6 +26,7 @@ namespace GDN_Toolbox
 
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
+            //Adding the Username and Password to a static Class
             UserDataLogin.Username = TextBoxUsername.Text;
             UserDataLogin.Password = TextBoxPassword.Text;
         }
