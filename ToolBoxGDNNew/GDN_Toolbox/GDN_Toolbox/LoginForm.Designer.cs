@@ -128,6 +128,7 @@
             this.ButtonLogin.TabIndex = 8;
             this.ButtonLogin.Text = "Login";
             this.ButtonLogin.UseVisualStyleBackColor = true;
+            this.ButtonLogin.Click += new System.EventHandler(this.ButtonLogin_Click);
             // 
             // PanelLogin
             // 

@@ -8,10 +8,7 @@ namespace GDN_Toolbox.GlobalVariables.MousePosition
 {
 	static public class LastMousePosition
 	{
-		private static int mousePosX = 0;
-		private static int mousePosY = 0;
-
-		public static int MousePosX { get => mousePosX; set => mousePosX = value; }
-		public static int MousePosY { get => mousePosY; set => mousePosY = value; }
+		public static int MousePosX { get; set; } = 0;
+		public static int MousePosY { get; set; } = 0;
 	}
 }
