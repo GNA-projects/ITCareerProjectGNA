@@ -29,6 +29,10 @@ namespace GDN_Toolbox
             //Adding the Username and Password to a static Class
             UserDataLogin.Username = TextBoxUsername.Text;
             UserDataLogin.Password = TextBoxPassword.Text;
+			//Logging in to the Main Menu Form
+			MainMenuForm mainMenuForm = new MainMenuForm();
+			mainMenuForm.Show();
+			this.Hide();
         }
     }
 }
