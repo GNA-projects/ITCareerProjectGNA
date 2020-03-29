@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GDN_Toolbox
+namespace GDN_Toolbox.CustomControls.Tabs.Design
 {
-	public partial class UserControl2 : UserControl
+	public partial class ControlDesign : UserControl
 	{
-		public UserControl2()
+		public ControlDesign()
 		{
 			InitializeComponent();
 		}

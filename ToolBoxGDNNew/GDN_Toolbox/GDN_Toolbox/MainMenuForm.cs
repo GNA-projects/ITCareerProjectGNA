@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GDN_Toolbox.CustomControls.Tabs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,26 +18,26 @@ namespace GDN_Toolbox
 			InitializeComponent();
 		}
 
-		private void Button1_Click(object sender, EventArgs e)
+		private void ButtonHome_Click(object sender, EventArgs e)
 		{
-			if (panel1.HasChildren)
+			if (this.PanelCurrentTab.HasChildren)
 			{
-				panel1.GetChildAtPoint(new Point(0, 0)).Dispose();
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
 			}
-			UserControl1 userControl1 = new UserControl1();
-			userControl1.Parent = panel1;
-			userControl1.Show();
+			TabHome tabHome = new TabHome();
+			tabHome.Parent = PanelCurrentTab;
+			tabHome.Show();
 		}
 
-		private void Button2_Click(object sender, EventArgs e)
+		private void ButtonFileSearcher_Click(object sender, EventArgs e)
 		{
-			if (panel1.HasChildren)
+			if (this.PanelCurrentTab.HasChildren)
 			{
-				panel1.GetChildAtPoint(new Point(0, 0)).Dispose();
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
 			}
-			UserControl2 userControl2 = new UserControl2();
-			userControl2.Parent = panel1;
-			userControl2.Show();
+			TabFileSearcher tabFileSearcher = new TabFileSearcher();
+			tabFileSearcher.Parent = PanelCurrentTab;
+			tabFileSearcher.Show();
 		}
 	}
 }

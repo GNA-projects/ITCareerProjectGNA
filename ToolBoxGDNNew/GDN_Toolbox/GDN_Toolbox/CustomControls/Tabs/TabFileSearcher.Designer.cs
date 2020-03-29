@@ -1,6 +1,6 @@
-﻿namespace GDN_Toolbox
+﻿namespace GDN_Toolbox.CustomControls.Tabs
 {
-	partial class UserControl2
+	partial class TabFileSearcher
 	{
 		/// <summary> 
 		/// Required designer variable.
@@ -28,32 +28,34 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.label1 = new System.Windows.Forms.Label();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// label1
+			// pictureBox1
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(71, 73);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(70, 13);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "AAAAAAAAA";
+			this.pictureBox1.BackgroundImage = global::GDN_Toolbox.Properties.Resources.CloseButtonPicture;
+			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(561, 435);
+			this.pictureBox1.TabIndex = 0;
+			this.pictureBox1.TabStop = false;
 			// 
-			// UserControl2
+			// TabFileSearcher
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Controls.Add(this.label1);
-			this.Name = "UserControl2";
-			this.Size = new System.Drawing.Size(258, 255);
+			this.Controls.Add(this.pictureBox1);
+			this.Name = "TabFileSearcher";
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.PictureBox pictureBox1;
 	}
 }

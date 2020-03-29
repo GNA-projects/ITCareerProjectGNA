@@ -39,5 +39,6 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.RegisterForm.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainMenuForm.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.UserControl1.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.UserControl2.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.Design.ControlDesign.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabFileSearcher.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabHome.resources

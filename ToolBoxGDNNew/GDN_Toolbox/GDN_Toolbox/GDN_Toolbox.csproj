@@ -73,6 +73,24 @@
     <Compile Include="CustomControls\HintPassword.Designer.cs">
       <DependentUpon>HintPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomControls\Tabs\Design\ControlDesign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Tabs\Design\ControlDesign.Designer.cs">
+      <DependentUpon>ControlDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Tabs\TabFileSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Tabs\TabFileSearcher.Designer.cs">
+      <DependentUpon>TabFileSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Tabs\TabHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Tabs\TabHome.Designer.cs">
+      <DependentUpon>TabHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Data\UserDataRegister\UserDataRegister.cs" />
     <Compile Include="Data\UserDataLogin\UserDataLogin.cs" />
     <Compile Include="GlobalVariables\MousePosition\LastMousePosition.cs" />
@@ -108,18 +126,15 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="CustomControls\Tabs\Design\ControlDesign.resx">
+      <DependentUpon>ControlDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Tabs\TabFileSearcher.resx">
+      <DependentUpon>TabFileSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Tabs\TabHome.resx">
+      <DependentUpon>TabHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,12 +159,6 @@
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -182,6 +191,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\Logo\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo gdn 1 icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo gdn 1 icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
