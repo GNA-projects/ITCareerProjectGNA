@@ -40,6 +40,7 @@
 			this.PanelUp = new System.Windows.Forms.Panel();
 			this.PictureBoxToolbox = new System.Windows.Forms.PictureBox();
 			this.PanelCurrentTab = new System.Windows.Forms.Panel();
+			this.PanelPicture = new System.Windows.Forms.Panel();
 			this.PanelTabs.SuspendLayout();
 			this.PanelUp.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBoxToolbox)).BeginInit();
@@ -178,6 +179,7 @@
 			// PanelUp
 			// 
 			this.PanelUp.Controls.Add(this.PictureBoxToolbox);
+			this.PanelUp.Controls.Add(this.PanelPicture);
 			this.PanelUp.Dock = System.Windows.Forms.DockStyle.Top;
 			this.PanelUp.Location = new System.Drawing.Point(0, 28);
 			this.PanelUp.Name = "PanelUp";
@@ -191,7 +193,7 @@
 			this.PictureBoxToolbox.Dock = System.Windows.Forms.DockStyle.Left;
 			this.PictureBoxToolbox.Location = new System.Drawing.Point(0, 0);
 			this.PictureBoxToolbox.Name = "PictureBoxToolbox";
-			this.PictureBoxToolbox.Size = new System.Drawing.Size(185, 70);
+			this.PictureBoxToolbox.Size = new System.Drawing.Size(185, 59);
 			this.PictureBoxToolbox.TabIndex = 0;
 			this.PictureBoxToolbox.TabStop = false;
 			// 
@@ -202,6 +204,14 @@
 			this.PanelCurrentTab.Name = "PanelCurrentTab";
 			this.PanelCurrentTab.Size = new System.Drawing.Size(561, 435);
 			this.PanelCurrentTab.TabIndex = 3;
+			// 
+			// PanelPicture
+			// 
+			this.PanelPicture.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.PanelPicture.Location = new System.Drawing.Point(0, 59);
+			this.PanelPicture.Name = "PanelPicture";
+			this.PanelPicture.Size = new System.Drawing.Size(746, 11);
+			this.PanelPicture.TabIndex = 0;
 			// 
 			// MainMenuForm
 			// 
@@ -237,5 +247,6 @@
 		private System.Windows.Forms.Button ButtonHome;
 		private System.Windows.Forms.Button ButtonWifiCheck;
 		private System.Windows.Forms.Button buttonSupport;
+		private System.Windows.Forms.Panel PanelPicture;
 	}
 }
