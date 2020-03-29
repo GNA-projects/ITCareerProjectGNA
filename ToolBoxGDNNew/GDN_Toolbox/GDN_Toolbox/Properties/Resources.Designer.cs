@@ -73,26 +73,6 @@ namespace GDN_Toolbox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CloseButtonPicture {
-            get {
-                object obj = ResourceManager.GetObject("CloseButtonPicture", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap CloseButtonPicture1 {
-            get {
-                object obj = ResourceManager.GetObject("CloseButtonPicture1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap CloseButtonPictureClear {
             get {
                 object obj = ResourceManager.GetObject("CloseButtonPictureClear", resourceCulture);
@@ -103,9 +83,9 @@ namespace GDN_Toolbox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo {
+        internal static System.Drawing.Bitmap GNA {
             get {
-                object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("GNA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,39 +93,9 @@ namespace GDN_Toolbox.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logo_gdn_1_icon {
+        internal static System.Drawing.Bitmap GNA1 {
             get {
-                object obj = ResourceManager.GetObject("logo gdn 1 icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap logo_gdn_1_icon1 {
-            get {
-                object obj = ResourceManager.GetObject("logo gdn 1 icon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Logo1 {
-            get {
-                object obj = ResourceManager.GetObject("Logo1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap MinimizeButtonPicture {
-            get {
-                object obj = ResourceManager.GetObject("MinimizeButtonPicture", resourceCulture);
+                object obj = ResourceManager.GetObject("GNA1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

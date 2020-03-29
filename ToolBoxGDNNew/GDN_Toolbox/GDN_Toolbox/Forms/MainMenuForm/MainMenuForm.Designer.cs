@@ -186,7 +186,7 @@
 			// 
 			// PictureBoxToolbox
 			// 
-			this.PictureBoxToolbox.BackgroundImage = global::GDN_Toolbox.Properties.Resources.logo_gdn_1_icon;
+			this.PictureBoxToolbox.BackgroundImage = global::GDN_Toolbox.Properties.Resources.GNA;
 			this.PictureBoxToolbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.PictureBoxToolbox.Dock = System.Windows.Forms.DockStyle.Left;
 			this.PictureBoxToolbox.Location = new System.Drawing.Point(0, 0);

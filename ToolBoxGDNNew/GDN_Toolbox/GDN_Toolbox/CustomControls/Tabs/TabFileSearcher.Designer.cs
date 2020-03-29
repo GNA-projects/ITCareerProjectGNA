@@ -34,7 +34,7 @@
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.BackgroundImage = global::GDN_Toolbox.Properties.Resources.CloseButtonPicture;
+			this.pictureBox1.BackgroundImage = global::GDN_Toolbox.Properties.Resources._518_5186675_computer_icons_user_avatar_icon_design_login_user_removebg_preview;
 			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -47,7 +47,10 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = global::GDN_Toolbox.Properties.Resources._518_5186675_computer_icons_user_avatar_icon_design_login_user_removebg_preview;
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.Controls.Add(this.pictureBox1);
+			this.DoubleBuffered = true;
 			this.Name = "TabFileSearcher";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);

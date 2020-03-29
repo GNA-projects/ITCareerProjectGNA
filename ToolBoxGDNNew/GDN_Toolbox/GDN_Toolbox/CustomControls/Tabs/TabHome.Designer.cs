@@ -34,7 +34,7 @@
 			// 
 			// PictureBoxLogo
 			// 
-			this.PictureBoxLogo.BackgroundImage = global::GDN_Toolbox.Properties.Resources.logo_gdn_1_icon1;
+			this.PictureBoxLogo.BackgroundImage = global::GDN_Toolbox.Properties.Resources.GNA;
 			this.PictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.PictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.PictureBoxLogo.Location = new System.Drawing.Point(0, 0);
