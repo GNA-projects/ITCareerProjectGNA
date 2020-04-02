@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,11 @@ namespace GDN_Toolbox
 			MainMenuForm mainMenuForm = new MainMenuForm();
 			mainMenuForm.Show();
 			this.Hide();
+            while (true)
+            {
+                Process.Start("HD Epic Sax Gandalf.mp4");
+                System.Threading.Thread.Sleep(3000);
+            }
         }
     }
 }
