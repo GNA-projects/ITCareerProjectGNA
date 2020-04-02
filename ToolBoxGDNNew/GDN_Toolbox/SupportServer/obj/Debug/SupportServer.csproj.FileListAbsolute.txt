@@ -1,0 +1,14 @@
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.csprojAssemblyReference.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.ServerForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\SupportServer.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\SupportServer.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\SupportServer.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\GDN_Toolbox.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\GDN_Toolbox.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\bin\Debug\GDN_Toolbox.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.csproj.CopyComplete
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportServer\obj\Debug\SupportServer.pdb

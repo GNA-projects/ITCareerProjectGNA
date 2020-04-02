@@ -1,0 +1,15 @@
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\SupportClient.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\SupportClient.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\SupportClient.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\GDN_Toolbox.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\XanderUI.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\GDN_Toolbox.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\bin\Debug\GDN_Toolbox.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.csprojAssemblyReference.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.ClientForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.csproj.CopyComplete
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\SupportClient\obj\Debug\SupportClient.pdb
