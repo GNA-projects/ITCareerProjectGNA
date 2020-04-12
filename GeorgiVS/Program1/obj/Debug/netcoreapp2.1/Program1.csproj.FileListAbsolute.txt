@@ -1,0 +1,11 @@
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\bin\Debug\netcoreapp2.1\Program1.deps.json
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\bin\Debug\netcoreapp2.1\Program1.runtimeconfig.json
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\bin\Debug\netcoreapp2.1\Program1.runtimeconfig.dev.json
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\bin\Debug\netcoreapp2.1\Program1.dll
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\bin\Debug\netcoreapp2.1\Program1.pdb
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.csprojAssemblyReference.cache
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.AssemblyInfoInputs.cache
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.AssemblyInfo.cs
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.dll
+C:\Users\GOGO\Desktop\GeorgiVS\Program1\obj\Debug\netcoreapp2.1\Program1.pdb
