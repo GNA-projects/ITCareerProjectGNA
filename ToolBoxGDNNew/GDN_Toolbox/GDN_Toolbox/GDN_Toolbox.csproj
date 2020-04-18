@@ -79,6 +79,7 @@
     <Compile Include="CustomControls\Tabs\TabHome.Designer.cs">
       <DependentUpon>TabHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\Presenter\UserPresenter.cs" />
     <Compile Include="Data\UserDataRegister\UserDataRegister.cs" />
     <Compile Include="Data\UserDataLogin\UserDataLogin.cs" />
     <Compile Include="GlobalVariables\MousePosition\LastMousePosition.cs" />

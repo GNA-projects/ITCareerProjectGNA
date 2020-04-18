@@ -1,4 +1,5 @@
-﻿using GDN_Toolbox.Data.UserDataLogin;
+﻿using GDN_Toolbox.Data.Presenter;
+using GDN_Toolbox.Data.UserDataLogin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,18 +28,19 @@ namespace GDN_Toolbox
 
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
-            //Adding the Username and Password to a static Class
-            UserDataLogin.Username = TextBoxUsername.Text;
-            UserDataLogin.Password = TextBoxPassword.Text;
+			//Adding the Username and Password to a static Class
+			UserPresenter.SetUserLoginData(TextBoxUsername.Text, TextBoxPassword.Text);
+           // UserDataLogin.Username = TextBoxUsername.Text;
+           // UserDataLogin.Password = TextBoxPassword.Text;
 			//Logging in to the Main Menu Form
 			MainMenuForm mainMenuForm = new MainMenuForm();
 			mainMenuForm.Show();
 			this.Hide();
-            while (true)
-            {
-                Process.Start("HD Epic Sax Gandalf.mp4");
-                System.Threading.Thread.Sleep(3000);
-            }
+            //while (true)
+            //{
+            //    Process.Start("HD Epic Sax Gandalf.mp4");
+            //    System.Threading.Thread.Sleep(3000);
+            //}
         }
     }
 }

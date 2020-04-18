@@ -48,3 +48,4 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabFileSearcher.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabHome.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainMenuForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache
