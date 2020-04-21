@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GDN_Toolbox.Data.Model
+namespace GDN_Toolbox.Data.ModelOnline
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ToolboxDatabase : DbContext
+    public partial class ToolBoxOnline : DbContext
     {
-        public ToolboxDatabase()
-            : base("name=ToolboxDatabase")
+        public ToolBoxOnline()
+            : base("name=ToolBoxOnline")
         {
         }
     
@@ -25,6 +25,6 @@ namespace GDN_Toolbox.Data.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<user> user { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }
