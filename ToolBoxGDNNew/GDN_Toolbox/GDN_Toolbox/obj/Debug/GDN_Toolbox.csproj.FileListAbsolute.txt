@@ -11,22 +11,7 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainDesignForm.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.RegisterForm.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.ProgramDesignForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe.config
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.Design.ControlDesign.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabFileSearcher.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabHome.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.LoginForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainDesignForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainMenuForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.ProgramDesignForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.RegisterForm.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.GenerateResource.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CoreCompileInputs.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.Properties.Resources.resources
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe.config
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.pdb
@@ -48,4 +33,52 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Tool
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabFileSearcher.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabHome.resources
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainMenuForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.Design.ControlDesign.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabFileSearcher.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.CustomControls.Tabs.TabHome.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.LoginForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainDesignForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.MainMenuForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.ProgramDesignForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.RegisterForm.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\GDN_Toolbox.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csprojAssemblyReference.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\EntityFramework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Google.Protobuf.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Data.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\mysql.data.entity.EF6.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Web.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Renci.SshNet.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.Helpers.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.Razor.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\WebMatrix.Data.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\WebMatrix.WebData.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\EntityFramework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Google.Protobuf.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Data.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\MySql.Web.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\Renci.SshNet.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.Helpers.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.Razor.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\WebMatrix.Data.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\bin\Debug\WebMatrix.WebData.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGDN\ToolBoxGDNNew\GDN_Toolbox\GDN_Toolbox\obj\Debug\GDN_Toolbox.csproj.CopyComplete

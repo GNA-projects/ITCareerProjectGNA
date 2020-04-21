@@ -50,22 +50,5 @@ namespace SupportClient
 			_client.BeginSend(buffer,0,buffer.Length,SocketFlags.None,SendHandler,_client);
 		}
 
-		private void ButtonServerSearch_Click(object sender, EventArgs e)
-		{
-			BackgroundWorker backgroundWorker = new BackgroundWorker();
-			backgroundWorker.DoWork += Count(textBox1);
-			backgroundWorker.RunWorkerAsync();
-		}
-
-		private void Count(TextBox textBox1)
-		{
-			int i = 0;
-			while (i != 200)
-			{
-				textBox1.Text += "1";
-				i++;
-			}
-		}
-
 	}
 }

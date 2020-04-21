@@ -88,7 +88,6 @@
 			this.ButtonServerSearch.TabIndex = 9;
 			this.ButtonServerSearch.Text = "Search For Server";
 			this.ButtonServerSearch.UseVisualStyleBackColor = true;
-			this.ButtonServerSearch.Click += new System.EventHandler(this.ButtonServerSearch_Click);
 			// 
 			// ClientForm
 			// 
