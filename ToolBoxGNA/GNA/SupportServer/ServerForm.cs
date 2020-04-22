@@ -22,7 +22,6 @@ namespace SupportServer
 		{
 			InitializeComponent();
 			Server_Start();
-			//Process.Start("C:\\Users\\GOGO\\Desktop\\ItKarieraProgram\\ITCareerProjectGDN\\ToolBoxGDNNew\\GDN_Toolbox\\SupportClient\\bin\\Debug\\SupportClient.exe");
 		}
 
 

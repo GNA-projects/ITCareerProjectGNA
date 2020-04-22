@@ -19,7 +19,6 @@ namespace SupportClient
 		public ClientForm()
 		{
 			InitializeComponent();
-			//Process.Start("C:\\Users\\GOGO\\Desktop\\ItKarieraProgram\\ITCareerProjectGDN\\ToolBoxGDNNew\\GDN_Toolbox\\SupportServer\\bin\\Debug\\SupportServer.exe");
 
 		}
 

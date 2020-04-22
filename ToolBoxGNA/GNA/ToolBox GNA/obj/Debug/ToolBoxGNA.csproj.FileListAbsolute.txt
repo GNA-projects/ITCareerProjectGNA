@@ -1,6 +1,7 @@
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ToolBox GNA.exe.config
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ToolBox GNA.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ToolBox GNA.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csprojAssemblyReference.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.Properties.Resources.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.Design.ControlDesign.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabFileSearcher.resources
@@ -13,4 +14,3 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CoreCompileInputs.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csprojAssemblyReference.cache
