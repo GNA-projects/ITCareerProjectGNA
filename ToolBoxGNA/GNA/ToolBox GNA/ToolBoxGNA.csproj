@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08D8323D-1CC6-4E19-9B7E-A8B756D67547}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ToolBox_GNA</RootNamespace>
+    <AssemblyName>ToolBox GNA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Convertor\Convertor.cs" />
+    <Compile Include="Controller\Convertor\Entities\ImageToPNG.cs" />
+    <Compile Include="Controller\Convertor\Entities\Interfaces\IModel.cs" />
+    <Compile Include="Controller\Convertor\Entities\WordToPDF.cs" />
+    <Compile Include="Controller\Convertor\Services\ImageToPNGService\IimageConvertServie.cs" />
+    <Compile Include="Controller\Convertor\Services\ImageToPNGService\ImageToPNGService.cs" />
+    <Compile Include="Controller\Convertor\Services\WordToPDFConvertorService\DocumentConvertorService.cs" />
+    <Compile Include="Controller\Convertor\Services\WordToPDFConvertorService\IWordToPDFConvertorService.cs" />
+    <Compile Include="Controller\Convertor\ViewModels\GetFilePathViewModel\GetFilePathViewModel.cs" />
+    <Compile Include="Controller\Convertor\ViewModels\GetFilePathViewModel\IGetFilePathViewModel.cs" />
+    <Compile Include="Controller\Convertor\ViewModels\SetDestPathViewModel\ISetDestPathViewModel.cs" />
+    <Compile Include="Controller\Convertor\ViewModels\SetDestPathViewModel\SetDestPathViewModel.cs" />
+    <Compile Include="View\CustomControls\Tabs\Design\ControlDesign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\Design\ControlDesign.Designer.cs">
+      <DependentUpon>ControlDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabFileSearcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabFileSearcher.Designer.cs">
+      <DependentUpon>TabFileSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabHome.Designer.cs">
+      <DependentUpon>TabHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\TextBoxes\HintPassword.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\TextBoxes\HintPassword.Designer.cs">
+      <DependentUpon>HintPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\TextBoxes\HintUsername.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\TextBoxes\HintUsername.Designer.cs">
+      <DependentUpon>HintUsername.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\DesignForms\DesignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\DesignForms\DesignForm.Designer.cs">
+      <DependentUpon>DesignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FormlVariables\MousePosition\LastMousePosition.cs" />
+    <Compile Include="View\Forms\LoginRegisterForms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\LoginRegisterForms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\LoginRegisterForms\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\LoginRegisterForms\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\MainMenuForms\MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\MainMenuForms\MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\CustomControls\Tabs\Design\ControlDesign.resx">
+      <DependentUpon>ControlDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabFileSearcher.resx">
+      <DependentUpon>TabFileSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabHome.resx">
+      <DependentUpon>TabHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\DesignForms\DesignForm.resx">
+      <DependentUpon>DesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\LoginRegisterForms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\LoginRegisterForms\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\MainMenuForms\MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="View\Pictures\Avatar\Avatar.png" />
+    <None Include="View\Pictures\Logo\GNA.png" />
+    <None Include="View\Pictures\Border\MinimizeButtonPicture.png" />
+    <None Include="View\Pictures\Border\CloseButtonPicture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\Convertor\Views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
