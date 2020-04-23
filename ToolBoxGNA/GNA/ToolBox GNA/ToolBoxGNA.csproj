@@ -222,8 +222,6 @@
     <None Include="View\Pictures\Border\MinimizeButtonPicture.png" />
     <None Include="View\Pictures\Border\CloseButtonPicture.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\Convertor\Views\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
