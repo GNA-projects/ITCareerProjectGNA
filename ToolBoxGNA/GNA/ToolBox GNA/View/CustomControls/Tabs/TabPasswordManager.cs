@@ -8,13 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
-using ToolBox_GNA.View.Forms.DesignForms;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
-	public partial class TabFileSearcher : ControlDesign
+	public partial class TabPasswordManager : ControlDesign
 	{
-		public TabFileSearcher()
+		public TabPasswordManager()
 		{
 			InitializeComponent();
 		}

@@ -14,3 +14,5 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CoreCompileInputs.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\TempDeleter.Form1.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabConvertor.resources

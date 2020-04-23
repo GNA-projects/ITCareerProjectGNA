@@ -62,11 +62,27 @@
     <Compile Include="Controller\Convertor\ViewModels\GetFilePathViewModel\IGetFilePathViewModel.cs" />
     <Compile Include="Controller\Convertor\ViewModels\SetDestPathViewModel\ISetDestPathViewModel.cs" />
     <Compile Include="Controller\Convertor\ViewModels\SetDestPathViewModel\SetDestPathViewModel.cs" />
+    <Compile Include="Controller\TempCleaner\Entities\TempFile.cs" />
+    <Compile Include="Controller\TempCleaner\Service\TempFileDeleterService\ITempFileDeleterService.cs" />
+    <Compile Include="Controller\TempCleaner\Service\TempFileDeleterService\TempFileDeleterService.cs" />
+    <Compile Include="Controller\TempCleaner\TempDeleter.cs" />
+    <Compile Include="Controller\TempCleaner\Views\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\TempCleaner\Views\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\CustomControls\Tabs\Design\ControlDesign.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="View\CustomControls\Tabs\Design\ControlDesign.Designer.cs">
       <DependentUpon>ControlDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabConvertor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabConvertor.Designer.cs">
+      <DependentUpon>TabConvertor.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CustomControls\Tabs\TabFileSearcher.cs">
       <SubType>UserControl</SubType>
@@ -79,6 +95,36 @@
     </Compile>
     <Compile Include="View\CustomControls\Tabs\TabHome.Designer.cs">
       <DependentUpon>TabHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabPasswordManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabPasswordManager.Designer.cs">
+      <DependentUpon>TabPasswordManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabSafeZone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabSafeZone.Designer.cs">
+      <DependentUpon>TabSafeZone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabSupport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabSupport.Designer.cs">
+      <DependentUpon>TabSupport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabTempDeleter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabTempDeleter.Designer.cs">
+      <DependentUpon>TabTempDeleter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabWifiChecker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabWifiChecker.Designer.cs">
+      <DependentUpon>TabWifiChecker.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CustomControls\TextBoxes\HintPassword.cs">
       <SubType>Component</SubType>
@@ -119,6 +165,9 @@
     <Compile Include="View\Forms\MainMenuForms\MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controller\TempCleaner\Views\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -131,6 +180,9 @@
     </Compile>
     <EmbeddedResource Include="View\CustomControls\Tabs\Design\ControlDesign.resx">
       <DependentUpon>ControlDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabConvertor.resx">
+      <DependentUpon>TabConvertor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\CustomControls\Tabs\TabFileSearcher.resx">
       <DependentUpon>TabFileSearcher.cs</DependentUpon>

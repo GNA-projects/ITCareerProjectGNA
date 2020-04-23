@@ -29,7 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.PanelTabs = new System.Windows.Forms.Panel();
-			this.buttonSupport = new System.Windows.Forms.Button();
+			this.ButtonSupport = new System.Windows.Forms.Button();
 			this.ButtonWifiCheck = new System.Windows.Forms.Button();
 			this.ButtonPasswordManager = new System.Windows.Forms.Button();
 			this.ButtonConvertor = new System.Windows.Forms.Button();
@@ -48,7 +48,7 @@
 			// 
 			// PanelTabs
 			// 
-			this.PanelTabs.Controls.Add(this.buttonSupport);
+			this.PanelTabs.Controls.Add(this.ButtonSupport);
 			this.PanelTabs.Controls.Add(this.ButtonWifiCheck);
 			this.PanelTabs.Controls.Add(this.ButtonPasswordManager);
 			this.PanelTabs.Controls.Add(this.ButtonConvertor);
@@ -62,19 +62,20 @@
 			this.PanelTabs.Size = new System.Drawing.Size(185, 435);
 			this.PanelTabs.TabIndex = 1;
 			// 
-			// buttonSupport
+			// ButtonSupport
 			// 
-			this.buttonSupport.Dock = System.Windows.Forms.DockStyle.Top;
-			this.buttonSupport.FlatAppearance.BorderSize = 0;
-			this.buttonSupport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSupport.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold);
-			this.buttonSupport.ForeColor = System.Drawing.Color.Gray;
-			this.buttonSupport.Location = new System.Drawing.Point(0, 308);
-			this.buttonSupport.Name = "buttonSupport";
-			this.buttonSupport.Size = new System.Drawing.Size(185, 44);
-			this.buttonSupport.TabIndex = 7;
-			this.buttonSupport.Text = "SUPPORT";
-			this.buttonSupport.UseVisualStyleBackColor = true;
+			this.ButtonSupport.Dock = System.Windows.Forms.DockStyle.Top;
+			this.ButtonSupport.FlatAppearance.BorderSize = 0;
+			this.ButtonSupport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.ButtonSupport.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold);
+			this.ButtonSupport.ForeColor = System.Drawing.Color.Gray;
+			this.ButtonSupport.Location = new System.Drawing.Point(0, 308);
+			this.ButtonSupport.Name = "ButtonSupport";
+			this.ButtonSupport.Size = new System.Drawing.Size(185, 44);
+			this.ButtonSupport.TabIndex = 7;
+			this.ButtonSupport.Text = "SUPPORT";
+			this.ButtonSupport.UseVisualStyleBackColor = true;
+			this.ButtonSupport.Click += new System.EventHandler(this.ButtonSupport_Click);
 			// 
 			// ButtonWifiCheck
 			// 
@@ -89,6 +90,7 @@
 			this.ButtonWifiCheck.TabIndex = 6;
 			this.ButtonWifiCheck.Text = "WIFI CHECKER";
 			this.ButtonWifiCheck.UseVisualStyleBackColor = true;
+			this.ButtonWifiCheck.Click += new System.EventHandler(this.ButtonWifiCheck_Click);
 			// 
 			// ButtonPasswordManager
 			// 
@@ -103,6 +105,7 @@
 			this.ButtonPasswordManager.TabIndex = 5;
 			this.ButtonPasswordManager.Text = "PASSWORD MANAGER";
 			this.ButtonPasswordManager.UseVisualStyleBackColor = true;
+			this.ButtonPasswordManager.Click += new System.EventHandler(this.ButtonPasswordManager_Click);
 			// 
 			// ButtonConvertor
 			// 
@@ -115,8 +118,9 @@
 			this.ButtonConvertor.Name = "ButtonConvertor";
 			this.ButtonConvertor.Size = new System.Drawing.Size(185, 44);
 			this.ButtonConvertor.TabIndex = 4;
-			this.ButtonConvertor.Text = "IMAGE CONVERTOR";
+			this.ButtonConvertor.Text = "CONVERTOR";
 			this.ButtonConvertor.UseVisualStyleBackColor = true;
+			this.ButtonConvertor.Click += new System.EventHandler(this.ButtonConvertor_Click);
 			// 
 			// ButtonSafeZone
 			// 
@@ -131,6 +135,7 @@
 			this.ButtonSafeZone.TabIndex = 3;
 			this.ButtonSafeZone.Text = "SAFE ZONE";
 			this.ButtonSafeZone.UseVisualStyleBackColor = true;
+			this.ButtonSafeZone.Click += new System.EventHandler(this.ButtonSafeZone_Click);
 			// 
 			// ButtonTempDeleter
 			// 
@@ -145,6 +150,7 @@
 			this.ButtonTempDeleter.TabIndex = 2;
 			this.ButtonTempDeleter.Text = "TEMP DELETER";
 			this.ButtonTempDeleter.UseVisualStyleBackColor = true;
+			this.ButtonTempDeleter.Click += new System.EventHandler(this.ButtonTempDeleter_Click);
 			// 
 			// ButtonFileSearcher
 			// 
@@ -246,7 +252,7 @@
 		private System.Windows.Forms.Button ButtonFileSearcher;
 		private System.Windows.Forms.Button ButtonHome;
 		private System.Windows.Forms.Button ButtonWifiCheck;
-		private System.Windows.Forms.Button buttonSupport;
+		private System.Windows.Forms.Button ButtonSupport;
 		private System.Windows.Forms.Panel PanelPicture;
 	}
 }

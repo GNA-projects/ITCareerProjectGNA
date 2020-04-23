@@ -44,5 +44,83 @@ namespace ToolBox_GNA.View.Forms.MainMenuForms
 			};
 			tabFileSearcher.Show();
 		}
+
+		private void ButtonTempDeleter_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabTempDeleter tabTempDeleter = new TabTempDeleter
+			{
+				Parent = PanelCurrentTab
+			};
+			tabTempDeleter.Show();
+		}
+
+		private void ButtonSafeZone_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabSafeZone tabSafeZone = new TabSafeZone
+			{
+				Parent = PanelCurrentTab
+			};
+			tabSafeZone.Show();
+		}
+
+		private void ButtonConvertor_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabConvertor tabConvertor = new TabConvertor
+			{
+				Parent = PanelCurrentTab
+			};
+			tabConvertor.Show();
+		}
+
+		private void ButtonPasswordManager_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabPasswordManager tabPasswordManager = new TabPasswordManager
+			{
+				Parent = PanelCurrentTab
+			};
+			tabPasswordManager.Show();
+		}
+
+		private void ButtonWifiCheck_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabWifiChecker tabWifiChecker = new TabWifiChecker
+			{
+				Parent = PanelCurrentTab
+			};
+			tabWifiChecker.Show();
+		}
+
+		private void ButtonSupport_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabSupport tabSupport = new TabSupport
+			{
+				Parent = PanelCurrentTab
+			};
+			tabSupport.Show();
+		}
 	}
 }
