@@ -16,9 +16,48 @@ namespace TempDeleter
         StringBuilder sb = new StringBuilder();
         public void TempFileRemover(string FolderName)
         {
-            DirectoryInfo dir = new DirectoryInfo(FolderName);
-            string name = null;
 
+            Delete(FolderName);
+
+
+
+            if (count > 0)
+            {
+                MessageBox.Show($"{count} files COULDN'T BE DELETED BECAUSE THEY ARE USED BY ANOTHER PROCESS!", "Error", MessageBoxButtons.OK);
+
+            }
+            else
+            {
+
+                MessageBox.Show("Everything is deleted!");
+            }
+
+
+            model.Count = count;
+            model.Names = sb.ToString();
+
+        }
+        public void Reset()
+        {
+            count = 0;
+            sb.Clear();
+        }
+        public void GetModelNames()
+        {
+            if (model.Count > 0)
+            {
+                MessageBox.Show($"{model.Names}");
+            }
+            else
+            {
+                MessageBox.Show("100% of files are deleted!");
+            }
+
+        }
+        private void Delete(string FolderName)
+        {
+            string name = null;
+            DirectoryInfo dir = new DirectoryInfo(FolderName);
             foreach (FileInfo file in dir.GetFiles())
             {
                 try
@@ -45,7 +84,7 @@ namespace TempDeleter
                 try
                 {
 
-                    TempFileRemover(directory.FullName);
+                    Delete(directory.FullName);
 
                     directory.Delete(true);
                 }
@@ -59,35 +98,10 @@ namespace TempDeleter
                 }
 
             }
-
-            model.Count = count;
-            model.Names = sb.ToString();
-
-                
         }
 
-        public void Reset()
-        {
-            count = 0;
-            sb.Clear();
-        }
 
-        public void GetModelNames()
-        {
-            MessageBox.Show($"{model.Names}");
-        }
 
-        public bool HasErrors()
-        {
-            
-            if (model.Count > 0)
-            {
-                MessageBox.Show($"{model.Count} files COULDN'T BE DELETED BECAUSE THEY ARE USED BY ANOTHER PROCESS!", "Error", MessageBoxButtons.OK);
-                return true;
-            }
-            else
-                return false;
-        }
 
     }
 }

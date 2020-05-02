@@ -75,12 +75,12 @@
             this.progressBar1.Size = new System.Drawing.Size(269, 23);
             this.progressBar1.TabIndex = 3;
             this.progressBar1.Visible = false;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+
             // 
             // timer1
             // 
             this.timer1.Interval = 1;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            
             // 
             // Form1
             // 
