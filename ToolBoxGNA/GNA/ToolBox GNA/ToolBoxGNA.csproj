@@ -190,6 +190,9 @@
     <EmbeddedResource Include="View\CustomControls\Tabs\TabHome.resx">
       <DependentUpon>TabHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabTempDeleter.resx">
+      <DependentUpon>TabTempDeleter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Forms\DesignForms\DesignForm.resx">
       <DependentUpon>DesignForm.cs</DependentUpon>
     </EmbeddedResource>
