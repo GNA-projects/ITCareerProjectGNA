@@ -17,3 +17,6 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\TempDeleter.Form1.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabConvertor.resources
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabTempDeleter.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
