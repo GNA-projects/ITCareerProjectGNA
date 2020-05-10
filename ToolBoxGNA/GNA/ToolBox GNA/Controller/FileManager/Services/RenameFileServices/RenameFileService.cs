@@ -63,7 +63,17 @@ namespace FileSearcherDemo.Services.RenameFileService
                 renameFileBindingModel.FileName = renameFileDialog.FileName;
                 sourcePath = Path.GetDirectoryName(renameFileBindingModel.FileName);
                 //Shows the RenamerFileForm to the user.
-                RenameFileForm.ShowDialog();
+                try
+                {
+                    RenameFileForm.ShowDialog();
+                }
+                catch (InvalidOperationException)
+                {
+                    MessageBox.Show("Please, enter a name for a file before trying to search file again", "Enter name",
+                               MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
+                               MessageBoxOptions.DefaultDesktopOnly);
+                    return;
+                }
                 //Checks if Cancel is pressed in the SearchFileForm form.
                 CheckIfCancelIsPressed(RenameFileForm.GetRenameFileBindingModel());
             }

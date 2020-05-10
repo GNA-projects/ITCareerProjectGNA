@@ -80,16 +80,14 @@ namespace FileSearcherDemo.Services.DeleteFileServices
             {
                 //Asks the user if he wants to delete all the files or specific ones.
                 deleteFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to delete all of them?", "Files Found",
-                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, 0,
-                    MessageBoxOptions.DefaultDesktopOnly);
+                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
                 CheckMessageBoxInput();
             }
             else
             {
                 foundFilesCount = "No files found.";
-                MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None, 0,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
         }
         private void CheckMessageBoxInput()

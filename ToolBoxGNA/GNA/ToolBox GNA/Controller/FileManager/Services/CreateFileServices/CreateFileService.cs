@@ -74,7 +74,19 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 //Saves the destination path in createFileBindingModel.DestPath
                 destPath = createFileBindingModel.DestPath = createFileDialog.SelectedPath;
                 //Shows the CreateFileForm to the user.
-                CreateFileForm.ShowDialog();
+                try
+                {
+                    CreateFileForm.ShowDialog();
+                }
+                catch (InvalidOperationException)
+                {
+
+                    MessageBox.Show("Please, enter a name for a file before trying to search file again", "Enter name",
+                                MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
+                                MessageBoxOptions.DefaultDesktopOnly);
+                    return;
+                }
+
                 //Checks if Cancel is pressed in the CreateFileForm form.
                 CheckIfCancelIsPressed(CreateFileForm.GetCreateFileBindingModel());
             }
@@ -214,7 +226,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
         //Shows created file with its extension
         private void ShowCreatedFile(CreateFileBindingModel createFileBindingModel)
         {
-            MessageBox.Show($"File {createFileBindingModel.FileName + Path.GetExtension(createFileBindingModel.FileName)} created!", "File Created!", 
+            MessageBox.Show($"File {createFileBindingModel.FileName + Path.GetExtension(createFileBindingModel.FileName)} created!", "File Created!",
                             MessageBoxButtons.OK, MessageBoxIcon.Information, 0,
                             MessageBoxOptions.DefaultDesktopOnly);
         }
