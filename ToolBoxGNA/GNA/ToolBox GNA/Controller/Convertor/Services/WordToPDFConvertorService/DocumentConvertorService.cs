@@ -16,34 +16,55 @@ namespace ToolBox_GNA.Controller.Convertor.Services.WordToPDFConvertorService
 
         public void WordToPDFConv(string input, string outpath)
         {
-            try
+            //Opens Microsoft Word in Background
+            Microsoft.Office.Interop.Word.Application word = new Microsoft.Office.Interop.Word.Application();
+            //Gets DocumentName and DocumentPath
+            List<string> file = input.Split('\\').ToList();
+
+            List<string> path = new List<string>();
+            for (int i = 0; i < file.Count - 1; i++)
             {
-                //Opens Microsoft Word in Background
-                Microsoft.Office.Interop.Word.Application word = new Microsoft.Office.Interop.Word.Application();
-                //Gets DocumentName and DocumentPath
-                List<string> file = input.Split('\\').ToList();
+                path.Add(file[i]);
+            }
+            //Saves the name and the path
+            DirectoryInfo dirInfo = new DirectoryInfo(string.Join("\\", path));
+            FileInfo[] wordFiles = dirInfo.GetFiles(file.Last());
 
-                List<string> path = new List<string>();
-                for (int i = 0; i < file.Count - 1; i++)
+
+
+            bool isDone = false;
+            //Hides the word document in Background
+            word.Visible = false;
+            word.ScreenUpdating = false;
+            //Using foreach for future upgrade where you would convert multiple documents at once
+            foreach (FileInfo wordFile in wordFiles)
+            {
+                try
                 {
-                    path.Add(file[i]);
-                }
-                //Saves the name and the path
-                DirectoryInfo dirInfo = new DirectoryInfo(string.Join("\\", path));
-                FileInfo[] wordFiles = dirInfo.GetFiles(file.Last());
 
-
-
-                //Hides the word document in Background
-                word.Visible = false;
-                word.ScreenUpdating = false;
-                //Using foreach for future upgrade where you would convert multiple documents at once
-                foreach (FileInfo wordFile in wordFiles)
-                {
                     WordToPDF wordToPDF = new WordToPDF();
-                    object outputFileName = ConvertDoc(word, wordFile);
+                    object outputFileName = null;
+                    Object filename = (Object)wordFile.FullName;
+                    //Opens the file in word
+                    Document doc = word.Documents.Open(ref filename);
+                    doc.Activate();
+                    //Renaming the original's file extension to PDF
+                    outputFileName = wordFile.FullName.Replace(".doc", ".pdf");
+                    if (wordFile.Extension == ".docx")
+                    {
+                        outputFileName = wordFile.FullName.Replace(".docx", ".pdf");
+                    }
+                    //Saves the renamed file in PDF format
+                    object fileFormat = WdSaveFormat.wdFormatPDF;
+                    doc.SaveAs(ref outputFileName,
+                        ref fileFormat);
 
-                    string sourceFile = input;
+                    object saveChanges = WdSaveOptions.wdDoNotSaveChanges;
+                    //Closes the document
+                    (doc).Close(ref saveChanges);
+                    doc = null;
+
+                    string sourceFile = (string)(input);
                     string destinationFile;
 
 
@@ -56,9 +77,25 @@ namespace ToolBox_GNA.Controller.Convertor.Services.WordToPDFConvertorService
 
                         destinationFile = outpath + "\\" + wordFile.Name.Replace(".doc", ".pdf");
                     }
+                    if (File.Exists(destinationFile))
+                    {
+                        var messagebox = MessageBox.Show("File with same name already exists! Do you want to overwrite it?", "Error", MessageBoxButtons.YesNoCancel);
+                        if (messagebox == DialogResult.Yes)
+                        {
+                            File.Delete(destinationFile);
+                            File.Move((string)(outputFileName), destinationFile);
+                            isDone = true;
+                        }
+                        else if (messagebox == DialogResult.No)
+                        {
+                            MessageBox.Show("Converting Canceled");
+                        }
+                        else
+                        {
 
+                        }
+                    }
 
-                    File.Move(sourceFile, destinationFile);
                     string newDirect = destinationFile;
                     string newFileName = sourceFile;
                     wordToPDF.FileName = newFileName;
@@ -67,6 +104,10 @@ namespace ToolBox_GNA.Controller.Convertor.Services.WordToPDFConvertorService
                     wordToPDF.Type = "Document";
 
                 }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Error Has occured");
+                }
 
                 //Quitting Microsoft Word from the background
                 word.Quit(ref oMissing, ref oMissing, ref oMissing);
@@ -74,36 +115,12 @@ namespace ToolBox_GNA.Controller.Convertor.Services.WordToPDFConvertorService
 
                 string message = "Converting Done!";
                 string title = "Done!";
-                MessageBox.Show(message, title);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Path not setted! Please set both Directories!", "Converting error");
+                if (isDone)
+                {
+                    MessageBox.Show(message, title);
+                }
             }
         }
 
-        private object ConvertDoc(Microsoft.Office.Interop.Word.Application word, FileInfo wordFile)
-        {
-
-
-            object filename = wordFile.FullName;
-            //Opens the file in word
-            Document doc = word.Documents.Open(ref filename);
-            doc.Activate();
-            //Renaming the original's file extension to PDF
-            object outputFileName = wordFile.FullName.Replace(".doc", ".pdf");
-            if (wordFile.Extension == ".docx")
-            {
-                outputFileName = wordFile.FullName.Replace(".docx", ".pdf");
-            }
-            //Saves the renamed file in PDF format
-            object fileFormat = WdSaveFormat.wdFormatPDF;
-            doc.SaveAs(ref outputFileName, ref fileFormat);
-
-            object saveChanges = WdSaveOptions.wdDoNotSaveChanges;
-            //Closes the document
-            doc.Close(ref saveChanges);
-            return outputFileName;
-        }
     }
 }
