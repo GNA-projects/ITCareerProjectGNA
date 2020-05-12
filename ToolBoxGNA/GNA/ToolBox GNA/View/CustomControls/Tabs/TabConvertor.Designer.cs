@@ -58,6 +58,7 @@
 			// 
 			// BtnBrowseIn
 			// 
+			this.BtnBrowseIn.FlatAppearance.BorderColor = System.Drawing.Color.White;
 			this.BtnBrowseIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnBrowseIn.Location = new System.Drawing.Point(419, 68);
 			this.BtnBrowseIn.Name = "BtnBrowseIn";
@@ -68,6 +69,7 @@
 			// 
 			// BtnBrowseOut
 			// 
+			this.BtnBrowseOut.FlatAppearance.BorderColor = System.Drawing.Color.White;
 			this.BtnBrowseOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnBrowseOut.Location = new System.Drawing.Point(419, 118);
 			this.BtnBrowseOut.Name = "BtnBrowseOut";
@@ -78,6 +80,7 @@
 			// 
 			// BtnConvert
 			// 
+			this.BtnConvert.FlatAppearance.BorderColor = System.Drawing.Color.White;
 			this.BtnConvert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
 			this.BtnConvert.Location = new System.Drawing.Point(308, 261);

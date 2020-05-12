@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
+using ToolBox_GNA.Controller.PasswordManager.Controller;
+using ToolBox_GNA.Controller.PasswordManager.Entities;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -16,6 +18,23 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabPasswordManager()
 		{
 			InitializeComponent();
+		}
+
+		private void BtnGetPasswords_Click(object sender, EventArgs e)
+		{
+			LbUrls.Items.Clear();
+			List<Password> passwords = PasswordController.GetChromePasswords();
+			foreach (var password in passwords)
+			{
+				LbUrls.Items.Add(password);
+				LbUrls.DisplayMember = "LoginUrl";
+			}
+		}
+
+		private void LbUrls_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			TbUsername.Text = ((Password)LbUrls.SelectedItem).LoginUsername;
+			TbPassword.Text = ((Password)LbUrls.SelectedItem).LoginPassword;
 		}
 	}
 }

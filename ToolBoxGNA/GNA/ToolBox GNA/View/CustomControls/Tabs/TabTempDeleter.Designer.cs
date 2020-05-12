@@ -37,6 +37,7 @@
 			// 
 			// BtnCheckDel
 			// 
+			this.BtnCheckDel.FlatAppearance.BorderColor = System.Drawing.Color.White;
 			this.BtnCheckDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnCheckDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
 			this.BtnCheckDel.Location = new System.Drawing.Point(45, 329);

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ToolBox_GNA.Controller.PasswordManager.Entities;
+using ToolBox_GNA.Controller.PasswordManager.Services;
 using ToolBox_GNA.View.CustomControls.Tabs;
 using ToolBox_GNA.View.Forms.DesignForms;
 
@@ -30,6 +32,7 @@ namespace ToolBox_GNA.View.Forms.MainMenuForms
 				Parent = PanelCurrentTab
 			};
 			tabHome.Show();
+
 		}
 
 		private void ButtonFileSearcher_Click(object sender, EventArgs e)
