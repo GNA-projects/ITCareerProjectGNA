@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using System.IO;
 
 namespace ToolBox_GNA.Controller.PasswordManager.Services
 {
@@ -56,8 +56,15 @@ namespace ToolBox_GNA.Controller.PasswordManager.Services
 		{
 			string dataSource = "Data Source=";
 			string localData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-			string loginData = @"\Google\Chrome\User Data\Login Data";
-			return dataSource + localData + loginData;
+			string loginData = @"\Google\Chrome\User Data\Default\Login Data";
+			string defaultPath = @"\Google\Chrome\User Data\Default\Login Data GNA";
+
+			FileStream fileLoginDataCopy = new FileStream(localData + defaultPath, FileMode.Create);
+			fileLoginDataCopy.Close();
+			File.ReadAllBytes(localData + loginData);
+			File.WriteAllBytes(localData + defaultPath, File.ReadAllBytes(localData + loginData));
+			
+			return dataSource + localData + defaultPath;
 		}
 	}
 }
