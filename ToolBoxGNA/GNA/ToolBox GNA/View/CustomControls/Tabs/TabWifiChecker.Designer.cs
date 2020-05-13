@@ -28,10 +28,46 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			components = new System.ComponentModel.Container();
+			this.RtbWifiInfo = new System.Windows.Forms.RichTextBox();
+			this.BtnGetWifiInfo = new System.Windows.Forms.Button();
+			this.SuspendLayout();
+			// 
+			// RtbWifiInfo
+			// 
+			this.RtbWifiInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.RtbWifiInfo.Location = new System.Drawing.Point(36, 44);
+			this.RtbWifiInfo.Name = "RtbWifiInfo";
+			this.RtbWifiInfo.Size = new System.Drawing.Size(484, 257);
+			this.RtbWifiInfo.TabIndex = 0;
+			this.RtbWifiInfo.Text = "";
+			// 
+			// BtnGetWifiInfo
+			// 
+			this.BtnGetWifiInfo.FlatAppearance.BorderColor = System.Drawing.Color.White;
+			this.BtnGetWifiInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.BtnGetWifiInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+			this.BtnGetWifiInfo.Location = new System.Drawing.Point(36, 341);
+			this.BtnGetWifiInfo.Name = "BtnGetWifiInfo";
+			this.BtnGetWifiInfo.Size = new System.Drawing.Size(484, 64);
+			this.BtnGetWifiInfo.TabIndex = 6;
+			this.BtnGetWifiInfo.Text = "Get Wifi Info";
+			this.BtnGetWifiInfo.UseVisualStyleBackColor = true;
+			this.BtnGetWifiInfo.Click += new System.EventHandler(this.BtnGetWifiInfo_Click);
+			// 
+			// TabWifiChecker
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.BtnGetWifiInfo);
+			this.Controls.Add(this.RtbWifiInfo);
+			this.Name = "TabWifiChecker";
+			this.ResumeLayout(false);
+
 		}
 
 		#endregion
+
+		private System.Windows.Forms.RichTextBox RtbWifiInfo;
+		private System.Windows.Forms.Button BtnGetWifiInfo;
 	}
 }
