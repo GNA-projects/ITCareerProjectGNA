@@ -52,7 +52,7 @@ namespace ToolBox_GNA.Controller.PasswordManager.Services
 				
 		}
 
-		private static string ReturnSqlitePathToChrome()
+		public static string ReturnSqlitePathToChrome()
 		{
 			string dataSource = "Data Source=";
 			string localData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
