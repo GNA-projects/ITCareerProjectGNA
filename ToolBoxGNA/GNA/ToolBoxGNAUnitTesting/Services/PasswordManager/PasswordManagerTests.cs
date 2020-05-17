@@ -37,17 +37,5 @@ namespace ToolBoxGNAUnitTesting.Services.PasswordManager
 			}
 			Assert.IsTrue(isLocalPath);
 		}
-
-		[TestMethod]
-		public void ReturnSqlitePathToChrome_IsLocalPath()
-		{
-			bool isLocalPath = false;
-			string path = PasswordServices.ReturnSqlitePathToChrome();
-			if (path.Contains("Local"))
-			{
-				isChromePath = true;
-			}
-			Assert.IsTrue(isLocalPath);
-		}
 	}
 }

@@ -28,3 +28,7 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Memory.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.pdb
