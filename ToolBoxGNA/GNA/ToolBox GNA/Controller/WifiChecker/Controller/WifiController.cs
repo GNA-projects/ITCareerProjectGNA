@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using ToolBox_GNA.Controller.WifiChecker.Services;
 
 namespace ToolBox_GNA.Controller.WifiChecker.Controller
@@ -11,7 +12,15 @@ namespace ToolBox_GNA.Controller.WifiChecker.Controller
 	{
 		public static List<string> GetWifiConnectedSsids()
 		{
-			return WifiService.ReturnWifiSsids();
+			try
+			{
+				return WifiService.ReturnWifiSsids();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+				return new List<string>() { ex.Message };
+			}
 		}
 	}
 }

@@ -61,8 +61,11 @@ namespace ToolBox_GNA.Controller.PasswordManager.Services
 
 			FileStream fileLoginDataCopy = new FileStream(localData + defaultPath, FileMode.Create);
 			fileLoginDataCopy.Close();
-			File.ReadAllBytes(localData + loginData);
-			File.WriteAllBytes(localData + defaultPath, File.ReadAllBytes(localData + loginData));
+
+			FileStream fileData = File.Open(localData + loginData, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+			byte[] fileDataBytes = new byte[fileData.Length];
+			fileData.Read(fileDataBytes, 0, (int)fileData.Length);
+			File.WriteAllBytes(localData + defaultPath, fileDataBytes);
 			
 			return dataSource + localData + defaultPath;
 		}

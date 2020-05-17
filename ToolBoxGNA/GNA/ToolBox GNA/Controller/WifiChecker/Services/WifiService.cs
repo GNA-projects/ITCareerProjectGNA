@@ -16,6 +16,8 @@ namespace ToolBox_GNA.Controller.WifiChecker.Services
 
 			WlanClient client = new WlanClient();
 
+			if (client.NoWifiAvailable == true) throw new Exception("No WiFi Available");
+
 			foreach (WlanInterface wlanInterface in client.Interfaces)
 			{
 				Dot11Ssid ssid = wlanInterface.CurrentConnection.wlanAssociationAttributes.dot11Ssid;
