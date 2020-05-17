@@ -1,0 +1,35 @@
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe.config
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.pdb
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csprojAssemblyReference.cache
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Form1.resources
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Properties.Resources.resources
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.GenerateResource.cache
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.CoreCompileInputs.cache
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb
+E:\GDN PROJECT TEST\Tests\FileSearcher 2\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe.config
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Form1.resources
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Properties.Resources.resources
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.GenerateResource.cache
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.CoreCompileInputs.cache
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\OneDrive\Работен плот\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csprojAssemblyReference.cache
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe.config
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\bin\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csprojAssemblyReference.cache
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Properties.Resources.resources
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.GenerateResource.cache
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.CoreCompileInputs.cache
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Views.CreateFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.Views.RenameFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectTest\FileSearcher\FileSearcherDemo\FileSearcherDemo\obj\Debug\FileSearcherDemo.MainForm.resources
