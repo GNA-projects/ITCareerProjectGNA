@@ -1,0 +1,8 @@
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\bin\Debug\WifiCheck.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\bin\Debug\WifiCheck.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\bin\Debug\SimpleWifi.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\obj\Debug\WifiCheck.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\obj\Debug\WifiCheck.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiCheck\obj\Debug\WifiCheck.pdb

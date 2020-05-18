@@ -53,6 +53,7 @@
     <Compile Include="Services\PasswordManager\PasswordManagerTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +61,10 @@
     <Folder Include="Services\SafeZone\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PasswordManage\PasswordManage.csproj">
+      <Project>{09CD4564-41BF-4DE5-9BB4-6128C3A8E984}</Project>
+      <Name>PasswordManage</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ToolBox GNA\ToolBoxGNA.csproj">
       <Project>{08d8323d-1cc6-4e19-9b7e-a8b756d67547}</Project>
       <Name>ToolBoxGNA</Name>

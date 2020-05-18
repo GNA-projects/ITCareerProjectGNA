@@ -1,0 +1,8 @@
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\bin\Debug\netstandard2.0\WifiChecker.deps.json
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\bin\Debug\netstandard2.0\WifiChecker.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\bin\Debug\netstandard2.0\WifiChecker.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\obj\Debug\netstandard2.0\WifiChecker.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\obj\Debug\netstandard2.0\WifiChecker.AssemblyInfoInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\obj\Debug\netstandard2.0\WifiChecker.AssemblyInfo.cs
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\obj\Debug\netstandard2.0\WifiChecker.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\WifiChecker\obj\Debug\netstandard2.0\WifiChecker.pdb

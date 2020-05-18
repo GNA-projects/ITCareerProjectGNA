@@ -122,7 +122,7 @@ namespace ConverterDemo.Services
                     wordToPDF.Type = "Document";
 
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     MessageBox.Show("Error during converting. Please check if you selected correct convert file and settings!");
                 }

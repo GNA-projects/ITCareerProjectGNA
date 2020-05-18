@@ -17,3 +17,22 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\TempDeleter\bin\Debug\Mo
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\TempDeleter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\TempDeleter\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\TempDeleter\obj\Debug\TempDeleter.csproj.CopyComplete
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\TempDeleter.exe.config
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\TempDeleter.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\TempDeleter.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\Castle.Core.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\Moq.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\Castle.Core.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\Moq.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.Form1.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.Properties.Resources.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.csproj.GenerateResource.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.csproj.CopyComplete
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\TempDeleter\obj\Debug\TempDeleter.pdb

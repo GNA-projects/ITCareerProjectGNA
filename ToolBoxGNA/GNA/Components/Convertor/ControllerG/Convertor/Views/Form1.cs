@@ -32,8 +32,6 @@ namespace ConverterDemo
                 textBox1.Text = Convertor.GetFileInfo(false);
             }
 
-
-
         }
         private void Button2_Click(object sender, EventArgs e)
         {

@@ -14,13 +14,10 @@ namespace ConverterDemo.Services
 {
     public class ImageToPNGService : IimageConvertServie
     {
-
-        bool isDone = false;
         public void ImageConvert(string input, string output)
         {
             try
             {
-                isDone = false;
                 //Gets and saves ImageName and directory
                 List<string> file = input.Split('\\').ToList();
 
@@ -35,7 +32,6 @@ namespace ConverterDemo.Services
                 FileInfo[] ImageFiles = dirInfo.GetFiles(file.Last());
                 if (ImageFiles.Count() == 0) 
                 {
-                    isDone = false;
                     MessageBox.Show("No File Found. Please check you have selected correct existing file!");
                 }
 
@@ -61,18 +57,15 @@ namespace ConverterDemo.Services
                     string message = "Converting Done!";
                     string title = "Done!";
                     MessageBox.Show(message, title);
-                    isDone = true;
                 }
             }
             catch (ArgumentNullException)
             {
-                isDone = false;
                 MessageBox.Show("Path not setted! Please set both Directories!", "Converting error");
 
             }
             catch (ExternalException)
             {
-                isDone = false;
                 MessageBox.Show("Path not setted! Please set both Directories!", "Converting error");
             }
 
@@ -88,7 +81,6 @@ namespace ConverterDemo.Services
             //Saves the file converting it to PNG
             picture.Save(outputpath, ImageFormat.Png);
             //Saves the new name and directory in variables
-
 
         }
 
