@@ -104,11 +104,21 @@ namespace TempDeleter
         {
 
             DirectoryInfo directoryInfo = new DirectoryInfo(path);
-            FileInfo[] files = directoryInfo.GetFiles();
+            DirectoryInfo[] directoryInfos = directoryInfo.GetDirectories();
+            FileInfo[] files = new FileInfo[1000];
+            foreach (var file in directoryInfo.GetFiles())
+            {
+                files.Append(file);
+            }
+            for (int i = 0; i < directoryInfos.Length; i++)
+            {
+                FileInfo[] fileInfos = directoryInfos[i].GetFiles();
+                foreach (var fileinfo in fileInfos)
+                {
+                    files.Append(fileinfo);
+                }
+            }
             return files;
         }
-
-
-
     }
 }
