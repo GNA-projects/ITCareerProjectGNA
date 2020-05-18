@@ -47,5 +47,6 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 				Convertor.ImageToPNGConvertAsync(TbInput.Text, TbOutput.Text);
 			}
 		}
+
 	}
 }

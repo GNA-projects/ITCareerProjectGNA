@@ -43,8 +43,9 @@
             // 
             this.TbInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
             this.TbInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbInput.ForeColor = System.Drawing.SystemColors.Control;
             this.TbInput.Location = new System.Drawing.Point(45, 64);
-            this.TbInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbInput.Margin = new System.Windows.Forms.Padding(4);
             this.TbInput.Name = "TbInput";
             this.TbInput.Size = new System.Drawing.Size(505, 37);
             this.TbInput.TabIndex = 0;
@@ -53,8 +54,9 @@
             // 
             this.TbOutput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
             this.TbOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbOutput.ForeColor = System.Drawing.SystemColors.Control;
             this.TbOutput.Location = new System.Drawing.Point(45, 146);
-            this.TbOutput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TbOutput.Margin = new System.Windows.Forms.Padding(4);
             this.TbOutput.Name = "TbOutput";
             this.TbOutput.Size = new System.Drawing.Size(505, 37);
             this.TbOutput.TabIndex = 1;
@@ -65,7 +67,7 @@
             this.BtnBrowseIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBrowseIn.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnBrowseIn.Location = new System.Drawing.Point(573, 64);
-            this.BtnBrowseIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnBrowseIn.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBrowseIn.Name = "BtnBrowseIn";
             this.BtnBrowseIn.Size = new System.Drawing.Size(107, 37);
             this.BtnBrowseIn.TabIndex = 2;
@@ -79,7 +81,7 @@
             this.BtnBrowseOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBrowseOut.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnBrowseOut.Location = new System.Drawing.Point(573, 148);
-            this.BtnBrowseOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnBrowseOut.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBrowseOut.Name = "BtnBrowseOut";
             this.BtnBrowseOut.Size = new System.Drawing.Size(107, 37);
             this.BtnBrowseOut.TabIndex = 3;
@@ -94,7 +96,7 @@
             this.BtnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.BtnConvert.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnConvert.Location = new System.Drawing.Point(425, 399);
-            this.BtnConvert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnConvert.Margin = new System.Windows.Forms.Padding(4);
             this.BtnConvert.Name = "BtnConvert";
             this.BtnConvert.Size = new System.Drawing.Size(255, 79);
             this.BtnConvert.TabIndex = 4;
@@ -108,7 +110,7 @@
             this.RbToPng.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RbToPng.ForeColor = System.Drawing.SystemColors.Control;
             this.RbToPng.Location = new System.Drawing.Point(45, 442);
-            this.RbToPng.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RbToPng.Margin = new System.Windows.Forms.Padding(4);
             this.RbToPng.Name = "RbToPng";
             this.RbToPng.Size = new System.Drawing.Size(237, 35);
             this.RbToPng.TabIndex = 6;
@@ -122,7 +124,7 @@
             this.RbWordToPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RbWordToPdf.ForeColor = System.Drawing.SystemColors.Control;
             this.RbWordToPdf.Location = new System.Drawing.Point(45, 399);
-            this.RbWordToPdf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RbWordToPdf.Margin = new System.Windows.Forms.Padding(4);
             this.RbWordToPdf.Name = "RbWordToPdf";
             this.RbWordToPdf.Size = new System.Drawing.Size(182, 35);
             this.RbWordToPdf.TabIndex = 8;
@@ -133,22 +135,24 @@
             // LblSource
             // 
             this.LblSource.AutoSize = true;
+            this.LblSource.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSource.ForeColor = System.Drawing.SystemColors.Control;
             this.LblSource.Location = new System.Drawing.Point(41, 44);
             this.LblSource.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSource.Name = "LblSource";
-            this.LblSource.Size = new System.Drawing.Size(86, 17);
+            this.LblSource.Size = new System.Drawing.Size(101, 20);
             this.LblSource.TabIndex = 9;
             this.LblSource.Text = "Source Path";
             // 
             // LblTarget
             // 
             this.LblTarget.AutoSize = true;
+            this.LblTarget.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTarget.ForeColor = System.Drawing.SystemColors.Control;
             this.LblTarget.Location = new System.Drawing.Point(41, 127);
             this.LblTarget.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTarget.Name = "LblTarget";
-            this.LblTarget.Size = new System.Drawing.Size(83, 17);
+            this.LblTarget.Size = new System.Drawing.Size(96, 20);
             this.LblTarget.TabIndex = 10;
             this.LblTarget.Text = "Target Path";
             // 
@@ -165,8 +169,9 @@
             this.Controls.Add(this.BtnBrowseIn);
             this.Controls.Add(this.TbOutput);
             this.Controls.Add(this.TbInput);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "TabConvertor";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
