@@ -52,7 +52,9 @@ namespace SaveZone.Services.EncryptFileService
 
             if (msgBox == DialogResult.Yes)
             {
-                using (StreamWriter sw = new StreamWriter(Path.Combine(Application.StartupPath, $"{encryptBindingModel.FileName + "-password"}.txt")))
+                string myDocPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\GNA\EncryptedFiles";
+                DirectoryInfo di = Directory.CreateDirectory(myDocPath);
+                using (StreamWriter sw = new StreamWriter(Path.Combine(myDocPath, $"{encryptBindingModel.FileName + "-password"}.txt")))
                 {
                     sw.WriteLine($"Password: {password}");
                     sw.WriteLine($"IV: {IV}");
