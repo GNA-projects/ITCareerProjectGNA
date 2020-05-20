@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
+using SaveZone.Controllers;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -16,6 +17,18 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabSafeZone()
 		{
 			InitializeComponent();
+		}
+
+		private void BtnEncrypt_Click(object sender, EventArgs e)
+		{
+			MainMenuController.SetEncryptFileServicerAsync();
+			MainMenuController.PopulateEncryptInformationAsync(TbEncryptedFile, RtbInfo);
+		}
+
+		private void BtnDecrypt_Click(object sender, EventArgs e)
+		{
+			MainMenuController.SetDecryptFileServicerAsync();
+			MainMenuController.PopulateDecryptInformationNonAsync(TbEncryptedFile, RtbInfo);
 		}
 	}
 }

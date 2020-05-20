@@ -87,5 +87,10 @@ namespace FileSearcherDemo
             richTextBox1.Text = String.Empty;
             richTextBox2.Text = String.Empty;
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

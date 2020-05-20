@@ -19,15 +19,11 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\SimpleWifi.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.Data.Sqlite.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Memory.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBox GNA.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBox GNA.exe.config
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.Data.Sqlite.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Memory.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.xml
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
@@ -65,3 +61,20 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.csproj.CopyComplete
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.dll
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBoxGNAUnitTesting.dll.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManage.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ConverterDemo.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\FileSearcherDemo.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\SaveZone.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\TempDeleter.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\WifiCheck.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManage.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ConverterDemo.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ConverterDemo.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\FileSearcherDemo.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\FileSearcherDemo.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\SaveZone.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\SaveZone.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\TempDeleter.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\TempDeleter.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\WifiCheck.pdb

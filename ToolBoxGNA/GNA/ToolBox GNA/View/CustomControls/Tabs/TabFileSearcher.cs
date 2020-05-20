@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
 using ToolBox_GNA.View.Forms.DesignForms;
+using FileSearcherDemo.Controllers;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -17,6 +18,11 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabFileSearcher()
 		{
 			InitializeComponent();
+		}
+		private void BtnSearchFiles_Click(object sender, EventArgs e)
+		{
+			MainMenuController.SetSearchFileServiceAsync();
+			MainMenuController.PopulateSearchInformationAsync(TbFileSource, TbFileDestination, RtbInfo1, RtbInfo2);
 		}
 	}
 }

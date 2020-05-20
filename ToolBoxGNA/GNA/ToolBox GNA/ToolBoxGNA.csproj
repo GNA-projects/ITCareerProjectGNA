@@ -199,6 +199,9 @@
     <EmbeddedResource Include="View\CustomControls\Tabs\TabPasswordManager.resx">
       <DependentUpon>TabPasswordManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabSafeZone.resx">
+      <DependentUpon>TabSafeZone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CustomControls\Tabs\TabTempDeleter.resx">
       <DependentUpon>TabTempDeleter.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,6 +244,14 @@
     <ProjectReference Include="..\Components\Convertor\Converter.csproj">
       <Project>{7E11F18A-04D6-4CC8-A23F-9D6593B4FF0A}</Project>
       <Name>Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\FileManager\FileSearcherDemo\FileSearcherDemo.csproj">
+      <Project>{6EB47428-2EEB-4C42-ACF2-2D4DA0B61507}</Project>
+      <Name>FileSearcherDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\SafeZone\SafeZone.csproj">
+      <Project>{09A2081B-FE9A-4422-8C4E-F15204B06361}</Project>
+      <Name>SafeZone</Name>
     </ProjectReference>
     <ProjectReference Include="..\Components\TempDeleter\TempDeleter.csproj">
       <Project>{B3C6B244-47CB-4729-BAA2-BC9E052AE839}</Project>
