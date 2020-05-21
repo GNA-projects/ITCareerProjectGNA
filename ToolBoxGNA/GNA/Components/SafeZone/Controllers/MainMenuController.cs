@@ -19,7 +19,7 @@ namespace SaveZone.Controllers
         {
             SetEncryptFileThread(encryptFile);
         }
-        public async static void SetDecryptFileServicerAsync()
+        public async static Task SetDecryptFileServicerAsync()
         {
             await Task.Run(() => SetDecryptFileThread(decryptFile));
         }

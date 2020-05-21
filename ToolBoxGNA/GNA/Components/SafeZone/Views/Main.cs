@@ -7,7 +7,6 @@ namespace SaveZone
 {
     public partial class SafeZone : Form
     {
-
         public SafeZone()
         {
             InitializeComponent();
@@ -15,13 +14,13 @@ namespace SaveZone
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            MainMenuController.SetEncryptFileServicerNonAsync();
-            MainMenuController.PopulateEncryptInformationNonAsync(textBox1, richTextBox1);
+            await MainMenuController.SetEncryptFileServicerAsync();
+            MainMenuController.PopulateDecryptInformationAsync(textBox1, richTextBox1);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private async void button2_Click(object sender, EventArgs e)
         {
-            MainMenuController.SetDecryptFileServicerAsync();
+            await MainMenuController.SetDecryptFileServicerAsync();
             MainMenuController.PopulateDecryptInformationAsync(textBox2, richTextBox1);
         }
 

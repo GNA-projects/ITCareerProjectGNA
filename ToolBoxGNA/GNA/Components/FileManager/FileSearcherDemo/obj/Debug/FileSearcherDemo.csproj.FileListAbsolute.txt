@@ -59,3 +59,16 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Compone
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.CoreCompileInputs.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe.config
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\bin\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\bin\Debug\FileSearcherDemo.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csprojAssemblyReference.cache
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.Views.CreateFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.MainForm.resources
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.Properties.Resources.resources
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.Views.RenameFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.GenerateResource.cache
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.CoreCompileInputs.cache
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb

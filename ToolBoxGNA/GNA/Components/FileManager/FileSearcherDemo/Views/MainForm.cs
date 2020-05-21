@@ -15,10 +15,10 @@ namespace FileSearcherDemo
 
         //When pressed, the button raises event for searching files in a specific directroy.
         //If there are any files, the methods down return them with the source and destination path to the user.
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             //Creates a service for searching files
-            MainMenuController.SetSearchFileServiceAsync();
+            await MainMenuController.SetSearchFileServiceAsync();
             MainMenuController.PopulateSearchInformationAsync(textBox1, textBox2, richTextBox1, richTextBox2);
         }
 
@@ -30,37 +30,37 @@ namespace FileSearcherDemo
 
         //When pressed, the button raises event for copying files in a specific directroy.
         //If there are any files, the methods down return them with the source and destination path to the user.
-        private void button4_Click(object sender, EventArgs e)
+        private async void button4_Click(object sender, EventArgs e)
         {
             //Creates a service for copying files
-            MainMenuController.SetCopyFileServiceAsync();
+            await MainMenuController.SetCopyFileServiceAsync();
             MainMenuController.PopulateCopyInformationAsync(textBox1, textBox2, richTextBox1, richTextBox2);
         }
 
         //When pressed, the button raises event for moving files in a specific directroy.
         //If there are any files, the methods down return them with the source and destination path to the user.
-        private void button5_Click(object sender, EventArgs e)
+        private async void button5_Click(object sender, EventArgs e)
         {
             //Creates a service for moveing files
-            MainMenuController.SetMoveFileServiceNonAsync();
+            await MainMenuController.SetMoveFileServiceAsync();
             MainMenuController.PopulateMoveInformationAsync(textBox1, textBox2, richTextBox1, richTextBox2);
         }
 
         //When pressed, the button raises event for deleting files in a specific directroy.
         //If there are any files, the methods down return them with the source path to the user.
-        private void button6_Click(object sender, EventArgs e)
+        private async void button6_Click(object sender, EventArgs e)
         {
             //Creates a service for deleting files
-            MainMenuController.SetDeleteFileServiceAsync();
+            await MainMenuController.SetDeleteFileServiceAsync();
             MainMenuController.PopulateDeleteInformationAsync(textBox1, richTextBox1, richTextBox2);
         }
 
         //When pressed, the button raises event for renameing files in a specific directroy.
         //If there are any files, the methods down return them with the source path to the user.
-        private void button7_Click(object sender, EventArgs e)
+        private async void button7_Click(object sender, EventArgs e)
         {
             //Creates a service for renameing files
-            MainMenuController.SetRenameFileServiceAsync();
+            await MainMenuController.SetRenameFileServiceAsync();
             MainMenuController.PopulateRenameInformationAsync(textBox1, richTextBox1, richTextBox2);
         }
 
@@ -72,10 +72,10 @@ namespace FileSearcherDemo
 
         //When pressed, the button raises event for creating files in a specific directroy.
         //If there are any files, the methods down return them with the source path to the user.
-        private void button10_Click(object sender, EventArgs e)
+        private async void button10_Click(object sender, EventArgs e)
         {
             //Creates a service for creating files
-            MainMenuController.SetCreateFileServiceAsync();
+            await MainMenuController.SetCreateFileServiceAsync();
             MainMenuController.PopulateCreateInformationAsync(textBox2, richTextBox1, richTextBox2);
         }
 

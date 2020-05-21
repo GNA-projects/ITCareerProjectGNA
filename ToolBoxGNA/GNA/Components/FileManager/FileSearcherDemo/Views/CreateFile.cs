@@ -25,8 +25,8 @@ namespace FileSearcherDemo.Views
         //When pressed, the button raises event for checking if the user uses the program correctly
         private void button1_Click(object sender, EventArgs e)
         {
-             CreateMenuController.SetCreateFileBindingModelTextPressedAsync(bindingModel);
-             CreateMenuController.CheckIfTextBoxIsEmptyAsync(textBox1.Text, this, bindingModel);
+            CreateMenuController.SetCreateFileBindingModelTextPressedAsync(bindingModel);
+            CreateMenuController.CheckIfTextBoxIsEmptyAsync(textBox1.Text, this, bindingModel);
             //Resets textbox for next use
             textBox1.Text = String.Empty;
         }
@@ -35,8 +35,8 @@ namespace FileSearcherDemo.Views
         //When pressed, the button raises event for checking if the user uses the program correctly
         private void button2_Click(object sender, EventArgs e)
         {
-             CreateMenuController.SetCreateFileBindingModelWordPressedAsync(bindingModel);
-             CreateMenuController.CheckIfTextBoxIsEmptyAsync(textBox1.Text, this, bindingModel);
+            CreateMenuController.SetCreateFileBindingModelWordPressedAsync(bindingModel);
+            CreateMenuController.CheckIfTextBoxIsEmptyAsync(textBox1.Text, this, bindingModel);
             //Resets textbox for next use
             textBox1.Text = String.Empty;
 

@@ -23,7 +23,7 @@ namespace FileSearcherDemo.Controllers
         private static RenameFileService renameFileService = new RenameFileService();
 
         //Sets a service used for searching files asynchronously
-        public static async void SetSearchFileServiceAsync()
+        public static async Task SetSearchFileServiceAsync()
         {
             await Task.Run(() => SetSearchFileThread(searchFileService));
         }
@@ -48,7 +48,7 @@ namespace FileSearcherDemo.Controllers
         }
 
         //Sets a service used for copying files asynchronously
-        public static async void SetCopyFileServiceAsync()
+        public static async Task SetCopyFileServiceAsync()
         {
             await Task.Run(() => SetCopyFileThread(copyFileService));
         }
@@ -73,7 +73,7 @@ namespace FileSearcherDemo.Controllers
         }
 
         //Sets a service used for moving files asynchronously
-        public static async void SetMoveFileServiceAsync()
+        public static async Task SetMoveFileServiceAsync()
         {
             await Task.Run(() => SetMoveFileThread(moveFileService));
         }
@@ -98,7 +98,7 @@ namespace FileSearcherDemo.Controllers
         }
 
         //Sets a service used for deleting files asynchronously
-        public static async void SetDeleteFileServiceAsync()
+        public static async Task SetDeleteFileServiceAsync()
         {
             await Task.Run(() => SetDeleteFileThread(deleteFileService));
         }
@@ -121,7 +121,7 @@ namespace FileSearcherDemo.Controllers
         }
 
         //Sets a service used for creating files asynchronously
-        public static async void SetCreateFileServiceAsync()
+        public static async Task SetCreateFileServiceAsync()
         {
             await Task.Run(() => SetCreateFileThread(createFileService));
         }
@@ -144,7 +144,7 @@ namespace FileSearcherDemo.Controllers
         }
 
         //Sets a service used for renaming a file asynchronously
-        public static async void SetRenameFileServiceAsync()
+        public static async Task SetRenameFileServiceAsync()
         {
             await Task.Run(() => SetRenameFileThread(renameFileService));
         }
