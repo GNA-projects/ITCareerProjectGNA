@@ -41,6 +41,7 @@
 			this.PictureBoxToolbox = new System.Windows.Forms.PictureBox();
 			this.PanelPicture = new System.Windows.Forms.Panel();
 			this.PanelCurrentTab = new System.Windows.Forms.Panel();
+			this.BtnDesktopChanger = new System.Windows.Forms.Button();
 			this.PanelTabs.SuspendLayout();
 			this.PanelUp.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBoxToolbox)).BeginInit();
@@ -49,6 +50,7 @@
 			// PanelTabs
 			// 
 			this.PanelTabs.Controls.Add(this.ButtonSupport);
+			this.PanelTabs.Controls.Add(this.BtnDesktopChanger);
 			this.PanelTabs.Controls.Add(this.ButtonWifiCheck);
 			this.PanelTabs.Controls.Add(this.ButtonPasswordManager);
 			this.PanelTabs.Controls.Add(this.ButtonConvertor);
@@ -69,7 +71,7 @@
 			this.ButtonSupport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ButtonSupport.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold);
 			this.ButtonSupport.ForeColor = System.Drawing.Color.Gray;
-			this.ButtonSupport.Location = new System.Drawing.Point(0, 308);
+			this.ButtonSupport.Location = new System.Drawing.Point(0, 352);
 			this.ButtonSupport.Name = "ButtonSupport";
 			this.ButtonSupport.Size = new System.Drawing.Size(185, 44);
 			this.ButtonSupport.TabIndex = 7;
@@ -219,6 +221,21 @@
 			this.PanelCurrentTab.Size = new System.Drawing.Size(561, 435);
 			this.PanelCurrentTab.TabIndex = 3;
 			// 
+			// BtnDesktopChanger
+			// 
+			this.BtnDesktopChanger.Dock = System.Windows.Forms.DockStyle.Top;
+			this.BtnDesktopChanger.FlatAppearance.BorderSize = 0;
+			this.BtnDesktopChanger.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.BtnDesktopChanger.Font = new System.Drawing.Font("Microsoft Tai Le", 10F, System.Drawing.FontStyle.Bold);
+			this.BtnDesktopChanger.ForeColor = System.Drawing.Color.Gray;
+			this.BtnDesktopChanger.Location = new System.Drawing.Point(0, 308);
+			this.BtnDesktopChanger.Name = "BtnDesktopChanger";
+			this.BtnDesktopChanger.Size = new System.Drawing.Size(185, 44);
+			this.BtnDesktopChanger.TabIndex = 8;
+			this.BtnDesktopChanger.Text = "DESKTOP CHANGER";
+			this.BtnDesktopChanger.UseVisualStyleBackColor = true;
+			this.BtnDesktopChanger.Click += new System.EventHandler(this.BtnDesktopChanger_Click);
+			// 
 			// MainMenuForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -254,5 +271,6 @@
 		private System.Windows.Forms.Button ButtonWifiCheck;
 		private System.Windows.Forms.Button ButtonSupport;
 		private System.Windows.Forms.Panel PanelPicture;
+		private System.Windows.Forms.Button BtnDesktopChanger;
 	}
 }

@@ -99,6 +99,12 @@
     <Compile Include="View\CustomControls\Tabs\TabFileSearcher.Designer.cs">
       <DependentUpon>TabFileSearcher.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabDesktopChanger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControls\Tabs\TabDesktopChanger.Designer.cs">
+      <DependentUpon>TabDesktopChanger.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\CustomControls\Tabs\TabHome.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -193,6 +199,9 @@
     <EmbeddedResource Include="View\CustomControls\Tabs\TabFileSearcher.resx">
       <DependentUpon>TabFileSearcher.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabDesktopChanger.resx">
+      <DependentUpon>TabDesktopChanger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CustomControls\Tabs\TabHome.resx">
       <DependentUpon>TabHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -244,6 +253,10 @@
     <ProjectReference Include="..\Components\Convertor\Converter.csproj">
       <Project>{7E11F18A-04D6-4CC8-A23F-9D6593B4FF0A}</Project>
       <Name>Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\DesktopChanger\DesktopChangerDemo.csproj">
+      <Project>{587EBE82-544C-469A-A653-0709BCF20866}</Project>
+      <Name>DesktopChangerDemo</Name>
     </ProjectReference>
     <ProjectReference Include="..\Components\FileManager\FileSearcherDemo\FileSearcherDemo.csproj">
       <Project>{6EB47428-2EEB-4C42-ACF2-2D4DA0B61507}</Project>
