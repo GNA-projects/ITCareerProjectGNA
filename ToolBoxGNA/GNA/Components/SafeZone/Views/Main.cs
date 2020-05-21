@@ -1,5 +1,6 @@
 ﻿using SaveZone.Controllers;
 using System;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace SaveZone
@@ -12,9 +13,9 @@ namespace SaveZone
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            MainMenuController.SetEncryptFileServicerAsync();
+            MainMenuController.SetEncryptFileServicerNonAsync();
             MainMenuController.PopulateEncryptInformationNonAsync(textBox1, richTextBox1);
         }
 

@@ -21,13 +21,13 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 
 		private void BtnEncrypt_Click(object sender, EventArgs e)
 		{
-			MainMenuController.SetEncryptFileServicerAsync();
-			MainMenuController.PopulateEncryptInformationAsync(TbEncryptedFile, RtbInfo);
+			MainMenuController.SetEncryptFileServicerNonAsync();
+			MainMenuController.PopulateEncryptInformationNonAsync(TbEncryptedFile, RtbInfo);
 		}
 
 		private void BtnDecrypt_Click(object sender, EventArgs e)
 		{
-			MainMenuController.SetDecryptFileServicerAsync();
+			MainMenuController.SetDecryptFileServicerNonAsync();
 			MainMenuController.PopulateDecryptInformationNonAsync(TbEncryptedFile, RtbInfo);
 		}
 	}

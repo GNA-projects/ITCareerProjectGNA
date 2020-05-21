@@ -40,6 +40,7 @@
 			this.TbFileDestination = new System.Windows.Forms.TextBox();
 			this.TbFileSource = new System.Windows.Forms.TextBox();
 			this.BtnSearchFiles = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// RtbInfo2
@@ -67,7 +68,7 @@
 			this.BtnMoveFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnMoveFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
 			this.BtnMoveFiles.ForeColor = System.Drawing.SystemColors.Control;
-			this.BtnMoveFiles.Location = new System.Drawing.Point(16, 16);
+			this.BtnMoveFiles.Location = new System.Drawing.Point(16, 63);
 			this.BtnMoveFiles.Name = "BtnMoveFiles";
 			this.BtnMoveFiles.Size = new System.Drawing.Size(122, 41);
 			this.BtnMoveFiles.TabIndex = 8;
@@ -80,7 +81,7 @@
 			this.BtnDeleteFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnDeleteFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
 			this.BtnDeleteFiles.ForeColor = System.Drawing.SystemColors.Control;
-			this.BtnDeleteFiles.Location = new System.Drawing.Point(16, 63);
+			this.BtnDeleteFiles.Location = new System.Drawing.Point(16, 110);
 			this.BtnDeleteFiles.Name = "BtnDeleteFiles";
 			this.BtnDeleteFiles.Size = new System.Drawing.Size(122, 41);
 			this.BtnDeleteFiles.TabIndex = 9;
@@ -93,7 +94,7 @@
 			this.BtnCreateFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnCreateFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
 			this.BtnCreateFiles.ForeColor = System.Drawing.SystemColors.Control;
-			this.BtnCreateFiles.Location = new System.Drawing.Point(16, 110);
+			this.BtnCreateFiles.Location = new System.Drawing.Point(16, 157);
 			this.BtnCreateFiles.Name = "BtnCreateFiles";
 			this.BtnCreateFiles.Size = new System.Drawing.Size(122, 41);
 			this.BtnCreateFiles.TabIndex = 10;
@@ -106,7 +107,7 @@
 			this.BtnRenameFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.BtnRenameFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
 			this.BtnRenameFiles.ForeColor = System.Drawing.SystemColors.Control;
-			this.BtnRenameFiles.Location = new System.Drawing.Point(16, 157);
+			this.BtnRenameFiles.Location = new System.Drawing.Point(16, 204);
 			this.BtnRenameFiles.Name = "BtnRenameFiles";
 			this.BtnRenameFiles.Size = new System.Drawing.Size(122, 41);
 			this.BtnRenameFiles.TabIndex = 11;
@@ -176,11 +177,25 @@
 			this.BtnSearchFiles.UseVisualStyleBackColor = true;
 			this.BtnSearchFiles.Click += new System.EventHandler(this.BtnSearchFiles_Click);
 			// 
+			// button1
+			// 
+			this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.button1.ForeColor = System.Drawing.SystemColors.Control;
+			this.button1.Location = new System.Drawing.Point(16, 16);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(122, 41);
+			this.button1.TabIndex = 30;
+			this.button1.Text = "Move Files";
+			this.button1.UseVisualStyleBackColor = true;
+			// 
 			// TabFileSearcher
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.BtnSearchFiles);
 			this.Controls.Add(this.LblDestination);
 			this.Controls.Add(this.LblSource);
@@ -213,5 +228,6 @@
 		private System.Windows.Forms.TextBox TbFileDestination;
 		private System.Windows.Forms.TextBox TbFileSource;
 		private System.Windows.Forms.Button BtnSearchFiles;
+		private System.Windows.Forms.Button button1;
 	}
 }

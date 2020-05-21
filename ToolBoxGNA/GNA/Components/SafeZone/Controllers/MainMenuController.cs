@@ -11,9 +11,9 @@ namespace SaveZone.Controllers
         private static EncryptFileServicer encryptFile = new EncryptFileServicer();
         private static DecryptFileService decryptFile = new DecryptFileService();
 
-        public static async void SetEncryptFileServicerAsync()
+        public static Task SetEncryptFileServicerAsync()
         {
-            await Task.Run(() => SetEncryptFileThread(encryptFile));
+             return Task.Run(() => SetEncryptFileThread(encryptFile));
         }
         public static void SetEncryptFileServicerNonAsync()
         {

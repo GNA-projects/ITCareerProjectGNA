@@ -42,7 +42,7 @@ namespace FileSearcherDemo
         private void button5_Click(object sender, EventArgs e)
         {
             //Creates a service for moveing files
-            MainMenuController.SetMoveFileServiceAsync();
+            MainMenuController.SetMoveFileServiceNonAsync();
             MainMenuController.PopulateMoveInformationAsync(textBox1, textBox2, richTextBox1, richTextBox2);
         }
 
