@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="POs3de1PIIModelStoreContainer" CdmEntityContainer="POs3de1PIIEntities">
+    <EntitySetMapping Name="Chats">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.Chat">
+        <MappingFragment StoreEntitySet="Chat">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_admin_id" ColumnName="user_admin_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chat_Info">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.Chat_Info">
+        <MappingFragment StoreEntitySet="Chat_Info">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="chat_id" ColumnName="chat_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EncryptorEngines">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.EncryptorEngine">
+        <MappingFragment StoreEntitySet="EncryptorEngine">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_Id" ColumnName="user_Id" />
+          <ScalarProperty Name="encrypted_name" ColumnName="encrypted_name" />
+          <ScalarProperty Name="encrypted_password" ColumnName="encrypted_password" />
+          <ScalarProperty Name="encrypted_IV" ColumnName="encrypted_IV" />
+          <ScalarProperty Name="decrypted_filePath" ColumnName="decrypted_filePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operation_Ids">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.Operation_Ids">
+        <MappingFragment StoreEntitySet="Operation_Ids">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="operation_name" ColumnName="operation_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operation_Info">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.Operation_Info">
+        <MappingFragment StoreEntitySet="Operation_Info">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="operation_id" ColumnName="operation_id" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="file_path" ColumnName="file_path" />
+          <ScalarProperty Name="file_type" ColumnName="file_type" />
+          <ScalarProperty Name="operation_type_id" ColumnName="operation_type_id" />
+          <ScalarProperty Name="isSuccessfull" ColumnName="isSuccessfull" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operation_Types">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.Operation_Types">
+        <MappingFragment StoreEntitySet="Operation_Types">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type_name" ColumnName="type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserPasswordManagers">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.UserPasswordManager">
+        <MappingFragment StoreEntitySet="UserPasswordManager">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="user_email" ColumnName="user_email" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+          <ScalarProperty Name="account_website" ColumnName="account_website" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="POs3de1PIIModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="last_login" ColumnName="last_login" />
+          <ScalarProperty Name="last_operation_id" ColumnName="last_operation_id" />
+          <ScalarProperty Name="account_age" ColumnName="account_age" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="User_Operation_Info" TypeName="POs3de1PIIModel.User_Operation_Info" StoreEntitySet="User_Operation_Info">
+      <EndProperty Name="Operation_Info">
+        <ScalarProperty Name="id" ColumnName="operation_Info_Id" />
+      </EndProperty>
+      <EndProperty Name="Users">
+        <ScalarProperty Name="id" ColumnName="user_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -270,6 +270,10 @@
       <Project>{B3C6B244-47CB-4729-BAA2-BC9E052AE839}</Project>
       <Name>TempDeleter</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
+      <Project>{9DEE8977-2450-4BB0-9EE0-FA39AC51DA17}</Project>
+      <Name>DatabaseOperations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PasswordManage\PasswordManage.csproj">
       <Project>{09CD4564-41BF-4DE5-9BB4-6128C3A8E984}</Project>
       <Name>PasswordManage</Name>
