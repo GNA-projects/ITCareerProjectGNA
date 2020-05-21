@@ -99,5 +99,10 @@ namespace FileSearcherDemo.Views
             this.WindowState = FormWindowState.Minimized;
             this.WindowState = FormWindowState.Normal;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
