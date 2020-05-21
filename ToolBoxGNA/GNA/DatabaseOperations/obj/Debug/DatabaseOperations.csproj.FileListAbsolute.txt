@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\DatabaseOperations.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
