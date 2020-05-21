@@ -156,6 +156,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GNAModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Operations\LoginRegister\LoginService.cs" />
     <Compile Include="Operation_Ids.cs">
       <DependentUpon>GNAModel.tt</DependentUpon>
     </Compile>

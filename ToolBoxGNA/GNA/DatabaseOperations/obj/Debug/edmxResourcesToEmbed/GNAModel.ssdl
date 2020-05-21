@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="POs3de1PIIModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Chat">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_admin_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Chat_Info">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="chat_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EncryptorEngine">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_Id" Type="int" Nullable="false" />
+    <Property Name="encrypted_name" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="encrypted_password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="encrypted_IV" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="decrypted_filePath" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Operation_Ids">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="operation_name" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Operation_Info">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="operation_id" Type="int" Nullable="false" />
+    <Property Name="file_name" Type="varchar" MaxLength="50" />
+    <Property Name="file_path" Type="varchar" MaxLength="150" />
+    <Property Name="file_type" Type="varchar" MaxLength="20" />
+    <Property Name="operation_type_id" Type="int" Nullable="false" />
+    <Property Name="isSuccessfull" Type="bool" />
+  </EntityType>
+  <EntityType Name="Operation_Types">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type_name" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User_Operation_Info">
+    <Key>
+      <PropertyRef Name="user_Id" />
+      <PropertyRef Name="operation_Info_Id" />
+    </Key>
+    <Property Name="user_Id" Type="int" Nullable="false" />
+    <Property Name="operation_Info_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserPasswordManager">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="user_email" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="user_password" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="account_website" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="last_login" Type="datetime" Precision="0" />
+    <Property Name="last_operation_id" Type="int" />
+    <Property Name="account_age" Type="datetime" Precision="0" />
+    <Property Name="IsAdmin" Type="bool" />
+  </EntityType>
+  <Association Name="FK_ChatAdminUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Chat" Type="Self.Chat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chat">
+        <PropertyRef Name="user_admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatInfo_Chat">
+    <End Role="Chat" Type="Self.Chat" Multiplicity="1" />
+    <End Role="Chat_Info" Type="Self.Chat_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Chat">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chat_Info">
+        <PropertyRef Name="chat_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatInfo_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Chat_Info" Type="Self.Chat_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chat_Info">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Chat" Type="Self.Chat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chat">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Operation_Ids_Operation_Info">
+    <End Role="Operation_Ids" Type="Self.Operation_Ids" Multiplicity="1" />
+    <End Role="Operation_Info" Type="Self.Operation_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operation_Ids">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Operation_Info">
+        <PropertyRef Name="operation_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Operation_Info_Opetarion_Id">
+    <End Role="Operation_Info" Type="Self.Operation_Info" Multiplicity="1" />
+    <End Role="User_Operation_Info" Type="Self.User_Operation_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operation_Info">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="User_Operation_Info">
+        <PropertyRef Name="operation_Info_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Operation_Types_Operation_Info">
+    <End Role="Operation_Types" Type="Self.Operation_Types" Multiplicity="1" />
+    <End Role="Operation_Info" Type="Self.Operation_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operation_Types">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Operation_Info">
+        <PropertyRef Name="operation_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_user_id_users_id">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="EncryptorEngine" Type="Self.EncryptorEngine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EncryptorEngine">
+        <PropertyRef Name="user_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserId_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="User_Operation_Info" Type="Self.User_Operation_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="User_Operation_Info">
+        <PropertyRef Name="user_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUserPasswordManager">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserPasswordManager" Type="Self.UserPasswordManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UserPasswordManager">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="POs3de1PIIModelStoreContainer">
+    <EntitySet Name="Chat" EntityType="Self.Chat" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="Chat_Info" EntityType="Self.Chat_Info" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="EncryptorEngine" EntityType="Self.EncryptorEngine" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="Operation_Ids" EntityType="Self.Operation_Ids" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="Operation_Info" EntityType="Self.Operation_Info" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="Operation_Types" EntityType="Self.Operation_Types" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="User_Operation_Info" EntityType="Self.User_Operation_Info" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="UserPasswordManager" EntityType="Self.UserPasswordManager" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="POs3de1PII" store:Type="Tables" />
+    <AssociationSet Name="FK_ChatAdminUsers" Association="Self.FK_ChatAdminUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Chat" EntitySet="Chat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChatInfo_Chat" Association="Self.FK_ChatInfo_Chat">
+      <End Role="Chat" EntitySet="Chat" />
+      <End Role="Chat_Info" EntitySet="Chat_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChatInfo_Users" Association="Self.FK_ChatInfo_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Chat_Info" EntitySet="Chat_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChatUsers" Association="Self.FK_ChatUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Chat" EntitySet="Chat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Operation_Ids_Operation_Info" Association="Self.FK_Operation_Ids_Operation_Info">
+      <End Role="Operation_Ids" EntitySet="Operation_Ids" />
+      <End Role="Operation_Info" EntitySet="Operation_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Operation_Info_Opetarion_Id" Association="Self.FK_Operation_Info_Opetarion_Id">
+      <End Role="Operation_Info" EntitySet="Operation_Info" />
+      <End Role="User_Operation_Info" EntitySet="User_Operation_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Operation_Types_Operation_Info" Association="Self.FK_Operation_Types_Operation_Info">
+      <End Role="Operation_Types" EntitySet="Operation_Types" />
+      <End Role="Operation_Info" EntitySet="Operation_Info" />
+    </AssociationSet>
+    <AssociationSet Name="fk_user_id_users_id" Association="Self.fk_user_id_users_id">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="EncryptorEngine" EntitySet="EncryptorEngine" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserId_Users" Association="Self.FK_UserId_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="User_Operation_Info" EntitySet="User_Operation_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUserPasswordManager" Association="Self.FK_UserUserPasswordManager">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserPasswordManager" EntitySet="UserPasswordManager" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
