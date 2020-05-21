@@ -123,5 +123,18 @@ namespace ToolBox_GNA.View.Forms.MainMenuForms
 			};
 			tabSupport.Show();
 		}
+
+		private void BtnDesktopChanger_Click(object sender, EventArgs e)
+		{
+			if (this.PanelCurrentTab.HasChildren)
+			{
+				this.PanelCurrentTab.GetChildAtPoint(new Point(0, 0)).Dispose();
+			}
+			TabDesktopChanger tabDesktopChanger = new TabDesktopChanger
+			{
+				Parent = PanelCurrentTab
+			};
+			tabDesktopChanger.Show();
+		}
 	}
 }

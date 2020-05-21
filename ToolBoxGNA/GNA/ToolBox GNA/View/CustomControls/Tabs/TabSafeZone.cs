@@ -19,16 +19,16 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 			InitializeComponent();
 		}
 
-		private void BtnEncrypt_Click(object sender, EventArgs e)
+		private async void BtnEncrypt_Click(object sender, EventArgs e)
 		{
-			MainMenuController.SetEncryptFileServicerNonAsync();
-			MainMenuController.PopulateEncryptInformationNonAsync(TbEncryptedFile, RtbInfo);
+			await MainMenuController.SetEncryptFileServicerAsync();
+			MainMenuController.PopulateEncryptInformationAsync(TbEncryptedFile, RtbInfo);
 		}
 
-		private void BtnDecrypt_Click(object sender, EventArgs e)
+		private async void BtnDecrypt_Click(object sender, EventArgs e)
 		{
-			MainMenuController.SetDecryptFileServicerNonAsync();
-			MainMenuController.PopulateDecryptInformationNonAsync(TbEncryptedFile, RtbInfo);
+			await MainMenuController.SetDecryptFileServicerAsync();
+			MainMenuController.PopulateDecryptInformationAsync(TbDecryptedFile, RtbInfo);
 		}
 	}
 }
