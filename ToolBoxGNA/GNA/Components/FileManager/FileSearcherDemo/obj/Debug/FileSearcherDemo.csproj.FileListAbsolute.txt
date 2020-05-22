@@ -120,3 +120,6 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\Too
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csprojAssemblyReference.cache
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\Interop.LCC11.dll
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\Interop.MsoEuro.dll
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.ResolveComReference.cache

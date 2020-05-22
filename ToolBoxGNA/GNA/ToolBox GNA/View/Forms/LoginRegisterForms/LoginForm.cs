@@ -40,6 +40,10 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
                 mainMenuForm.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("Username or password is wrong! Please enter the correct credentials!", "Wrong credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
