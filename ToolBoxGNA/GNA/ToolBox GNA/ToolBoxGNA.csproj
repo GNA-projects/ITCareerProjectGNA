@@ -35,9 +35,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DatabaseOperations\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\DatabaseOperations\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DatabaseOperations\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DatabaseOperations\bin\Debug\MySql.Data.EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.0.3.851, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
       <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.2.0.3\lib\net461\SQLitePCLRaw.batteries_v2.dll</HintPath>
@@ -262,6 +277,10 @@
       <Project>{6EB47428-2EEB-4C42-ACF2-2D4DA0B61507}</Project>
       <Name>FileSearcherDemo</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Components\PasswordManager\PasswordManager.csproj">
+      <Project>{F81CDBE1-BEE9-4F1E-90AB-139D090029DA}</Project>
+      <Name>PasswordManager</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Components\SafeZone\SafeZone.csproj">
       <Project>{09A2081B-FE9A-4422-8C4E-F15204B06361}</Project>
       <Name>SafeZone</Name>
@@ -270,17 +289,13 @@
       <Project>{B3C6B244-47CB-4729-BAA2-BC9E052AE839}</Project>
       <Name>TempDeleter</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
-      <Project>{9DEE8977-2450-4BB0-9EE0-FA39AC51DA17}</Project>
-      <Name>DatabaseOperations</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PasswordManage\PasswordManage.csproj">
-      <Project>{09CD4564-41BF-4DE5-9BB4-6128C3A8E984}</Project>
-      <Name>PasswordManage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WifiCheck\WifiCheck.csproj">
-      <Project>{95C128B8-3D7F-4A60-9714-C880F4C0652F}</Project>
+    <ProjectReference Include="..\Components\WifiCheck\WifiCheck.csproj">
+      <Project>{95c128b8-3d7f-4a60-9714-c880f4c0652f}</Project>
       <Name>WifiCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
+      <Project>{32F0B259-4ECF-4736-9A4F-5477BD148E62}</Project>
+      <Name>DatabaseOperations</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

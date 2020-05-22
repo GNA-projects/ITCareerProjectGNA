@@ -61,9 +61,9 @@
     <Folder Include="Services\SafeZone\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PasswordManage\PasswordManage.csproj">
-      <Project>{09CD4564-41BF-4DE5-9BB4-6128C3A8E984}</Project>
-      <Name>PasswordManage</Name>
+    <ProjectReference Include="..\Components\PasswordManager\PasswordManager.csproj">
+      <Project>{F81CDBE1-BEE9-4F1E-90AB-139D090029DA}</Project>
+      <Name>PasswordManager</Name>
     </ProjectReference>
     <ProjectReference Include="..\ToolBox GNA\ToolBoxGNA.csproj">
       <Project>{08d8323d-1cc6-4e19-9b7e-a8b756d67547}</Project>

@@ -8,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
-using ToolBox_GNA.Controller.PasswordManager.Entities;
-using ToolBox_GNA.Controller.PasswordManager.Controller;
+using PasswordManager.PasswordManager.Entities;
+using PasswordManager.PasswordManager.Controller;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
