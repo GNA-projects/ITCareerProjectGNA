@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26C54D83-8CCD-4F6F-ADF1-6CFA73C77077}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileManager</RootNamespace>
+    <AssemblyName>FileManager</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\CreateMenuController.cs" />
+    <Compile Include="Controllers\MainMenuController.cs" />
+    <Compile Include="Controllers\RenameMenuController.cs" />
+    <Compile Include="Controllers\SearchMenuController.cs" />
+    <Compile Include="Entities\BindingModels\CopyFileBindingModel\CopyFileBindingModel.cs" />
+    <Compile Include="Entities\BindingModels\CreateFileForm\CreateFileBindingModel.cs" />
+    <Compile Include="Entities\BindingModels\DeleteFileBindingModel\DeleteFileBindingModel.cs" />
+    <Compile Include="Entities\BindingModels\MoveFileBindingModel\MoveFileBindingModel.cs" />
+    <Compile Include="Entities\BindingModels\RenameFileForm\RenameFileBindingModel.cs" />
+    <Compile Include="Entities\BindingModels\SearchFileForm\SearchFileBindingModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CopyFileServices\CopyFileAbstractClass\CopyFileServiceAbstract.cs" />
+    <Compile Include="Services\CopyFileServices\CopyFileAbstractClass\ICopyFileService.cs" />
+    <Compile Include="Services\CopyFileServices\CopyFileService.cs" />
+    <Compile Include="Services\CopyFileServices\CopyFileServiceF\CopierFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateExcelFileServiceF\CreateExelFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateExcelFileServiceF\ICreateExcelFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreatePowerPointFileServiceF\CreatePowerPointFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreatePowerPointFileServiceF\ICreatePowerPointFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateRarFileServiceF\CreateRarFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateRarFileServiceF\ICreateRarFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateTextFileServiceF\CreateTextFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateTextFileServiceF\ICreateTextFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateWordFileServiceF\CreateWordFileService.cs" />
+    <Compile Include="Services\CreateFileServices\CreateWordFileServiceF\ICreateWordFileService.cs" />
+    <Compile Include="Services\DeleteFileServices\DeleteFileService.cs" />
+    <Compile Include="Services\DeleteFileServices\DeleteFileServiceF\DeleterFileService.cs" />
+    <Compile Include="Services\DeleteFileServices\DeleteFileServiceF\IDelete.cs" />
+    <Compile Include="Services\MoveFileServices\MoveFileService.cs" />
+    <Compile Include="Services\MoveFileServices\MoveFileServiceF\IMoveFileService.cs" />
+    <Compile Include="Services\MoveFileServices\MoveFileServiceF\MoverFileService.cs" />
+    <Compile Include="Services\RenameFileServices\RenameFileService.cs" />
+    <Compile Include="Services\RenameFileServices\RenameFileService\IRenameFileService.cs" />
+    <Compile Include="Services\RenameFileServices\RenameFileService\RenamerFileService.cs" />
+    <Compile Include="Services\SearchFileServices\SearchFileService.cs" />
+    <Compile Include="Services\SearchFileServices\SearchFileService\ISearcherFileService.cs" />
+    <Compile Include="Services\SearchFileServices\SearchFileService\SearcherFileService.cs" />
+    <Compile Include="Views\CreateFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CreateFile.Designer.cs">
+      <DependentUpon>CreateFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RenameFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\RenameFile.Designer.cs">
+      <DependentUpon>RenameFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SearchFile.Designer.cs">
+      <DependentUpon>SearchFile.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\CreateFile.resx">
+      <DependentUpon>CreateFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RenameFile.resx">
+      <DependentUpon>RenameFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SearchFile.resx">
+      <DependentUpon>SearchFile.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

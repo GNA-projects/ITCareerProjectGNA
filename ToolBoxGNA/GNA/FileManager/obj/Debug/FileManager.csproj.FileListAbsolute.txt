@@ -1,0 +1,7 @@
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileManager.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileSearcherDemo.Views.CreateFile.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileSearcherDemo.MainForm.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileSearcherDemo.Views.RenameFile.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileManager.csproj.GenerateResource.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManager\obj\Debug\FileManager.csproj.CoreCompileInputs.cache

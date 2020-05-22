@@ -123,3 +123,4 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\Too
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\Interop.LCC11.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\Interop.MsoEuro.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.ResolveComReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\FileManager\FileSearcherDemo\obj\Debug\FileSearcherDemo.csproj.ResolveComReference.cache

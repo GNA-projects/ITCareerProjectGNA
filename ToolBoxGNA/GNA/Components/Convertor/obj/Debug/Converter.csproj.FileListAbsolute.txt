@@ -1,13 +1,3 @@
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe.config
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.pdb
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csprojAssemblyReference.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Form1.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Properties.Resources.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.GenerateResource.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.CoreCompileInputs.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe.config
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.pdb
@@ -38,3 +28,13 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\Too
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe.config
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Form1.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Properties.Resources.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.GenerateResource.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
