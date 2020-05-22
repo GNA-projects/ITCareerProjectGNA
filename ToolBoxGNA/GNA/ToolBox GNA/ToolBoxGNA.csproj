@@ -273,10 +273,6 @@
       <Project>{587EBE82-544C-469A-A653-0709BCF20866}</Project>
       <Name>DesktopChangerDemo</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Components\FileManager\FileSearcherDemo\FileSearcherDemo.csproj">
-      <Project>{6EB47428-2EEB-4C42-ACF2-2D4DA0B61507}</Project>
-      <Name>FileSearcherDemo</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Components\PasswordManager\PasswordManager.csproj">
       <Project>{F81CDBE1-BEE9-4F1E-90AB-139D090029DA}</Project>
       <Name>PasswordManager</Name>
@@ -296,6 +292,10 @@
     <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
       <Project>{32F0B259-4ECF-4736-9A4F-5477BD148E62}</Project>
       <Name>DatabaseOperations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileManage\FileManage.csproj">
+      <Project>{E42FA2A2-2261-42D1-97FA-A09302499253}</Project>
+      <Name>FileManage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

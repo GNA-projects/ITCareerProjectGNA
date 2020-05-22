@@ -139,8 +139,10 @@
     <Compile Include="Model\Users.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Operations\FileManagerBuisseness\FileDatabaseServices.cs" />
     <Compile Include="Operations\LoginRegister\LoginService.cs" />
     <Compile Include="Operations\LoginRegister\RegisterService.cs" />
+    <Compile Include="Operations\StaticInfo\StaticInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

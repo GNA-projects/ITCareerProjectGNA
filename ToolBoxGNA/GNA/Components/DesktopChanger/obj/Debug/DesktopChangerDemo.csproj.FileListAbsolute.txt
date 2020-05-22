@@ -10,18 +10,6 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\DesktopChangerDemo\obj\D
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\DesktopChangerDemo\obj\Debug\DesktopChangerDemo.MainMenu.resources
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\DesktopChangerDemo\obj\Debug\DesktopChangerDemo.SelectMenu.resources
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectTest\DesktopChangerDemo\obj\Debug\DesktopChangerDemo.OpenFromWebMenu.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe.config
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.pdb
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csprojAssemblyReference.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.MainMenu.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.SelectMenu.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.OpenFromWebMenu.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.Properties.Resources.resources
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csproj.GenerateResource.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csproj.CoreCompileInputs.cache
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.exe
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe.config
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.pdb
@@ -58,3 +46,15 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\Too
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe.config
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\bin\Debug\DesktopChangerDemo.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csprojAssemblyReference.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.MainMenu.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.SelectMenu.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.OpenFromWebMenu.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.Properties.Resources.resources
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csproj.GenerateResource.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.csproj.CoreCompileInputs.cache
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.exe
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\DesktopChanger\obj\Debug\DesktopChangerDemo.pdb
