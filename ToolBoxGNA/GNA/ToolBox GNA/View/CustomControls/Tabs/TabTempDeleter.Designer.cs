@@ -43,7 +43,7 @@
             this.BtnCheckDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.BtnCheckDel.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnCheckDel.Location = new System.Drawing.Point(20, 416);
-            this.BtnCheckDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCheckDel.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCheckDel.Name = "BtnCheckDel";
             this.BtnCheckDel.Size = new System.Drawing.Size(236, 85);
             this.BtnCheckDel.TabIndex = 0;
@@ -54,8 +54,9 @@
             // RtbInfo
             // 
             this.RtbInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
+            this.RtbInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.RtbInfo.Location = new System.Drawing.Point(435, 18);
-            this.RtbInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RtbInfo.Margin = new System.Windows.Forms.Padding(4);
             this.RtbInfo.Name = "RtbInfo";
             this.RtbInfo.Size = new System.Drawing.Size(289, 498);
             this.RtbInfo.TabIndex = 2;
@@ -90,7 +91,7 @@
             this.BtnInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.BtnInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnInfo.Location = new System.Drawing.Point(287, 416);
-            this.BtnInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnInfo.Margin = new System.Windows.Forms.Padding(4);
             this.BtnInfo.Name = "BtnInfo";
             this.BtnInfo.Size = new System.Drawing.Size(123, 85);
             this.BtnInfo.TabIndex = 5;
@@ -107,7 +108,7 @@
             this.Controls.Add(this.LblExplain1);
             this.Controls.Add(this.RtbInfo);
             this.Controls.Add(this.BtnCheckDel);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "TabTempDeleter";
             this.ResumeLayout(false);
 

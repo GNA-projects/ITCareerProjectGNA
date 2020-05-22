@@ -50,7 +50,6 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNA
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBoxGNAUnitTesting.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManage.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBox GNA.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.Data.Sqlite.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\DesktopChangerDemo.exe
@@ -62,7 +61,6 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNA
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Memory.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\SimpleWifi.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManage.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBox GNA.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\ToolBox GNA.exe.config
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -191,3 +189,15 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\Too
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManager.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManager.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManager.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\PasswordManager.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\DatabaseOperations.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\System.Buffers.xml
