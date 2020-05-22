@@ -30,8 +30,8 @@ namespace DatabaseOperations.Model
         public string password { get; set; }
         public Nullable<System.DateTime> last_login { get; set; }
         public Nullable<int> last_operation_id { get; set; }
-        public Nullable<System.DateTime> account_age { get; set; }
         public Nullable<bool> IsAdmin { get; set; }
+        public Nullable<System.DateTime> register_date { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Chat> Chat { get; set; }

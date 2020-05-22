@@ -82,10 +82,9 @@
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="password" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="last_login" Type="DateTime" />
     <Property Name="last_operation_id" Type="Int32" />
-    <Property Name="account_age" Type="DateTime" />
     <Property Name="IsAdmin" Type="Boolean" />
     <NavigationProperty Name="Chat" Relationship="Self.FK_ChatAdminUsers" FromRole="Users" ToRole="Chat" />
     <NavigationProperty Name="Chat1" Relationship="Self.FK_ChatUsers" FromRole="Users" ToRole="Chat" />
@@ -93,6 +92,7 @@
     <NavigationProperty Name="EncryptorEngine" Relationship="Self.fk_user_id_users_id" FromRole="Users" ToRole="EncryptorEngine" />
     <NavigationProperty Name="UserPasswordManager" Relationship="Self.FK_UserUserPasswordManager" FromRole="Users" ToRole="UserPasswordManager" />
     <NavigationProperty Name="Operation_Info" Relationship="Self.User_Operation_Info" FromRole="Users" ToRole="Operation_Info" />
+    <Property Name="register_date" Type="DateTime" />
   </EntityType>
   <Association Name="FK_ChatAdminUsers">
     <End Role="Users" Type="Self.Users" Multiplicity="1" />
