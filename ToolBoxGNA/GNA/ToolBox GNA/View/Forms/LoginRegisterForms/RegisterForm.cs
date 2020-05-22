@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DatabaseOperations.Operations.LoginRegister;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,7 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
         }
         private void ButtonRegister_Click(object sender, EventArgs e)
         {
+            RegisterService.RegisterUser(TextBoxUsername.Text, TextBoxPassword.Text);
             this.Hide();
             LoginForm loginForm = new LoginForm();
             loginForm.Show();

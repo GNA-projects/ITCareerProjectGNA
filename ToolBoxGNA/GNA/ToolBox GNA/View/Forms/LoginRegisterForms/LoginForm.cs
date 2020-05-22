@@ -33,10 +33,9 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
 			//Adding the Username and Password to a static Class
 			////UserPresenter.SetUserLoginData(TextBoxUsername.Text, TextBoxPassword.Text);
 			//Logging in to the Main Menu Form
-            bool exists =  LoginService.CheckIf(TextBoxUsername.Text, TextBoxPassword.Text);
-
-            if (exists)
-            {
+			// bool exists =  LoginService.CheckIf(TextBoxUsername.Text, TextBoxPassword.Text);
+			if (LoginService.LoginUser(TextBoxUsername.Text,TextBoxPassword.Text))
+			{
                 MainMenuForm mainMenuForm = new MainMenuForm();
                 mainMenuForm.Show();
                 this.Hide();

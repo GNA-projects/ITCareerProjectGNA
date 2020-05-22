@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ToolBox_GNA.Controller.PasswordManager.Services;
+using PasswordManager.PasswordManager.Services;
 
 namespace ToolBoxGNAUnitTesting.Services.PasswordManager
 {

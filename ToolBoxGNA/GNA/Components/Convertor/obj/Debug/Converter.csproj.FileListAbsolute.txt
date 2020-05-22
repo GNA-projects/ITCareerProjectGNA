@@ -28,3 +28,13 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Compone
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.CoreCompileInputs.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Form1.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csprojAssemblyReference.cache
