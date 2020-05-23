@@ -58,7 +58,6 @@ C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\T
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ToolBox GNA.exe
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ToolBox GNA.pdb
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ConverterDemo.exe
-C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileSearcherDemo.exe
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SaveZone.exe
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SQLitePCLRaw.core.dll
@@ -75,8 +74,6 @@ C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\M
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SimpleWifi.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ConverterDemo.pdb
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\ConverterDemo.exe.config
-C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileSearcherDemo.pdb
-C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileSearcherDemo.exe.config
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SaveZone.pdb
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\SaveZone.exe.config
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\TempDeleter.pdb
@@ -490,3 +487,6 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CopyComplete
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileManage.exe
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileManage.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\FileManage.exe.config

@@ -80,14 +80,16 @@ namespace FileSearcherDemo.Services.DeleteFileServices
             {
                 //Asks the user if he wants to delete all the files or specific ones.
                 deleteFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to delete all of them?", "Files Found",
-                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                                       MessageBoxButtons.YesNo, MessageBoxIcon.Question, 0,
+                                       MessageBoxOptions.DefaultDesktopOnly);
 
                 CheckMessageBoxInput();
             }
             else
             {
                 foundFilesCount = "No files found.";
-                MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None, 0,
+                                MessageBoxOptions.DefaultDesktopOnly);
             }
         }
         private void CheckMessageBoxInput()
@@ -125,8 +127,6 @@ namespace FileSearcherDemo.Services.DeleteFileServices
             specificDeleteFileDialog = new OpenFileDialog();
             specificDeleteFileDialog.Multiselect = true;
             specificDeleteFileDialog.InitialDirectory = deleteFileDialog.SelectedPath;
-            DialogResult savespecificDeleteFiles = specificDeleteFileDialog.ShowDialog();
-
         }
         private void SetListWithSpecificFiles()
         {

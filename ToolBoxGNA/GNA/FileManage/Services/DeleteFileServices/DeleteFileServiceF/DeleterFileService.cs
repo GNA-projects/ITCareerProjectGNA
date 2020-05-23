@@ -1,4 +1,5 @@
-﻿using FileSearcherDemo.Entities.BindingModels.DeleteFileBindingModel;
+﻿using DatabaseOperations.Operations.FileManagerBuisseness;
+using FileSearcherDemo.Entities.BindingModels.DeleteFileBindingModel;
 using System.IO;
 using System.Windows.Forms;
 
@@ -19,16 +20,19 @@ namespace FileSearcherDemo.Services.DeleteFileServices.DeleteFileServiceF
             {
                 foreach (var file in files)
                 {
+                    string fileName = Path.GetFileName(file);
                     File.Delete(file);
                     //deleteFileBindingModel.DeletedFiles property is used to add the files that are deleted in it successfully
                     deleteFileBindingModel.DeletedFiles.Add(file);
                     isDeleted = true;
+                    FileDatabaseServices.AddDeleteOperation(fileName, deleteFileBindingModel.FileSourcePath, "File", true);
                 }
             }
             catch (IOException)
             {
                 isDeleted = false;
-                MessageBox.Show("File opened! \nPlease, close the file to proceed!", "Running process", 
+                FileDatabaseServices.AddDeleteOperation("Unsuccessfull operation", deleteFileBindingModel.FileSourcePath, "File", false);
+                MessageBox.Show("File opened! \nPlease, close the file to proceed!", "Running process",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
             }

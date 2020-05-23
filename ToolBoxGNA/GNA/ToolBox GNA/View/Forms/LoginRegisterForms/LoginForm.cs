@@ -1,4 +1,5 @@
-﻿using DatabaseOperations.Operations.LoginRegister;
+﻿using DatabaseOperations;
+using DatabaseOperations.Operations.LoginRegister;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

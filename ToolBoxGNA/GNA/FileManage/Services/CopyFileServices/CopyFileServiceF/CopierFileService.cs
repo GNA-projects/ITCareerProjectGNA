@@ -1,4 +1,5 @@
-﻿using FileSearcherDemo.Entities.BindingModels.CopyFileBindingModel;
+﻿using DatabaseOperations.Operations.FileManagerBuisseness;
+using FileSearcherDemo.Entities.BindingModels.CopyFileBindingModel;
 using FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,7 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileServiceF
                 string sourcePathFile = Path.Combine(sourcePath, fileName);
                 string destPathFile = Path.Combine(targetPath, fileName);
                 string overwriteDestFile = Path.Combine(targetPath, "Overwrite -" + fileName);
+                string overwriteFileName = Path.GetFileName("Overwrite -" + fileName);
 
                 //Checks if file already exists in the destination path
                 //If they don't exist, it tries to save the files.
@@ -51,9 +53,11 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileServiceF
                             //copyFileBindingModel.FilesCopied property is used to add the files that are copied in it successfully
                             copyFileBindingModel.CopyFilesCopied.Add(file);
                             isCompleted = true;
+                            FileDatabaseServices.AddCopyOperation(overwriteFileName, overwriteDestFile, "File", true);
                         }
                         else
                         {
+                            FileDatabaseServices.AddCopyOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
                             MessageBox.Show("File already overwrited!", "File exists!", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Warning, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
@@ -66,7 +70,7 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileServiceF
                     }
                     else
                     {
-
+                        FileDatabaseServices.AddCopyOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
                         MessageBox.Show("Existing file was not overwrited!", "Fail overwriting", 
                             MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                             MessageBoxOptions.DefaultDesktopOnly);
@@ -82,10 +86,12 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileServiceF
                         File.Copy(sourcePathFile, destPathFile);
                         copyFileBindingModel.CopyFilesCopied.Add(file);
                         isCompleted = true;
+                        FileDatabaseServices.AddCopyOperation(fileName, destPathFile, "File", true);
                     }
                     catch (FileNotFoundException)
                     {
                         isCompleted = false;
+                        FileDatabaseServices.AddCopyOperation("Unsuccessfull operation", sourcePathFile, "File", false);
                         MessageBox.Show("Don't change the directory of the found files! Files failed to copy", "Failed copying", 
                             MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                             MessageBoxOptions.DefaultDesktopOnly);
