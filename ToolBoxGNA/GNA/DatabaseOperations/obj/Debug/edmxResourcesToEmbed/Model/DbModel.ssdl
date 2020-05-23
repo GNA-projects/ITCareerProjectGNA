@@ -21,12 +21,13 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="user_Id" Type="int" Nullable="false" />
-    <Property Name="encrypted_name" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="encrypted_name" Type="varchar" MaxLength="150" />
+    <Property Name="decrypted_name" Type="varchar" MaxLength="150" />
     <Property Name="encrypted_password" Type="varchar" MaxLength="400" Nullable="false" />
-    <Property Name="encrypted_IV" Type="varchar" MaxLength="100" Nullable="false" />
-    <Property Name="decrypted_filePath" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="encrypted_IV" Type="varchar" MaxLength="400" Nullable="false" />
+    <Property Name="decrypted_filePath" Type="varchar" MaxLength="150" />
   </EntityType>
   <EntityType Name="Operation_Ids">
     <Key>

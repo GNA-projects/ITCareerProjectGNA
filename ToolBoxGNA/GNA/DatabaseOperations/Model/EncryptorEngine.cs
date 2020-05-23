@@ -20,6 +20,7 @@ namespace DatabaseOperations.Model
         public string encrypted_password { get; set; }
         public string encrypted_IV { get; set; }
         public string decrypted_filePath { get; set; }
+        public string decrypted_name { get; set; }
     
         public virtual Users Users { get; set; }
     }
