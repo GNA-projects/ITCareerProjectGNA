@@ -30,7 +30,8 @@ namespace DatabaseOperations.Operations.LoginRegister
                     Users user = context.Users.FirstOrDefault(x => x.username == username && x.password == pass);
                     if (user != null)
                     {
-                        StaticInfo.StaticInfo.CurrentUser = user;
+                        CurrentUser.Username = user.username;
+                        CurrentUser.ID = user.id;
                         user.last_login = DateTime.Now;
                         context.SaveChanges();
                         return true;

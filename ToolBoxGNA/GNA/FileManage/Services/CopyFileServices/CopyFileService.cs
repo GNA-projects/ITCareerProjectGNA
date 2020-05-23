@@ -90,13 +90,17 @@ namespace FileSearcherDemo.Services.CopyFileServices
             if (files.Length > 0)
             {
                 //Asks the user if he wants to copy all the files or specific ones.
-                copyFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to copy all of them?", "Files Found", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                copyFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to copy all of them?", "Files Found", 
+                                     MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, 0,
+                                     MessageBoxOptions.DefaultDesktopOnly);
                 CheckMessageBoxInput();
             }
             else
             {
                 foundFilesCount = "No files found.";
-                MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("No files found.", "None files", 
+                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.None, 0,
+                    MessageBoxOptions.DefaultDesktopOnly);
             }
         }
         private void CheckMessageBoxInput()

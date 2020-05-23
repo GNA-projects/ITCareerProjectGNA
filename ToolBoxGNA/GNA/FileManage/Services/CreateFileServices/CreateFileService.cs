@@ -1,4 +1,5 @@
-﻿using FileSearcherDemo.BindingModels.CreateFileForm;
+﻿using DatabaseOperations.Operations.FileManagerBuisseness;
+using FileSearcherDemo.BindingModels.CreateFileForm;
 using FileSearcherDemo.Services.CreateFileServices.CreateExcelFileServiceF;
 using FileSearcherDemo.Services.CreateFileServices.CreatePowerPointFileServiceF;
 using FileSearcherDemo.Services.CreateFileServices.CreateRarFileServiceF;
@@ -122,6 +123,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                     createFileBindingModel.FileType = "Text";
                     fileType = $"File type: {createFileBindingModel.FileType}";
                     createFileBindingModel.TextButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation(createFileBindingModel.FileName + ".txt", destPath, createFileBindingModel.FileType, true);
 
                     ShowCreatedFile(createFileBindingModel);
                 }
@@ -129,6 +131,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 {
                     fileName = $"File {createFileBindingModel.FileName}.txt already exists";
                     createFileBindingModel.TextButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation("Unsuccessfull operation", destPath, createFileBindingModel.FileType, false);
 
                     ShowFileAlreadyExists();
                 }
@@ -143,6 +146,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                     createFileBindingModel.FileType = "Document";
                     fileType = $"File type: {createFileBindingModel.FileType}";
                     createFileBindingModel.WordButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation(fileName, destPath, fileType, true);
 
                     ShowCreatedFile(createFileBindingModel);
                 }
@@ -150,6 +154,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 {
                     fileName = $"File {createFileBindingModel.FileName}.docx already exists";
                     createFileBindingModel.WordButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation("Unsuccessfull operation", destPath, createFileBindingModel.FileType, false);
 
                     ShowFileAlreadyExists();
                 }
@@ -164,6 +169,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                     createFileBindingModel.FileType = "Presentation";
                     fileType = $"File type: {createFileBindingModel.FileType}";
                     createFileBindingModel.PowerPointButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation(createFileBindingModel.FileName + ".pptx", destPath, createFileBindingModel.FileType, true);
 
                     ShowCreatedFile(createFileBindingModel);
                 }
@@ -171,6 +177,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 {
                     fileName = $"File {createFileBindingModel.FileName}.pptx already exists";
                     createFileBindingModel.PowerPointButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation("Unsuccessfull operation", destPath, createFileBindingModel.FileType, false);
 
                     ShowFileAlreadyExists();
                 }
@@ -185,6 +192,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                     createFileBindingModel.FileType = "Excel Worksheet";
                     fileType = $"File type: {createFileBindingModel.FileType}";
                     createFileBindingModel.ExcelButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation(createFileBindingModel.FileName + ".xlsx", destPath, createFileBindingModel.FileType, true);
 
                     ShowCreatedFile(createFileBindingModel);
                 }
@@ -192,6 +200,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 {
                     fileName = $"File {createFileBindingModel.FileName}.xlsx already exists";
                     createFileBindingModel.ExcelButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation("Unsuccessfull operation", destPath, createFileBindingModel.FileType, false); ;
 
                     ShowFileAlreadyExists();
                 }
@@ -206,6 +215,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                     createFileBindingModel.FileType = "Rar Archive";
                     fileType = $"File type: {createFileBindingModel.FileType}";
                     createFileBindingModel.RarButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation(createFileBindingModel.FileName + ".rar", destPath, createFileBindingModel.FileType, true);
 
                     ShowCreatedFile(createFileBindingModel);
                 }
@@ -213,6 +223,7 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 {
                     fileName = $"File {createFileBindingModel.FileName}.rar already exists";
                     createFileBindingModel.RarButtonPressed = false;
+                    FileDatabaseServices.AddCreateOperation("Unsuccessfull operation", destPath, createFileBindingModel.FileType, false);
 
                     ShowFileAlreadyExists();
                 }

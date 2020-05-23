@@ -71,7 +71,6 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOp
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
-C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CoreCompileInputs.cache
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
@@ -145,3 +144,4 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Databas
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CopyComplete
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache

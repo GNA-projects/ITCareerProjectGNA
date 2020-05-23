@@ -1,4 +1,5 @@
-﻿using FileSearcherDemo.BindingModels.RenameFileForm;
+﻿using DatabaseOperations.Operations.FileManagerBuisseness;
+using FileSearcherDemo.BindingModels.RenameFileForm;
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -32,6 +33,7 @@ namespace FileSearcherDemo.Services.RenameFileService
                 //Sets the strings to a path with the New name of the file that has to be renamed + the extension of the file.
                 string destFile = Path.Combine(targetPath, newName + extension);
                 string overwriteDestFile = Path.Combine(targetPath, "Overwrite -" + fileName);
+                string overwriteFileName = Path.GetFileName("Overwrite -" + fileName);
 
                 //Checks if file already exists in the destination path
                 //If they don't exist, it tries to rename the file.
@@ -55,9 +57,11 @@ namespace FileSearcherDemo.Services.RenameFileService
                             //renameFileBindingModel.IsRenamed is used to tell that the file is renamed successfully.
                             renameFileBindingModel.IsRenamed = true;
                             isRenamed = true;
+                            FileDatabaseServices.AddRenameOperation(fileName, newName, "File", true);
                         }
                         else
                         {
+                            FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
                             MessageBox.Show("File already overwrited!", "File exists!", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Warning, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
@@ -71,7 +75,7 @@ namespace FileSearcherDemo.Services.RenameFileService
                     }
                     else
                     {
-
+                        FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
                         MessageBox.Show("Existing file was not renamed!", "Failed renaming", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
@@ -85,10 +89,12 @@ namespace FileSearcherDemo.Services.RenameFileService
                     File.Move(sourceFile, destFile);
                     renameFileBindingModel.IsRenamed = true;
                     isRenamed = true;
+                    FileDatabaseServices.AddRenameOperation(fileName, newName + extension, "File", true);
                 }
             }
             catch (IOException)
             {
+                FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", "None", "File", false);
                 isRenamed = false;
                 MessageBox.Show("File opened! \nPlease, close the file to proceed!", "Running process", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
