@@ -40,6 +40,12 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		private void BtnInfo_Click(object sender, EventArgs e)
 		{
 			TempDeleterController.GetNamesAsync();
+			RtbInfo.Text = TempDeleterController.GetNames();
+		}
+
+		private void RtbInfo_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

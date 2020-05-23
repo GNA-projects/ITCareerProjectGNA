@@ -1,4 +1,5 @@
-﻿using DesktopChangerDemo.DesktopChanger.Services.OpenImageService;
+﻿using DatabaseOperations.Operations.DesktopChangerBuissiness;
+using DesktopChangerDemo.DesktopChanger.Services.OpenImageService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace DesktopChangerDemo.Services.OpenImageService
             OBrwsDialog.InitialDirectory = $"{Environment.SpecialFolder.Desktop}";
             OBrwsDialog.Filter = "Images (*.jpeg*; *.bmp*; *.jpg*)| *.jpeg*; *.bmp*; *.jpg*";
             OBrwsDialog.RestoreDirectory = true;
+            
         }
 
         public void OpenWebImage(OpenFromWebMenu form3)

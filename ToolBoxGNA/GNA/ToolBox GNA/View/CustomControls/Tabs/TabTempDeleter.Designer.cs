@@ -61,6 +61,7 @@
             this.RtbInfo.Size = new System.Drawing.Size(289, 498);
             this.RtbInfo.TabIndex = 2;
             this.RtbInfo.Text = "";
+            
             // 
             // LblExplain1
             // 
@@ -73,16 +74,16 @@
             this.LblExplain1.TabIndex = 3;
             this.LblExplain1.Text = resources.GetString("LblExplain1.Text");
             // 
-            // label1
+            // usernameLabel
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(60, 226);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
+            this.label1.Name = "usernameLabel";
             this.label1.Size = new System.Drawing.Size(304, 162);
             this.label1.TabIndex = 4;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Text = resources.GetString("usernameLabel.Text");
             // 
             // BtnInfo
             // 

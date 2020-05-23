@@ -44,9 +44,9 @@ namespace TempDeleter.TempDeleter
         {
             deleterService.TempFileRemover(FolderName);
         }
-        public static void GetNames()
+        public static string GetNames()
         {
-            deleterService.GetModelNames();
+           return deleterService.GetModelNames();
         }
     }
 }

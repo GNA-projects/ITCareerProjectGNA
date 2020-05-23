@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ConverterDemo.Models;
+using DatabaseOperations.Operations.ConvertorBuissness;
 
 namespace ConverterDemo.Services
 {
@@ -57,16 +58,18 @@ namespace ConverterDemo.Services
                     string message = "Converting Done!";
                     string title = "Done!";
                     MessageBox.Show(message, title);
+                    ConvertorDbService.AddImageConvert(imageToPNG.FileName, imageToPNG.OutputDirectory, true);
                 }
             }
             catch (ArgumentNullException)
             {
                 MessageBox.Show("Path not setted! Please set both Directories!", "Converting error");
-
+                ConvertorDbService.AddImageConvert(input,output, false);
             }
             catch (ExternalException)
             {
                 MessageBox.Show("Path not setted! Please set both Directories!", "Converting error");
+                ConvertorDbService.AddImageConvert(input, output, false);
             }
 
         }

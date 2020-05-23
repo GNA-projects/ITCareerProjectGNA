@@ -1,5 +1,6 @@
 ﻿using ConverterDemo.Models;
 using ConverterDemo.Services.WordToPDFConvertorService;
+using DatabaseOperations.Operations.ConvertorBuissness;
 using Microsoft.Office.Interop.Word;
 using System;
 using System.Collections.Generic;
@@ -97,18 +98,21 @@ namespace ConverterDemo.Services
                                 File.Delete(destinationFile);
                                 File.Move((string)(outputFileName), destinationFile);
                                 isDone = true;
+                                ConvertorDbService.AddDocConvert(wordFile.Name.Replace(".doc", ".pdf"), outpath, true);
                             }
                             else if (messagebox == DialogResult.No)
                             {
                                 MessageBox.Show("Converting Canceled");
+                                ConvertorDbService.AddDocConvert(wordFile.Name, outpath, false);
                             }
                             else
                             {
-
+                                ConvertorDbService.AddDocConvert(wordFile.Name, outpath, false);
                             }
                         }
                         else
                         {
+                            ConvertorDbService.AddDocConvert((string)(outputFileName), destinationFile, false);
                             File.Move((string)(outputFileName), destinationFile);
                             isDone = true;
                         }
@@ -120,10 +124,12 @@ namespace ConverterDemo.Services
                     wordToPDF.DirectoryPath = dirInfo.FullName;
                     wordToPDF.OutputDirectory = newDirect;
                     wordToPDF.Type = "Document";
+                   
 
                 }
-                catch (Exception)
+                catch (ArgumentException)
                 {
+                    ConvertorDbService.AddDocConvert(wordFile.Name, wordFile.DirectoryName, false);
                     MessageBox.Show("Error during converting. Please check if you selected correct convert file and settings!");
                 }
 

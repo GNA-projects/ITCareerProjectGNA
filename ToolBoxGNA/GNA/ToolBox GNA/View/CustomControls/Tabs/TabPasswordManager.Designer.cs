@@ -72,13 +72,13 @@
 			this.TbPassword.Size = new System.Drawing.Size(216, 30);
 			this.TbPassword.TabIndex = 7;
 			// 
-			// label1
+			// usernameLabel
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
 			this.label1.ForeColor = System.Drawing.SystemColors.Control;
 			this.label1.Location = new System.Drawing.Point(306, 44);
-			this.label1.Name = "label1";
+			this.label1.Name = "usernameLabel";
 			this.label1.Size = new System.Drawing.Size(73, 17);
 			this.label1.TabIndex = 8;
 			this.label1.Text = "Username";

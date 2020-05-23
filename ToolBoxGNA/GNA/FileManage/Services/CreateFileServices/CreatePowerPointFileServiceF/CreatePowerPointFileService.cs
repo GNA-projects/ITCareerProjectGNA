@@ -9,7 +9,6 @@ namespace FileSearcherDemo.Services.CreateFileServices.CreatePowerPointFileServi
         public void CreatePowerPoint(CreateFileBindingModel createPPBindingModel)
         {
             //Uses CreateFileBindingModel to get specific information from it. 
-
             //Creates a excel application that runs in the background.
             //In the background the application adds the things it needs to be opened after being created.
             PowerPoint.Application objPowerPoint = new PowerPoint.Application();

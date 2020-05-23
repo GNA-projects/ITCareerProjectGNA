@@ -23,6 +23,9 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		readonly SelectMenu selectMenu = new SelectMenu();
 		private void BtnOpen_Click(object sender, EventArgs e)
 		{
+			try
+			{
+
 			selectMenu.ShowDialog();
 			if (selectMenu.IsLocal)
 			{
@@ -33,6 +36,11 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 			{
 				PbImagePreview.Image = new Bitmap(selectMenu.GetPathFromWeb());
 				PbImagePreview.SizeMode = PictureBoxSizeMode.StretchImage;
+			}
+			}
+			catch (ArgumentNullException)
+			{
+
 			}
 		}
 
