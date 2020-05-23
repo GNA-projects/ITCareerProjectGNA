@@ -1,4 +1,6 @@
-﻿using SaveZone.Entities.CheckPasswordBindingModel;
+﻿using DatabaseOperations.Model;
+using DatabaseOperations.Operations.SaveZoneBuisseness;
+using SaveZone.Entities.CheckPasswordBindingModel;
 using SaveZone.Entities.DecryptFileBindingModel;
 using SaveZone.Services.EncryptFileServices;
 using System;
@@ -52,20 +54,24 @@ namespace SaveZone.Services.DecryptFileService
         }
         private void CheckIfFileIsEncrypted(EncryptFileServicer encryptFileServicer, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel checkBindingModel)
         {
-            if (decryptFileBindingModel.EncryptedFiles.Contains(decryptFileBindingModel.FileName))
+            if (SaveZoneDbService.GetEntity(decryptFileBindingModel.FileSourcePath) != null)
             {
-                CheckPasswordForm.ShowDialog();
-
-                if (checkBindingModel.OKIsPressed == true)
+                if (SaveZoneDbService.GetEntity(decryptFileBindingModel.FileSourcePath).encrypted_name == decryptFileBindingModel.FileSourcePath)
                 {
-                    decryptFile.AESDecryptFile(decryptFileSource, encryptFileServicer.ReturnDecryptFileBindingModel(), checkBindingModel);
-                    
+                    CheckPasswordForm.ShowDialog();
+
+                    if (checkBindingModel.OKIsPressed == true)
+                    {
+                        decryptFile.AESDecryptFile(decryptFileBindingModel.FileName, decryptFileSource, decryptFileBindingModel, checkBindingModel);
+
+                    }
+
+                    CheckPasswordForm.Dispose();
+                    CheckPasswordForm = new CheckPassword();
+
+                    CheckIfFileIsDecrypted(decryptFileBindingModel);
+
                 }
-
-                CheckPasswordForm.Dispose();
-                CheckPasswordForm = new CheckPassword();
-
-                CheckIfFileIsDecrypted(decryptFileBindingModel);
             }
             else
             {

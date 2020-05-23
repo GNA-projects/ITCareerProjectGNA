@@ -23,6 +23,7 @@
     <EntitySetMapping Name="EncryptorEngine">
       <EntityTypeMapping TypeName="GNAModel.EncryptorEngine">
         <MappingFragment StoreEntitySet="EncryptorEngine">
+          <ScalarProperty Name="decrypted_name" ColumnName="decrypted_name" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="user_Id" ColumnName="user_Id" />
           <ScalarProperty Name="encrypted_name" ColumnName="encrypted_name" />

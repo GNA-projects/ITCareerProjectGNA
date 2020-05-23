@@ -5,6 +5,6 @@ namespace SaveZone.Services.DecryptFileService
 {
     public interface IDecryptorFileService
     {
-        void AESDecryptFile(string filePath, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel passwordBindingModel);
+        void AESDecryptFile(string fileName, string filePath, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel passwordBindingModel);
     }
 }

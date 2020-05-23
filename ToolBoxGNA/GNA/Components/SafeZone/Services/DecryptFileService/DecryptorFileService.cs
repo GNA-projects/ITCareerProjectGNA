@@ -2,6 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
+using DatabaseOperations.Operations.SaveZoneBuisseness;
 using SaveZone.Entities.CheckPasswordBindingModel;
 using SaveZone.Entities.DecryptFileBindingModel;
 
@@ -9,9 +10,9 @@ namespace SaveZone.Services.DecryptFileService
 {
     public class DecryptorFileService : IDecryptorFileService
     {
-        public void AESDecryptFile(string filePath, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel passwordBindingModel)
+        public void AESDecryptFile(string fileName, string filePath, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel passwordBindingModel)
         {
-            if (passwordBindingModel.Password == decryptFileBindingModel.Password && passwordBindingModel.IV == decryptFileBindingModel.IV)
+            if (passwordBindingModel.Password == SaveZoneDbService.GetEntity(filePath).encrypted_password && passwordBindingModel.IV == SaveZoneDbService.GetEntity(filePath).encrypted_IV)
             {
                 byte[] plainFile = File.ReadAllBytes(filePath);
                 using (AesCryptoServiceProvider AES = new AesCryptoServiceProvider())
@@ -19,8 +20,8 @@ namespace SaveZone.Services.DecryptFileService
                     AES.BlockSize = 128;
                     AES.KeySize = 128;
 
-                    AES.IV = Encoding.UTF8.GetBytes(decryptFileBindingModel.IV);
-                    AES.Key = Encoding.UTF8.GetBytes(decryptFileBindingModel.Password);
+                    AES.IV = Encoding.UTF8.GetBytes(SaveZoneDbService.GetEntity(filePath).encrypted_IV);
+                    AES.Key = Encoding.UTF8.GetBytes(SaveZoneDbService.GetEntity(filePath).encrypted_password);
                     AES.Mode = CipherMode.CBC;
 
                     using (MemoryStream memStream = new MemoryStream())
@@ -33,7 +34,9 @@ namespace SaveZone.Services.DecryptFileService
                     }
 
                 }
-                decryptFileBindingModel.EncryptedFiles.Remove(decryptFileBindingModel.FileName);
+                SaveZoneDbService.AddDecryptFileEngine(filePath, filePath, SaveZoneDbService.GetEntity(filePath).encrypted_IV, SaveZoneDbService.GetEntity(filePath).encrypted_password);
+                SaveZoneDbService.RemoveFromEncrypted(filePath);
+                SaveZoneDbService.AddDecryptFileInfo(fileName, filePath, true);
                 decryptFileBindingModel.IsDecrypted = true;
                 MessageBox.Show("File Decrypted.", "File", MessageBoxButtons.OK, MessageBoxIcon.None,0,
                                MessageBoxOptions.DefaultDesktopOnly);

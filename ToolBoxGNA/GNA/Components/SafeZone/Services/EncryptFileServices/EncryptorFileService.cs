@@ -1,4 +1,6 @@
-﻿using SaveZone.Entities.DecryptFileBindingModel;
+﻿using DatabaseOperations.Model;
+using DatabaseOperations.Operations.SaveZoneBuisseness;
+using SaveZone.Entities.DecryptFileBindingModel;
 using SaveZone.Entities.EncryptFileBindingModel;
 using SaveZone.Services.EncryptFileServices;
 using System;
@@ -15,12 +17,12 @@ namespace SaveZone.Services.EncryptFileService
         private string password = "";
         private string IV = "";
         private Random random = new Random();
-        private MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
         private UTF8Encoding utf8 = new UTF8Encoding();
 
         public void AESEncryptFile(string filePath, EncryptFileBindingModel encryptBindingModel, DecryptFileBindingModel decryptBindingModel)
         {
-            if (!decryptBindingModel.EncryptedFiles.Contains(encryptBindingModel.FileName))
+            
+            if (SaveZoneDbService.GetAllEntitiesWithName(filePath).Count==0)
             {
                 decryptBindingModel.EncryptedFiles.Add(encryptBindingModel.FileName);
                 GenerateKey(encryptBindingModel, decryptBindingModel);
@@ -33,10 +35,13 @@ namespace SaveZone.Services.EncryptFileService
                 IV = "";
                 password = "";
                 encryptBindingModel.IsEncrypted = true;
+                SaveZoneDbService.AddEncryptFileInfo(encryptBindingModel.FileName, encryptBindingModel.FileSourcePath, true);
+                
             }
             else
             {
                 encryptBindingModel.IsEncrypted = false;
+                SaveZoneDbService.AddEncryptFileInfo(encryptBindingModel.FileName, encryptBindingModel.FileSourcePath, false);
                 MessageBox.Show("File already encrypted!", "File Already Encrypted", MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                                MessageBoxOptions.DefaultDesktopOnly);
             }
@@ -59,6 +64,7 @@ namespace SaveZone.Services.EncryptFileService
                     sw.WriteLine($"Password: {password}");
                     sw.WriteLine($"IV: {IV}");
                 }
+                SaveZoneDbService.AddEncryptFileEngine(encryptBindingModel.FileSourcePath, password, IV);
                 MessageBox.Show($"Password and IV saved with the name {encryptBindingModel.FileName + " - password"}.txt on your startup folder of the program",
                                 "Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
                                  MessageBoxOptions.DefaultDesktopOnly);
