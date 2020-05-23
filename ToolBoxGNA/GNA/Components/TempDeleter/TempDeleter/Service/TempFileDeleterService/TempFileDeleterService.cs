@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DatabaseOperations.Operations.TempDeleterBuisseness;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -24,34 +25,28 @@ namespace TempDeleter
             if (count > 0)
             {
                 MessageBox.Show($"{count} files COULDN'T BE DELETED BECAUSE THEY ARE USED BY ANOTHER PROCESS!", "Error", MessageBoxButtons.OK);
-
+                TempDeleterDbService.AddTempFiles(false, count);
             }
             else
             {
 
                 MessageBox.Show("Everything is deleted!");
+                
             }
 
 
             model.Count = count;
             model.Names = sb.ToString();
-
+            TempDeleterDbService.AddTempFiles(true, count);
         }
         public void Reset()
         {
             count = 0;
             sb.Clear();
         }
-        public void GetModelNames()
+        public string GetModelNames()
         {
-            if (model.Count > 0)
-            {
-                MessageBox.Show($"{model.Names}");
-            }
-            else
-            {
-                MessageBox.Show("100% of files are deleted!");
-            }
+            return sb.ToString();
 
         }
         private void Delete(string FolderName)
@@ -65,15 +60,18 @@ namespace TempDeleter
                     name = file.Name;
 
                     file.Delete();
+                    
                 }
                 catch (UnauthorizedAccessException)
 
                 {
+                    
                     count++;
                     sb.Append(name + ", ");
                 }
                 catch (System.IO.IOException)
                 {
+                    
                     count++;
                     sb.Append(name + ", ");
                 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
+using DatabaseOperations;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -16,6 +17,7 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabHome()
 		{
 			InitializeComponent();
+			usernameLabel.Text = CurrentUser.Username;
 		}
 	}
 }
