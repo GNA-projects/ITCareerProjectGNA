@@ -42,7 +42,7 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="operation_id" Type="int" Nullable="false" />
-    <Property Name="file_name" Type="varchar" MaxLength="50" />
+    <Property Name="file_name" Type="varchar" MaxLength="150" />
     <Property Name="file_path" Type="varchar" MaxLength="150" />
     <Property Name="file_type" Type="varchar" MaxLength="20" />
     <Property Name="operation_type_id" Type="int" Nullable="false" />

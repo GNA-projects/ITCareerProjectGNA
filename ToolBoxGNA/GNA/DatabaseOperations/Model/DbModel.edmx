@@ -47,7 +47,7 @@
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="operation_id" Type="int" Nullable="false" />
-          <Property Name="file_name" Type="varchar" MaxLength="50" />
+          <Property Name="file_name" Type="varchar" MaxLength="150" />
           <Property Name="file_path" Type="varchar" MaxLength="150" />
           <Property Name="file_type" Type="varchar" MaxLength="20" />
           <Property Name="operation_type_id" Type="int" Nullable="false" />
@@ -334,7 +334,7 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="operation_id" Type="Int32" Nullable="false" />
-          <Property Name="file_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="file_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="file_path" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="file_type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="operation_type_id" Type="Int32" Nullable="false" />

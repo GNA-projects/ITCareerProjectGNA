@@ -49,7 +49,7 @@
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="operation_id" Type="Int32" Nullable="false" />
-    <Property Name="file_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="file_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
     <Property Name="file_path" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
     <Property Name="file_type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="operation_type_id" Type="Int32" Nullable="false" />
