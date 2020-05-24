@@ -48,11 +48,10 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.pdb
-C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CoreCompileInputs.cache
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache

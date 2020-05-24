@@ -38,9 +38,8 @@
             // 
             this.PictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PictureBoxLogo.Location = new System.Drawing.Point(0, 0);
-            this.PictureBoxLogo.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBoxLogo.Name = "PictureBoxLogo";
-            this.PictureBoxLogo.Size = new System.Drawing.Size(748, 535);
+            this.PictureBoxLogo.Size = new System.Drawing.Size(561, 435);
             this.PictureBoxLogo.TabIndex = 0;
             this.PictureBoxLogo.TabStop = false;
             // 
@@ -48,9 +47,10 @@
             // 
             this.HelloLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HelloLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.HelloLabel1.Location = new System.Drawing.Point(68, 36);
+            this.HelloLabel1.Location = new System.Drawing.Point(51, 29);
+            this.HelloLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.HelloLabel1.Name = "HelloLabel1";
-            this.HelloLabel1.Size = new System.Drawing.Size(158, 33);
+            this.HelloLabel1.Size = new System.Drawing.Size(118, 27);
             this.HelloLabel1.TabIndex = 1;
             this.HelloLabel1.Text = "Welcome,";
             // 
@@ -59,20 +59,21 @@
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.usernameLabel.Location = new System.Drawing.Point(213, 36);
+            this.usernameLabel.Location = new System.Drawing.Point(155, 30);
+            this.usernameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(63, 32);
+            this.usernameLabel.Size = new System.Drawing.Size(48, 26);
             this.usernameLabel.TabIndex = 2;
             this.usernameLabel.Text = "000";
             // 
             // TabHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.HelloLabel1);
             this.Controls.Add(this.PictureBoxLogo);
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TabHome";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
