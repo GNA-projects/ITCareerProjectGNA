@@ -71,6 +71,7 @@ namespace SaveZone.Services.EncryptFileService
             }
             else
             {
+                SaveZoneDbService.AddEncryptFileEngine(encryptBindingModel.FileSourcePath, password, IV);
                 var saveMsgBox = MessageBox.Show("Do you want to copy password and the IV in the clipboard?",
                                  "Copy to clipboard", MessageBoxButtons.YesNo, MessageBoxIcon.Question, 0,
                                   MessageBoxOptions.DefaultDesktopOnly);
@@ -80,7 +81,7 @@ namespace SaveZone.Services.EncryptFileService
 
 
                     { Clipboard.SetText($"Password: {password} \r\nIV: {IV}"); }
-
+                    SaveZoneDbService.AddEncryptFileEngine(encryptBindingModel.FileSourcePath, password, IV);
                     MessageBox.Show("Password and IV saved to clipboard!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
                                      MessageBoxOptions.DefaultDesktopOnly);
                 }
