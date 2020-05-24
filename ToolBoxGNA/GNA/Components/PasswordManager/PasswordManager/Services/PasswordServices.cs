@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 using System.IO;
 using PasswordManager.PasswordManager.Entities;
+using DatabaseOperations.Operations.PasswordManagerBuissiness;
 
 namespace PasswordManager.PasswordManager.Services
 {
@@ -31,7 +32,7 @@ namespace PasswordManager.PasswordManager.Services
 				passwords.Add(new Password(url, username, password));
 			}
 			sqliteChromeData.Close();
-
+			PasswordManagerServices.AddPasswordOperation();
 			return passwords;
 		}
 
@@ -68,5 +69,6 @@ namespace PasswordManager.PasswordManager.Services
 
 			return dataSource + localData + defaultPath;
 		}
+
 	}
 }
