@@ -144,3 +144,4 @@ C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CopyComplete
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.pdb
+C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache
