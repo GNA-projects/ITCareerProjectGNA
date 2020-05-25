@@ -18,8 +18,8 @@ namespace ToolBoxGNAUnitTesting.Services.Convertor
         public void ImageConvert_Correctcase_bmp(string input, string output)
         {
             ImageToPNGService service = new ImageToPNGService();
-            CurrentUser.ID = 1;
-            CurrentUser.Username = "Test";
+            
+           
             service.ImageConvert(input, output);
 
             FileAssert.Exists(@"C:\Users\Admin\Desktop\ImageConvertOutput\BmpImage.png");

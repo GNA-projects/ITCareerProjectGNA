@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DatabaseOperations.Operations.DesktopChangerBuissiness
 {
@@ -23,6 +24,15 @@ namespace DatabaseOperations.Operations.DesktopChangerBuissiness
                     file_type = "Image",
                     isSuccessfull = isSuccessfull
                 };
+                try
+                {
+
+                }
+                catch (InvalidOperationException)
+                {
+
+                    MessageBox.Show("Invalid Db parameters. Please try again!");
+                }
                 context.Operation_Info.Add(deskChangerInfo);
                 context.SaveChanges();
                 Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
