@@ -22,6 +22,9 @@
         <AssociationConnector Association="GNAModel.FK_Operation_Types_Operation_Info" ManuallyRouted="false" />
         <AssociationConnector Association="GNAModel.FK_UserUserPasswordManager" ManuallyRouted="false" />
         <AssociationConnector Association="GNAModel.User_Operation_Info" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GNAModel.ChatMessages" Width="1.5" PointX="7.125" PointY="10.625" />
+        <AssociationConnector Association="GNAModel.fk_reciever_user1" />
+        <AssociationConnector Association="GNAModel.fk_sender_user1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

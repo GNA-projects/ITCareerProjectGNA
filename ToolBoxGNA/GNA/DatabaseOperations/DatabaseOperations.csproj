@@ -104,6 +104,9 @@
     <Compile Include="Model\Chat.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\ChatMessages.cs">
+      <DependentUpon>DbModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\Chat_Info.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
@@ -140,6 +143,7 @@
     <Compile Include="Model\Users.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Operations\ChatBuissness\ChatServices.cs" />
     <Compile Include="Operations\ConvertorBuissness\ConvertorDbService.cs" />
     <Compile Include="Operations\DesktopChangerBuissiness\DesktopChnagerDbService.cs" />
     <Compile Include="Operations\FileManagerBuisseness\FileDatabaseServices.cs" />

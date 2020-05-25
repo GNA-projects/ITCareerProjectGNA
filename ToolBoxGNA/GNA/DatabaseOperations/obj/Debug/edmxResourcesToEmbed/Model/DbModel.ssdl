@@ -17,6 +17,17 @@
     <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="message" Type="varchar" MaxLength="60" Nullable="false" />
   </EntityType>
+  <EntityType Name="ChatMessages">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sender_id" Type="int" Nullable="false" />
+    <Property Name="reciever_id" Type="int" Nullable="false" />
+    <Property Name="Time" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Message" Type="varchar" MaxLength="45" />
+    <Property Name="read" Type="int" />
+  </EntityType>
   <EntityType Name="EncryptorEngine">
     <Key>
       <PropertyRef Name="id" />
@@ -183,6 +194,30 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="fk_reciever_user">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatMessages">
+        <PropertyRef Name="reciever_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_sender_user">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatMessages">
+        <PropertyRef Name="sender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="fk_user_id_users_id">
     <End Role="Users" Type="Self.Users" Multiplicity="1">
       <OnDelete Action="Cascade" />
@@ -228,6 +263,7 @@
   <EntityContainer Name="GNAModelStoreContainer">
     <EntitySet Name="Chat" EntityType="Self.Chat" Schema="POs3de1PII" store:Type="Tables" />
     <EntitySet Name="Chat_Info" EntityType="Self.Chat_Info" Schema="POs3de1PII" store:Type="Tables" />
+    <EntitySet Name="ChatMessages" EntityType="Self.ChatMessages" Schema="POs3de1PII" store:Type="Tables" />
     <EntitySet Name="EncryptorEngine" EntityType="Self.EncryptorEngine" Schema="POs3de1PII" store:Type="Tables" />
     <EntitySet Name="Operation_Ids" EntityType="Self.Operation_Ids" Schema="POs3de1PII" store:Type="Tables" />
     <EntitySet Name="Operation_Info" EntityType="Self.Operation_Info" Schema="POs3de1PII" store:Type="Tables" />
@@ -262,6 +298,14 @@
     <AssociationSet Name="FK_Operation_Types_Operation_Info" Association="Self.FK_Operation_Types_Operation_Info">
       <End Role="Operation_Types" EntitySet="Operation_Types" />
       <End Role="Operation_Info" EntitySet="Operation_Info" />
+    </AssociationSet>
+    <AssociationSet Name="fk_reciever_user" Association="Self.fk_reciever_user">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatMessages" EntitySet="ChatMessages" />
+    </AssociationSet>
+    <AssociationSet Name="fk_sender_user" Association="Self.fk_sender_user">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatMessages" EntitySet="ChatMessages" />
     </AssociationSet>
     <AssociationSet Name="fk_user_id_users_id" Association="Self.fk_user_id_users_id">
       <End Role="Users" EntitySet="Users" />
