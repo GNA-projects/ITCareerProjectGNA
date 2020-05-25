@@ -40,6 +40,9 @@
 			// 
 			// richTextBox1
 			// 
+			this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
+			this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.richTextBox1.ForeColor = System.Drawing.Color.White;
 			this.richTextBox1.Location = new System.Drawing.Point(154, 52);
 			this.richTextBox1.Name = "richTextBox1";
 			this.richTextBox1.Size = new System.Drawing.Size(376, 316);
@@ -50,11 +53,13 @@
 			// 
 			this.TbMessage.Location = new System.Drawing.Point(154, 386);
 			this.TbMessage.Name = "TbMessage";
-			this.TbMessage.Size = new System.Drawing.Size(265, 20);
+			this.TbMessage.Size = new System.Drawing.Size(295, 20);
 			this.TbMessage.TabIndex = 1;
 			// 
 			// BtnSend
 			// 
+			this.BtnSend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.BtnSend.ForeColor = System.Drawing.Color.White;
 			this.BtnSend.Location = new System.Drawing.Point(455, 384);
 			this.BtnSend.Name = "BtnSend";
 			this.BtnSend.Size = new System.Drawing.Size(75, 23);
@@ -65,10 +70,14 @@
 			// 
 			// LbUsers
 			// 
+			this.LbUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
+			this.LbUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.LbUsers.ForeColor = System.Drawing.Color.White;
 			this.LbUsers.FormattingEnabled = true;
+			this.LbUsers.ItemHeight = 16;
 			this.LbUsers.Location = new System.Drawing.Point(13, 52);
 			this.LbUsers.Name = "LbUsers";
-			this.LbUsers.Size = new System.Drawing.Size(120, 355);
+			this.LbUsers.Size = new System.Drawing.Size(120, 340);
 			this.LbUsers.TabIndex = 3;
 			// 
 			// label1

@@ -39,7 +39,7 @@
 			this.PanelLogin = new System.Windows.Forms.Panel();
 			this.PanelRegister = new System.Windows.Forms.Panel();
 			this.ButtonRegister = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
+			this.LblError = new System.Windows.Forms.Label();
 			this.PanelUsername.SuspendLayout();
 			this.PanelPassword.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PictureAvatar)).BeginInit();
@@ -165,14 +165,16 @@
 			this.ButtonRegister.UseVisualStyleBackColor = true;
 			this.ButtonRegister.Click += new System.EventHandler(this.ButtonRegister_Click);
 			// 
-			// label1
+			// LblError
 			// 
-			this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-			this.label1.Location = new System.Drawing.Point(0, 394);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(330, 52);
-			this.label1.TabIndex = 11;
+			this.LblError.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.LblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+			this.LblError.ForeColor = System.Drawing.Color.Gray;
+			this.LblError.Location = new System.Drawing.Point(0, 394);
+			this.LblError.Name = "LblError";
+			this.LblError.Size = new System.Drawing.Size(330, 52);
+			this.LblError.TabIndex = 11;
+			this.LblError.Text = "Welcome...";
 			// 
 			// LoginForm
 			// 
@@ -185,12 +187,12 @@
 			this.Controls.Add(this.PanelPassword);
 			this.Controls.Add(this.PanelUsername);
 			this.Controls.Add(this.PanelRegister);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.LblError);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(3);
 			this.Name = "LoginForm";
 			this.Text = "Form1";
-			this.Controls.SetChildIndex(this.label1, 0);
+			this.Controls.SetChildIndex(this.LblError, 0);
 			this.Controls.SetChildIndex(this.PanelRegister, 0);
 			this.Controls.SetChildIndex(this.PanelUsername, 0);
 			this.Controls.SetChildIndex(this.PanelPassword, 0);
@@ -219,7 +221,7 @@
         private System.Windows.Forms.Panel PanelLogin;
         private System.Windows.Forms.Panel PanelRegister;
         private System.Windows.Forms.Button ButtonRegister;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label LblError;
 	}
 }
 
