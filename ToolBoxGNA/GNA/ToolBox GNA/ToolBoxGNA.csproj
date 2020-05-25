@@ -231,6 +231,9 @@
     <EmbeddedResource Include="View\CustomControls\Tabs\TabSafeZone.resx">
       <DependentUpon>TabSafeZone.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomControls\Tabs\TabSupport.resx">
+      <DependentUpon>TabSupport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CustomControls\Tabs\TabTempDeleter.resx">
       <DependentUpon>TabTempDeleter.cs</DependentUpon>
     </EmbeddedResource>

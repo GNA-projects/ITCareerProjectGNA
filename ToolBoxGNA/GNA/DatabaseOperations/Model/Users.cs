@@ -23,6 +23,8 @@ namespace DatabaseOperations.Model
             this.EncryptorEngine = new HashSet<EncryptorEngine>();
             this.UserPasswordManager = new HashSet<UserPasswordManager>();
             this.Operation_Info = new HashSet<Operation_Info>();
+            this.ChatMessages = new HashSet<ChatMessages>();
+            this.ChatMessages1 = new HashSet<ChatMessages>();
         }
     
         public int id { get; set; }
@@ -45,5 +47,9 @@ namespace DatabaseOperations.Model
         public virtual ICollection<UserPasswordManager> UserPasswordManager { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Operation_Info> Operation_Info { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ChatMessages> ChatMessages { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ChatMessages> ChatMessages1 { get; set; }
     }
 }

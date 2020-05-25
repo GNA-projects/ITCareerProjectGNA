@@ -94,5 +94,17 @@
         <ScalarProperty Name="id" ColumnName="user_Id" />
       </EndProperty>
     </AssociationSetMapping>
+    <EntitySetMapping Name="ChatMessages">
+      <EntityTypeMapping TypeName="GNAModel.ChatMessages">
+        <MappingFragment StoreEntitySet="ChatMessages">
+          <ScalarProperty Name="read" ColumnName="read" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="reciever_id" ColumnName="reciever_id" />
+          <ScalarProperty Name="sender_id" ColumnName="sender_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

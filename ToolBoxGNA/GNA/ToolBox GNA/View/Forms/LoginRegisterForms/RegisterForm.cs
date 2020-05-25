@@ -26,20 +26,20 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
             try
             {
                 RegisterService.RegisterUser(TextBoxUsername.Text, TextBoxPassword.Text);
+                this.Hide();
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
             }
             catch (DbUpdateException)
             {
-                MessageBox.Show("Username taken! Choose another username", "Taken username!", 
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LabelMessage.Text = "Username taken! Choose another username";
             }
             catch (DbEntityValidationException)
             {
                 MessageBox.Show("Username or password is too long. Please choose a smaller username or password", "Too long credentials!", 
                                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            this.Hide();
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
+            
         }
     }
 }

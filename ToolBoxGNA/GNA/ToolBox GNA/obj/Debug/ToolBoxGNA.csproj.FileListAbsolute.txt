@@ -514,3 +514,4 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\Renci.SshNet.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\K4os.Compression.LZ4.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSupport.resources
