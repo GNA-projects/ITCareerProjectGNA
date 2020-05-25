@@ -177,7 +177,6 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Databas
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Memory.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CoreCompileInputs.cache
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CopyComplete
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll
