@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DatabaseOperations.Operations.ConvertorBuissness
 {
@@ -22,6 +23,8 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                     file_type = "Document",
                     isSuccessfull = isSuccsessful,
                 };
+                try
+                {
 
                 context.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
@@ -30,6 +33,12 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == docConvInfo.id).Users.Add(user);
                 user.last_operation_id = 10;
                 context.SaveChanges();
+                }
+                catch (InvalidOperationException)
+                {
+
+                    MessageBox.Show("Invalid Db parameters. Please try again!");
+                }
             }
 
 
@@ -47,7 +56,15 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                     file_type = "Image",
                     isSuccessfull = isSuccsessful,
                 };
+                try
+                {
 
+                }
+                catch (InvalidOperationException)
+                {
+
+                    MessageBox.Show("Invalid Db parameters. Please try again!");
+                }
                 context.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
 

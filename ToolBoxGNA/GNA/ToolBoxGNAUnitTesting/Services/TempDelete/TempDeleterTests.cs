@@ -1,11 +1,14 @@
 ﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Reflection;
-using NUnit.Framework.Internal;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using TempDeleter;
 
-namespace TempDeleter.Tests
+namespace ToolBoxGNAUnitTesting.Services.TempDelete
 {
     [TestFixture()]
     public class TempFileDeleterServiceTests
@@ -37,7 +40,7 @@ namespace TempDeleter.Tests
             FieldInfo[] fields = typeof(TempFileDeleterService).GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
             FieldInfo sb = fields.FirstOrDefault(x => x.Name == "sb");
             sb.SetValue(service, new StringBuilder(text));
-            
+
             service.Reset();
             Assert.IsEmpty(sb.GetValue(service).ToString());
         }
@@ -109,7 +112,7 @@ namespace TempDeleter.Tests
 
 
         [TestCase(@"C:\Users\Admin\Desktop\TestFolderReadOnly")]
-        public void TempFileRemover_ReturnsCorrectOutputAndCountWhenCantDelete (string path)
+        public void TempFileRemover_ReturnsCorrectOutputAndCountWhenCantDelete(string path)
         {
             TempFileDeleterService service = new TempFileDeleterService();
             FieldInfo[] fields = typeof(TempFileDeleterService).GetFields(BindingFlags.Instance | BindingFlags.NonPublic);

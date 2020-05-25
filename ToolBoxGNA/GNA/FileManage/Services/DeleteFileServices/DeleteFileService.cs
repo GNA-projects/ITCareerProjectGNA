@@ -127,6 +127,7 @@ namespace FileSearcherDemo.Services.DeleteFileServices
             specificDeleteFileDialog = new OpenFileDialog();
             specificDeleteFileDialog.Multiselect = true;
             specificDeleteFileDialog.InitialDirectory = deleteFileDialog.SelectedPath;
+            specificDeleteFileDialog.ShowDialog();
         }
         private void SetListWithSpecificFiles()
         {

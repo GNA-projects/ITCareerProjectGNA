@@ -12,13 +12,13 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass
      This class is a service that is used for saving files that are found from the SearchFileService*/
     public abstract class CopyFileServiceAbstract : ICopyFileService
     {
+        bool isCompleted = false;
         public void Copy(string[] files, SearchFileBindingModel searchFileBindingModel)
         {
             //Uses string[] files to get all the files from a specific directory.
             //Uses SearchFileBindingModel to get specific information from the binding model and set some properties.
 
             //isCompleted checks if the work has been done corretly and succesfully
-            bool isCompleted = false;
             foreach (var file in files)
             {
                 //Gets the paths and the names of the files in a directory that the user has entered to search files in strings
@@ -56,7 +56,7 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass
                         }
                         else
                         {
-                            MessageBox.Show("File already overwrited!", "File exists!", MessageBoxButtons.OK, 
+                            MessageBox.Show("File already overwrited!", "File exists!", MessageBoxButtons.OK,
                                 MessageBoxIcon.Warning,
                                 0, MessageBoxOptions.DefaultDesktopOnly);
 
@@ -68,8 +68,8 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass
                     }
                     else
                     {
-                        MessageBox.Show("Existing file was not overwrited!", "Fail overwriting", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error, 0, 
+                        MessageBox.Show("Existing file was not overwrited!", "Fail overwriting",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                             MessageBoxOptions.DefaultDesktopOnly);
                     }
 
@@ -87,7 +87,7 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass
                     catch (FileNotFoundException)
                     {
                         isCompleted = false;
-                        MessageBox.Show("Don't change the directory of the found files! Files failed to save", "Failed saving", 
+                        MessageBox.Show("Don't change the directory of the found files! Files failed to save", "Failed saving",
                             MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                             MessageBoxOptions.DefaultDesktopOnly);
                     }
@@ -97,7 +97,7 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileAbstractClass
             //If everything is completed successfully, the user gets this text.
             if (isCompleted == true)
             {
-                MessageBox.Show("Files saved successfully!", "Files Saved", 
+                MessageBox.Show("Files saved successfully!", "Files Saved",
                                 MessageBoxButtons.OK, MessageBoxIcon.None, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
             }

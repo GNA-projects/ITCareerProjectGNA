@@ -65,27 +65,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControllerG\Convertor\Convertor.cs" />
-    <Compile Include="ControllerG\Convertor\Entities\WordToPDF.cs" />
-    <Compile Include="ControllerG\Convertor\ViewModels\GetFilePathViewModel\GetFilePathViewModel.cs" />
-    <Compile Include="ControllerG\Convertor\ViewModels\GetFilePathViewModel\IGetFilePathViewModel.cs" />
-    <Compile Include="ControllerG\Convertor\Services\ImageToPNGService\IimageConvertServie.cs" />
-    <Compile Include="ControllerG\Convertor\Services\ImageToPNGService\ImageToPNGService.cs" />
-    <Compile Include="ControllerG\Convertor\ViewModels\SetDestPathViewModel\SetDestPathViewModel.cs" />
-    <Compile Include="ControllerG\Convertor\Services\WordToPDFConvertorService\IWordToPDFConvertorService.cs" />
-    <Compile Include="ControllerG\Convertor\Services\WordToPDFConvertorService\DocumentConvertorService.cs" />
-    <Compile Include="ControllerG\Convertor\ViewModels\SetDestPathViewModel\ISetDestPathViewModel.cs" />
-    <Compile Include="ControllerG\Convertor\Views\Form1.cs">
+    <Compile Include="Convertor\Convertor.cs" />
+    <Compile Include="Convertor\Entities\WordToPDF.cs" />
+    <Compile Include="Convertor\ViewModels\GetFilePathViewModel\GetFilePathViewModel.cs" />
+    <Compile Include="Convertor\ViewModels\GetFilePathViewModel\IGetFilePathViewModel.cs" />
+    <Compile Include="Convertor\Services\ImageToPNGService\IimageConvertServie.cs" />
+    <Compile Include="Convertor\Services\ImageToPNGService\ImageToPNGService.cs" />
+    <Compile Include="Convertor\ViewModels\SetDestPathViewModel\SetDestPathViewModel.cs" />
+    <Compile Include="Convertor\Services\WordToPDFConvertorService\IWordToPDFConvertorService.cs" />
+    <Compile Include="Convertor\Services\WordToPDFConvertorService\DocumentConvertorService.cs" />
+    <Compile Include="Convertor\ViewModels\SetDestPathViewModel\ISetDestPathViewModel.cs" />
+    <Compile Include="Convertor\Views\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ControllerG\Convertor\Views\Form1.Designer.cs">
+    <Compile Include="Convertor\Views\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ControllerG\Convertor\Entities\Interfaces\IModel.cs" />
-    <Compile Include="ControllerG\Convertor\Entities\ImageToPNG.cs" />
+    <Compile Include="Convertor\Entities\Interfaces\IModel.cs" />
+    <Compile Include="Convertor\Entities\ImageToPNG.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ControllerG\Convertor\Views\Form1.resx">
+    <EmbeddedResource Include="Convertor\Views\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -117,5 +117,6 @@
       <Name>DatabaseOperations</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,12 +9,12 @@ namespace FileSearcherDemo.Services.RenameFileService
     /*this class is a service that is used to rename the files found in a specific directory given by the user*/
     public class RenamerFileService : IRenameFileService
     {
+        bool isRenamed = false;
         public void Rename(RenameFileBindingModel renameFileBindingModel)
         {
             //Uses RenameFileBindingModel to get specific information from the binding model and set some properties.
 
             //isRenamed checks if the work has been done correctly and succesfully
-            bool isRenamed = false;
             //strings that gets the name of the choosen file and get the new name for it
             string fileName = Path.GetFileName(renameFileBindingModel.FileName);
             string newName = renameFileBindingModel.NewName;
@@ -62,7 +62,7 @@ namespace FileSearcherDemo.Services.RenameFileService
                         else
                         {
                             FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
-                            MessageBox.Show("File already overwrited!", "File exists!", 
+                            MessageBox.Show("File already overwrited!", "File exists!",
                                 MessageBoxButtons.OK, MessageBoxIcon.Warning, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
                             return;
@@ -76,7 +76,7 @@ namespace FileSearcherDemo.Services.RenameFileService
                     else
                     {
                         FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", overwriteDestFile, "File", false);
-                        MessageBox.Show("Existing file was not renamed!", "Failed renaming", 
+                        MessageBox.Show("Existing file was not renamed!", "Failed renaming",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
                         return;
@@ -96,15 +96,15 @@ namespace FileSearcherDemo.Services.RenameFileService
             {
                 FileDatabaseServices.AddRenameOperation("Unsuccessfull operation", "None", "File", false);
                 isRenamed = false;
-                MessageBox.Show("File opened! \nPlease, close the file to proceed!", "Running process", 
+                MessageBox.Show("File opened! \nPlease, close the file to proceed!", "Running process",
                                 MessageBoxButtons.OK, MessageBoxIcon.Error, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
             }
             //If everything is completed successfully, the user gets this text.
             if (isRenamed == true)
             {
-                MessageBox.Show($"File renamed as {newName + Path.GetExtension(fileName)}", "File Renamed", 
-                                MessageBoxButtons.OK, MessageBoxIcon.None,0,
+                MessageBox.Show($"File renamed as {newName + Path.GetExtension(fileName)}", "File Renamed",
+                                MessageBoxButtons.OK, MessageBoxIcon.None, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
             }
 

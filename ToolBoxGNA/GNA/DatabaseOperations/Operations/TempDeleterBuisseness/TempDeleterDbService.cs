@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Forms;
 
 namespace DatabaseOperations.Operations.TempDeleterBuisseness
 {
@@ -26,13 +26,21 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
+                    try
+                    {
 
-                    context.Operation_Info.Add(tempInfo);
-                    context.SaveChangesAsync();
-                    Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
-                    context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == tempInfo.id);
-                    user.last_operation_id = 7;
-                    context.SaveChanges();
+                        context.Operation_Info.Add(tempInfo);
+                        context.SaveChangesAsync();
+                        Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
+                        context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == tempInfo.id);
+                        user.last_operation_id = 7;
+                        context.SaveChanges();
+                    }
+                    catch (InvalidOperationException)
+                    {
+
+                        MessageBox.Show("Invalid Db parameters. Please try again!");
+                    }
                 }
                 else
                 {
@@ -46,16 +54,22 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
+                    try
+                    {
 
-                    context.Operation_Info.Add(tempInfo);
-                    context.SaveChangesAsync();
-                    Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
-                    context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == tempInfo.id);
-                    user.last_operation_id = 7;
-                    context.SaveChanges();
+                        context.Operation_Info.Add(tempInfo);
+                        context.SaveChangesAsync();
+                        Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
+                        context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == tempInfo.id);
+                        user.last_operation_id = 7;
+                        context.SaveChanges();
+                    }
+                    catch (InvalidOperationException)
+                    {
+
+                        MessageBox.Show("Invalid Db parameters. Please try again!");
+                    }
                 }
-
-
             }
         }
     }

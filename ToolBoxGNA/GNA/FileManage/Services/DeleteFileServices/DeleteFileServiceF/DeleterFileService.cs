@@ -8,13 +8,13 @@ namespace FileSearcherDemo.Services.DeleteFileServices.DeleteFileServiceF
     /*this class is a service that is used to copy the files found in a specific directory given by the user*/
     public class DeleterFileService : IDelete
     {
+        bool isDeleted = false;
         public void Delete(string[] files, DeleteFileBindingModel deleteFileBindingModel)
         {
             //Uses string[] files to get all the files from a specific directory.
             //Uses DeleteFileBindingModel to get specific information from the binding model and set some properties.
 
             //isDeleted checks if the work has been done corretly and succesfully
-            bool isDeleted = false;
             //Throws exeption if a file that should be deleted is opened while the service is trying to delete the files.
             try
             {

@@ -11,13 +11,13 @@ namespace FileSearcherDemo.Services.CopyFileServices.CopyFileServiceF
     /*this class is a service that is used to copy the files found in a specific directory given by the user*/
     public class CopierFileService : CopyFileServiceAbstract
     {
+        bool isCompleted = false;
         public override void Copy(string[] files, CopyFileBindingModel copyFileBindingModel)
         {
             //Uses string[] files to get all the files from a specific directory.
             //Uses CopyFileBindingModel to get specific information from the binding model and set some properties.
 
             //isCompleted checks if the work has been done correctly and succesfully
-            bool isCompleted = false;
             foreach (var file in files)
             {
                 //Gets the paths and the names of the files in a directory that the user has entered to search files in strings
