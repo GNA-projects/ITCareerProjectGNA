@@ -86,6 +86,8 @@ namespace ConverterDemo.Services
                     if (outpath == string.Join("\\", path))
                     {
                         isDone = true;
+                        ConvertorDbService.AddDocConvert(wordFile.Name.Replace(".doc", ".pdf"), outpath, true);
+
                     }
                     else
                     {
