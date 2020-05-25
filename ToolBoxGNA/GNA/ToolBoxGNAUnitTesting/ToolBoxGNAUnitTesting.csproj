@@ -40,35 +40,74 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ToolBox GNA\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\ToolBox GNA\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.2.1.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.2.1.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ToolBox GNA\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ToolBox GNA\bin\Debug\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Convertor\DocumentConvertTest.cs" />
+    <Compile Include="Services\Convertor\ImageConvertTests.cs" />
     <Compile Include="Services\FileManager\FileManagerTests.cs" />
     <Compile Include="Services\PasswordManager\PasswordManagerTests.cs" />
+    <Compile Include="Services\TempDelete\TempDeleterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\Convertor\" />
+    <Folder Include="Services\DesktopChanger\" />
     <Folder Include="Services\SafeZone\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Components\Convertor\Converter.csproj">
+      <Project>{7E11F18A-04D6-4CC8-A23F-9D6593B4FF0A}</Project>
+      <Name>Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\DesktopChanger\DesktopChangerDemo.csproj">
+      <Project>{587ebe82-544c-469a-a653-0709bcf20866}</Project>
+      <Name>DesktopChangerDemo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Components\PasswordManager\PasswordManager.csproj">
       <Project>{F81CDBE1-BEE9-4F1E-90AB-139D090029DA}</Project>
       <Name>PasswordManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\SafeZone\SafeZone.csproj">
+      <Project>{09a2081b-fe9a-4422-8c4e-f15204b06361}</Project>
+      <Name>SafeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\TempDeleter\TempDeleter.csproj">
+      <Project>{b3c6b244-47cb-4729-baa2-bc9e052ae839}</Project>
+      <Name>TempDeleter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
+      <Project>{32f0b259-4ecf-4736-9a4f-5477bd148e62}</Project>
+      <Name>DatabaseOperations</Name>
     </ProjectReference>
     <ProjectReference Include="..\FileManage\FileManage.csproj">
       <Project>{E42FA2A2-2261-42D1-97FA-A09302499253}</Project>
