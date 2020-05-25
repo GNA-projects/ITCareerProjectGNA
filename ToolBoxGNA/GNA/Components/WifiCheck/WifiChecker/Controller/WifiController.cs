@@ -17,6 +17,7 @@ namespace ToolBox_GNA.Controller.WifiChecker.Controller
 			}
 			catch (Exception ex)
 			{
+				//if there is no wifi exception is thrown
 				return new List<string>() { ex.Message };
 			}
 		}

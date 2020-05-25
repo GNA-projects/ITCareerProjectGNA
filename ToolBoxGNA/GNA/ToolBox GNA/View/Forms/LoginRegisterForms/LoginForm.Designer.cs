@@ -39,13 +39,15 @@
 			this.PanelLogin = new System.Windows.Forms.Panel();
 			this.PanelRegister = new System.Windows.Forms.Panel();
 			this.ButtonRegister = new System.Windows.Forms.Button();
-			this.LblError = new System.Windows.Forms.Label();
+			this.PanelMessage = new System.Windows.Forms.Panel();
+			this.LabelMessage = new System.Windows.Forms.Label();
 			this.PanelUsername.SuspendLayout();
 			this.PanelPassword.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PictureAvatar)).BeginInit();
 			this.PanelAvatar.SuspendLayout();
 			this.PanelLogin.SuspendLayout();
 			this.PanelRegister.SuspendLayout();
+			this.PanelMessage.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// TextBoxPassword
@@ -53,7 +55,7 @@
 			this.TextBoxPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
 			this.TextBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.TextBoxPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
 			this.TextBoxPassword.ForeColor = System.Drawing.Color.Gray;
 			this.TextBoxPassword.Hint = "Password";
 			this.TextBoxPassword.Location = new System.Drawing.Point(0, 7);
@@ -67,7 +69,7 @@
 			// PanelUsername
 			// 
 			this.PanelUsername.Controls.Add(this.TextBoxUsername);
-			this.PanelUsername.Location = new System.Drawing.Point(0, 155);
+			this.PanelUsername.Location = new System.Drawing.Point(3, 244);
 			this.PanelUsername.Margin = new System.Windows.Forms.Padding(2);
 			this.PanelUsername.Name = "PanelUsername";
 			this.PanelUsername.Size = new System.Drawing.Size(330, 53);
@@ -78,7 +80,7 @@
 			this.TextBoxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
 			this.TextBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.TextBoxUsername.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
 			this.TextBoxUsername.ForeColor = System.Drawing.Color.Gray;
 			this.TextBoxUsername.Hint = "Username";
 			this.TextBoxUsername.Location = new System.Drawing.Point(0, 7);
@@ -92,7 +94,7 @@
 			// PanelPassword
 			// 
 			this.PanelPassword.Controls.Add(this.TextBoxPassword);
-			this.PanelPassword.Location = new System.Drawing.Point(0, 212);
+			this.PanelPassword.Location = new System.Drawing.Point(3, 301);
 			this.PanelPassword.Margin = new System.Windows.Forms.Padding(2);
 			this.PanelPassword.Name = "PanelPassword";
 			this.PanelPassword.Size = new System.Drawing.Size(330, 53);
@@ -136,7 +138,7 @@
 			// 
 			this.PanelLogin.Controls.Add(this.ButtonLogin);
 			this.PanelLogin.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.PanelLogin.Location = new System.Drawing.Point(0, 277);
+			this.PanelLogin.Location = new System.Drawing.Point(0, 408);
 			this.PanelLogin.Name = "PanelLogin";
 			this.PanelLogin.Size = new System.Drawing.Size(330, 79);
 			this.PanelLogin.TabIndex = 9;
@@ -145,7 +147,7 @@
 			// 
 			this.PanelRegister.Controls.Add(this.ButtonRegister);
 			this.PanelRegister.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.PanelRegister.Location = new System.Drawing.Point(0, 356);
+			this.PanelRegister.Location = new System.Drawing.Point(0, 487);
 			this.PanelRegister.Name = "PanelRegister";
 			this.PanelRegister.Size = new System.Drawing.Size(330, 38);
 			this.PanelRegister.TabIndex = 10;
@@ -165,39 +167,49 @@
 			this.ButtonRegister.UseVisualStyleBackColor = true;
 			this.ButtonRegister.Click += new System.EventHandler(this.ButtonRegister_Click);
 			// 
-			// LblError
+			// PanelMessage
 			// 
-			this.LblError.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.LblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-			this.LblError.ForeColor = System.Drawing.Color.Gray;
-			this.LblError.Location = new System.Drawing.Point(0, 394);
-			this.LblError.Name = "LblError";
-			this.LblError.Size = new System.Drawing.Size(330, 52);
-			this.LblError.TabIndex = 11;
-			this.LblError.Text = "Welcome...";
+			this.PanelMessage.Controls.Add(this.LabelMessage);
+			this.PanelMessage.Location = new System.Drawing.Point(3, 139);
+			this.PanelMessage.Name = "PanelMessage";
+			this.PanelMessage.Size = new System.Drawing.Size(330, 72);
+			this.PanelMessage.TabIndex = 12;
+			// 
+			// LabelMessage
+			// 
+			this.LabelMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.LabelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+			this.LabelMessage.ForeColor = System.Drawing.Color.White;
+			this.LabelMessage.Location = new System.Drawing.Point(0, 0);
+			this.LabelMessage.Name = "LabelMessage";
+			this.LabelMessage.Size = new System.Drawing.Size(330, 72);
+			this.LabelMessage.TabIndex = 0;
+			this.LabelMessage.Text = "Let\'s Get Started...";
+			this.LabelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// LoginForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
-			this.ClientSize = new System.Drawing.Size(330, 446);
+			this.ClientSize = new System.Drawing.Size(330, 525);
+			this.Controls.Add(this.PanelMessage);
 			this.Controls.Add(this.PanelLogin);
 			this.Controls.Add(this.PanelAvatar);
 			this.Controls.Add(this.PanelPassword);
 			this.Controls.Add(this.PanelUsername);
 			this.Controls.Add(this.PanelRegister);
-			this.Controls.Add(this.LblError);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(3);
 			this.Name = "LoginForm";
 			this.Text = "Form1";
-			this.Controls.SetChildIndex(this.LblError, 0);
+			this.Load += new System.EventHandler(this.LoginForm_Load);
 			this.Controls.SetChildIndex(this.PanelRegister, 0);
 			this.Controls.SetChildIndex(this.PanelUsername, 0);
 			this.Controls.SetChildIndex(this.PanelPassword, 0);
 			this.Controls.SetChildIndex(this.PanelAvatar, 0);
 			this.Controls.SetChildIndex(this.PanelLogin, 0);
+			this.Controls.SetChildIndex(this.PanelMessage, 0);
 			this.PanelUsername.ResumeLayout(false);
 			this.PanelUsername.PerformLayout();
 			this.PanelPassword.ResumeLayout(false);
@@ -206,6 +218,7 @@
 			this.PanelAvatar.ResumeLayout(false);
 			this.PanelLogin.ResumeLayout(false);
 			this.PanelRegister.ResumeLayout(false);
+			this.PanelMessage.ResumeLayout(false);
 			this.ResumeLayout(false);
 
         }
@@ -221,7 +234,8 @@
         private System.Windows.Forms.Panel PanelLogin;
         private System.Windows.Forms.Panel PanelRegister;
         private System.Windows.Forms.Button ButtonRegister;
-		private System.Windows.Forms.Label LblError;
+		private System.Windows.Forms.Panel PanelMessage;
+		private System.Windows.Forms.Label LabelMessage;
 	}
 }
 

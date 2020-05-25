@@ -14,10 +14,12 @@ namespace ToolBox_GNA.Controller.WifiChecker.Services
 		{
 			List<string> ssids = new List<string>();
 
+			//Making a WlanClient object
 			WlanClient client = new WlanClient();
 
 			if (client.NoWifiAvailable == true) throw new Exception("No WiFi Available");
 
+			//Getting the current connection name
 			foreach (WlanInterface wlanInterface in client.Interfaces)
 			{
 				Dot11Ssid ssid = wlanInterface.CurrentConnection.wlanAssociationAttributes.dot11Ssid;

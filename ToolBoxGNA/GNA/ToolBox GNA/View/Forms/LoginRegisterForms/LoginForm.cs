@@ -43,8 +43,13 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
             }
             else
             {
-                LblError.Text = "Username or password is wrong! Please enter the correct credentials!";
+                LabelMessage.Text = "Username or password is wrong! Please enter the correct credentials!";
             }
         }
-    }
+
+		private void LoginForm_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

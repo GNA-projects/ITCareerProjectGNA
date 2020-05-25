@@ -39,7 +39,6 @@
 			this.ButtonRegister = new System.Windows.Forms.Button();
 			this.PanelMessage = new System.Windows.Forms.Panel();
 			this.LabelMessage = new System.Windows.Forms.Label();
-			this.LblError = new System.Windows.Forms.Label();
 			this.PanelAvatar.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PictureAvatar)).BeginInit();
 			this.PanelPassword.SuspendLayout();
@@ -70,7 +69,7 @@
 			// PanelPassword
 			// 
 			this.PanelPassword.Controls.Add(this.TextBoxPassword);
-			this.PanelPassword.Location = new System.Drawing.Point(0, 275);
+			this.PanelPassword.Location = new System.Drawing.Point(0, 313);
 			this.PanelPassword.Margin = new System.Windows.Forms.Padding(2);
 			this.PanelPassword.Name = "PanelPassword";
 			this.PanelPassword.Size = new System.Drawing.Size(330, 53);
@@ -81,7 +80,7 @@
 			this.TextBoxPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
 			this.TextBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.TextBoxPassword.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
 			this.TextBoxPassword.ForeColor = System.Drawing.Color.Gray;
 			this.TextBoxPassword.Hint = "Password";
 			this.TextBoxPassword.Location = new System.Drawing.Point(0, 7);
@@ -95,7 +94,7 @@
 			// PanelUsername
 			// 
 			this.PanelUsername.Controls.Add(this.TextBoxUsername);
-			this.PanelUsername.Location = new System.Drawing.Point(0, 218);
+			this.PanelUsername.Location = new System.Drawing.Point(0, 256);
 			this.PanelUsername.Margin = new System.Windows.Forms.Padding(2);
 			this.PanelUsername.Name = "PanelUsername";
 			this.PanelUsername.Size = new System.Drawing.Size(330, 53);
@@ -106,7 +105,7 @@
 			this.TextBoxUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
 			this.TextBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.TextBoxUsername.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
 			this.TextBoxUsername.ForeColor = System.Drawing.Color.Gray;
 			this.TextBoxUsername.Hint = "Username";
 			this.TextBoxUsername.Location = new System.Drawing.Point(0, 7);
@@ -121,9 +120,9 @@
 			// 
 			this.PanelRegister.Controls.Add(this.ButtonRegister);
 			this.PanelRegister.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.PanelRegister.Location = new System.Drawing.Point(0, 333);
+			this.PanelRegister.Location = new System.Drawing.Point(0, 429);
 			this.PanelRegister.Name = "PanelRegister";
-			this.PanelRegister.Size = new System.Drawing.Size(330, 55);
+			this.PanelRegister.Size = new System.Drawing.Size(330, 84);
 			this.PanelRegister.TabIndex = 10;
 			// 
 			// ButtonRegister
@@ -135,7 +134,7 @@
 			this.ButtonRegister.ForeColor = System.Drawing.Color.Gray;
 			this.ButtonRegister.Location = new System.Drawing.Point(0, 0);
 			this.ButtonRegister.Name = "ButtonRegister";
-			this.ButtonRegister.Size = new System.Drawing.Size(330, 55);
+			this.ButtonRegister.Size = new System.Drawing.Size(330, 84);
 			this.ButtonRegister.TabIndex = 8;
 			this.ButtonRegister.Text = "Register";
 			this.ButtonRegister.UseVisualStyleBackColor = true;
@@ -146,48 +145,35 @@
 			this.PanelMessage.Controls.Add(this.LabelMessage);
 			this.PanelMessage.Location = new System.Drawing.Point(0, 139);
 			this.PanelMessage.Name = "PanelMessage";
-			this.PanelMessage.Size = new System.Drawing.Size(330, 50);
+			this.PanelMessage.Size = new System.Drawing.Size(330, 74);
 			this.PanelMessage.TabIndex = 11;
 			// 
 			// LabelMessage
 			// 
 			this.LabelMessage.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.LabelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
-			this.LabelMessage.ForeColor = System.Drawing.Color.Gray;
+			this.LabelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+			this.LabelMessage.ForeColor = System.Drawing.Color.White;
 			this.LabelMessage.Location = new System.Drawing.Point(0, 0);
 			this.LabelMessage.Name = "LabelMessage";
-			this.LabelMessage.Size = new System.Drawing.Size(330, 50);
+			this.LabelMessage.Size = new System.Drawing.Size(330, 74);
 			this.LabelMessage.TabIndex = 0;
-			this.LabelMessage.Text = "Let\'s Get Started...";
+			this.LabelMessage.Text = "Register yourself...";
 			this.LabelMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// LblError
-			// 
-			this.LblError.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.LblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-			this.LblError.ForeColor = System.Drawing.Color.Gray;
-			this.LblError.Location = new System.Drawing.Point(0, 388);
-			this.LblError.Name = "LblError";
-			this.LblError.Size = new System.Drawing.Size(330, 52);
-			this.LblError.TabIndex = 12;
-			this.LblError.Text = "Welcome...";
 			// 
 			// RegisterForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(330, 440);
+			this.ClientSize = new System.Drawing.Size(330, 513);
 			this.Controls.Add(this.PanelMessage);
 			this.Controls.Add(this.PanelRegister);
 			this.Controls.Add(this.PanelPassword);
 			this.Controls.Add(this.PanelUsername);
 			this.Controls.Add(this.PanelAvatar);
-			this.Controls.Add(this.LblError);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "RegisterForm";
 			this.Text = "RegisterForm";
-			this.Controls.SetChildIndex(this.LblError, 0);
 			this.Controls.SetChildIndex(this.PanelAvatar, 0);
 			this.Controls.SetChildIndex(this.PanelUsername, 0);
 			this.Controls.SetChildIndex(this.PanelPassword, 0);
@@ -217,6 +203,5 @@
         private System.Windows.Forms.Button ButtonRegister;
         private System.Windows.Forms.Panel PanelMessage;
         private System.Windows.Forms.Label LabelMessage;
-		private System.Windows.Forms.Label LblError;
 	}
 }

@@ -32,11 +32,11 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
             }
             catch (DbUpdateException)
             {
-                LblError.Text = "Username taken! Choose another username";
+                LabelMessage.Text = "Username taken! Choose another username.";
             }
             catch (DbEntityValidationException)
             {
-                LblError.Text = "Username or password is too long. Please choose a smaller username or password";
+                LabelMessage.Text = "Username or password is too long. Please choose a smaller username or password.";
             }
             
         }

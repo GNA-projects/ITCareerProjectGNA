@@ -21,6 +21,7 @@ namespace DatabaseOperations.Operations.ChatBuissness
 			}
 			return users;
 		}
+
 		public static void SendMessage(string message, int reciever_id)
 		{
 			using (GNAEntities context = new GNAEntities())
