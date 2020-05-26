@@ -81,7 +81,6 @@ namespace SaveZone.Services.EncryptFileService
 
 
                     { Clipboard.SetText($"Password: {password} \r\nIV: {IV}"); }
-                    SaveZoneDbService.AddEncryptFileEngine(encryptBindingModel.FileSourcePath, password, IV);
                     MessageBox.Show("Password and IV saved to clipboard!", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
                                      MessageBoxOptions.DefaultDesktopOnly);
                 }
