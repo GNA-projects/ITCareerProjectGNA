@@ -9,8 +9,7 @@ namespace DatabaseOperations
 {
     public static class CurrentUser
     {
-        public static int ID { get; set; }
-        public static string Username { get; set; }
-        public static int  lastOperation_id { get; set; }
+        public static Users user { get; set; }
+        
     }
 }

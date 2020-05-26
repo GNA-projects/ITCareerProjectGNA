@@ -14,6 +14,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info encryptInfo = new Operation_Info()
                 {
                     operation_id = 8,
@@ -27,7 +28,6 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                 context.Operation_Info.Add(encryptInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == encryptInfo.id).Users.Add(user);
                 user.last_operation_id = 8;
                 context.SaveChanges();
@@ -41,7 +41,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
 
                 EncryptorEngine encrypt = new EncryptorEngine()
                 {
-                    user_Id = CurrentUser.ID,
+                    user_Id = CurrentUser.user.id,
                     encrypted_name = fileName,
                     encrypted_password = password,
                     encrypted_IV = IV,
@@ -70,7 +70,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                 context.Operation_Info.Add(decryptInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == decryptInfo.id).Users.Add(user);
                 user.last_operation_id = 9;
                 context.SaveChanges();
@@ -82,7 +82,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
             {
                 EncryptorEngine decrypt = new EncryptorEngine()
                 {
-                    user_Id = CurrentUser.ID,
+                    user_Id = CurrentUser.user.id,
                     encrypted_password = password,
                     encrypted_IV = IV,
                     decrypted_name = fileName,

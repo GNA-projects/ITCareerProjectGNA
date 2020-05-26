@@ -26,7 +26,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(searchInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == searchInfo.id).Users.Add(user);
                 user.last_operation_id = 1;
                 context.SaveChanges();
@@ -36,6 +36,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info copyInfo = new Operation_Info()
                 {
                     operation_id = 2,
@@ -49,7 +50,6 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(copyInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == copyInfo.id).Users.Add(user);
                 user.last_operation_id = 2;
                 context.SaveChanges();
@@ -59,6 +59,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info moveInfo = new Operation_Info()
                 {
                     operation_id = 3,
@@ -72,7 +73,6 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == moveInfo.id).Users.Add(user);
                 user.last_operation_id = 3;
                 context.SaveChanges();
@@ -82,6 +82,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info deleteInfo = new Operation_Info()
                 {
                     operation_id = 4,
@@ -95,7 +96,6 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(deleteInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == deleteInfo.id).Users.Add(user);
                 user.last_operation_id = 4;
                 context.SaveChanges();
@@ -105,6 +105,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info moveInfo = new Operation_Info()
                 {
                     operation_id = 5,
@@ -118,7 +119,6 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == moveInfo.id).Users.Add(user);
                 user.last_operation_id = 5;
                 context.SaveChanges();
@@ -142,7 +142,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 context.Operation_Info.Add(renameInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == renameInfo.id).Users.Add(user);
                 user.last_operation_id = 6;
                 context.SaveChanges();

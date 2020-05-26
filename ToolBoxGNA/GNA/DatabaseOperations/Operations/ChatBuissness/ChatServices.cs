@@ -26,7 +26,7 @@ namespace DatabaseOperations.Operations.ChatBuissness
 		{
 			using (GNAEntities context = new GNAEntities())
 			{
-				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.ID);
+				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
 				ChatMessages chatMessage = new ChatMessages()
 				{
 					Time = DateTime.Now.ToString(),
@@ -45,7 +45,7 @@ namespace DatabaseOperations.Operations.ChatBuissness
 			using (GNAEntities context = new GNAEntities())
 			{
 				int id;
-				ChatMessages message = context.ChatMessages.FirstOrDefault(x => x.read == 0 && x.reciever_id == CurrentUser.ID);
+				ChatMessages message = context.ChatMessages.FirstOrDefault(x => x.read == 0 && x.reciever_id == CurrentUser.user.id);
 				if (message != null)
 				{
 					id = message.id;

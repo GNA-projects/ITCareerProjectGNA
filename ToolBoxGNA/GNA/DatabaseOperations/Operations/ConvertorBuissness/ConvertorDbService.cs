@@ -13,7 +13,7 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.ID);
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info docConvInfo = new Operation_Info()
                 {
                     operation_id = 10,
@@ -23,7 +23,7 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                     file_type = "Document",
                     isSuccessfull = isSuccsessful,
                 };
-
+                
                 user.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
             }
@@ -34,6 +34,7 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info docConvInfo = new Operation_Info()
                 {
                     operation_id = 11,
@@ -44,13 +45,10 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                     isSuccessfull = isSuccsessful,
                 };
 
-                context.Operation_Info.Add(docConvInfo);
+                user.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
 
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
-                context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == docConvInfo.id).Users.Add(user);
-                user.last_operation_id = 11;
-                context.SaveChanges();
+                
             }
 
 

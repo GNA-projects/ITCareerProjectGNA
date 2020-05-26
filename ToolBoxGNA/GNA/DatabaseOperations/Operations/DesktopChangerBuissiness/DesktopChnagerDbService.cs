@@ -14,6 +14,7 @@ namespace DatabaseOperations.Operations.DesktopChangerBuissiness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info deskChangerInfo = new Operation_Info()
                 {
                     operation_type_id = 7,
@@ -23,12 +24,9 @@ namespace DatabaseOperations.Operations.DesktopChangerBuissiness
                     file_type = "Image",
                     isSuccessfull = isSuccessfull
                 };
-                context.Operation_Info.Add(deskChangerInfo);
+                user.Operation_Info.Add(deskChangerInfo);
                 context.SaveChanges();
-                Users user = context.Users.FirstOrDefault(x => x.username == CurrentUser.Username);
-                context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == deskChangerInfo.id).Users.Add(user);
-                user.last_operation_id = 14;
-                context.SaveChanges();
+                
             }
         }
     }

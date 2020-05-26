@@ -14,7 +14,7 @@ namespace DatabaseOperations.Operations.PasswordManagerBuissiness
 		{
 			using (GNAEntities context = new GNAEntities())
 			{
-				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.ID);
+				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
 				Operation_Info operation = new Operation_Info()
 				{
 					operation_type_id = 5,

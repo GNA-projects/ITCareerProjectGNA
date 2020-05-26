@@ -17,25 +17,6 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileMan
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.dll.config
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\bin\Debug\EntityFramework.xml
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CopyComplete
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe.config
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.pdb
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\EntityFramework.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.pdb
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.dll.config
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\EntityFramework.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.Properties.Resources.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.Views.CreateFile.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.MainForm.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.Views.RenameFile.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.SearchFile.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CopyComplete
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.exe
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.pdb
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe.config
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.pdb
@@ -74,3 +55,22 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\FileMan
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CopyComplete
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.exe
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\FileManage.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.Properties.Resources.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.Views.CreateFile.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.MainForm.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.Views.RenameFile.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileSearcherDemo.SearchFile.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.csproj.CopyComplete
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.exe
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\FileManage\obj\Debug\FileManage.pdb
