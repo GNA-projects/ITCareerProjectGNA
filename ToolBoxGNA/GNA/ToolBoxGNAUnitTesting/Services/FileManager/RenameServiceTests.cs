@@ -16,7 +16,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void RenameMethodRenamesFilesCorrectlly()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             RenameFileBindingModel bindingModel = new RenameFileBindingModel();
             bindingModel.FileName = @"C:\Users\Nikih\Desktop\Resources\banan.docx";
             bindingModel.NewName = "izrod";
@@ -31,7 +31,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void RenameMethodOverwritesFilesSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             RenameFileBindingModel bindingModel = new RenameFileBindingModel();
             bindingModel.FileName = @"C:\Users\Nikih\Desktop\Resources\banan.docx";
             bindingModel.NewName = "banan";
@@ -45,7 +45,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void RenameMethodFailed()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             RenameFileBindingModel bindingModel = new RenameFileBindingModel();
             bindingModel.FileName = @"C:\Users\Nikih\Desktop\Resources\banan.docx";
             bindingModel.NewName = "ggg";

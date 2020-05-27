@@ -51,6 +51,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +81,10 @@
     <ProjectReference Include="..\Components\PasswordManager\PasswordManager.csproj">
       <Project>{F81CDBE1-BEE9-4F1E-90AB-139D090029DA}</Project>
       <Name>PasswordManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\TempDeleter\TempDeleter.csproj">
+      <Project>{B3C6B244-47CB-4729-BAA2-BC9E052AE839}</Project>
+      <Name>TempDeleter</Name>
     </ProjectReference>
     <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
       <Project>{32F0B259-4ECF-4736-9A4F-5477BD148E62}</Project>

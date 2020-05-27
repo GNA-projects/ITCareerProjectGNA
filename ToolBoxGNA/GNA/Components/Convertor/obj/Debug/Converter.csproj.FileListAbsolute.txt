@@ -113,6 +113,8 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\ConverterDemo.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\MySql.Data.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\MySql.Data.EntityFramework.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\Google.Protobuf.dll
@@ -129,6 +131,7 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\DatabaseOperations.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\MySql.Data.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\MySql.Data.EntityFramework.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csprojAssemblyReference.cache
@@ -140,7 +143,4 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\Converter.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\obj\Debug\ConverterDemo.pdb
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\Convertor\bin\Debug\EntityFramework.SqlServer.xml

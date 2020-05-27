@@ -65,7 +65,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase(@"C:\Users\Nikih\Desktop\aaa")]
         public void CopyMethodCopiesFilesSuccesfully(string destPath)
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CopyFileBindingModel bindingModel = new CopyFileBindingModel();
             bindingModel.FileSourcePath = @"C:\Users\Nikih\Desktop\Resources";
             bindingModel.FileDestPath = destPath;
@@ -89,7 +89,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
             CopierFileService copyFileService = new CopierFileService();
             string[] files = new string[] { "aaaa.pptx", "banan.docx" };
 
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             copyFileService.Copy(files, bindingModel);
 
             FileAssert.Exists(destPath + @"\Overwrite -aaaa.pptx");
@@ -100,7 +100,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase(@"C:\Users\Nikih\Desktop\aaa")]
         public void CopyMethodFailed(string destPath)
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CopyFileBindingModel bindingModel = new CopyFileBindingModel();
             bindingModel.FileSourcePath = @"C:\Users\Nikih\Desktop\Resources";
             bindingModel.FileDestPath = destPath;

@@ -426,24 +426,6 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSupport.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.Properties.Resources.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.Design.ControlDesign.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabConvertor.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabFileSearcher.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabDesktopChanger.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabHome.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabPasswordManager.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSafeZone.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSupport.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabTempDeleter.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabWifiChecker.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.DesignForms.DesignForm.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.LoginRegisterForms.LoginForm.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.LoginRegisterForms.RegisterForm.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.MainMenuForms.MainMenuForm.resources
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
@@ -514,6 +496,24 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GN
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\Renci.SshNet.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\K4os.Compression.LZ4.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.Properties.Resources.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.Design.ControlDesign.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabConvertor.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabFileSearcher.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabDesktopChanger.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabHome.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabPasswordManager.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSafeZone.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabSupport.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabTempDeleter.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.CustomControls.Tabs.TabWifiChecker.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.DesignForms.DesignForm.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.LoginRegisterForms.LoginForm.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.LoginRegisterForms.RegisterForm.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox_GNA.View.Forms.MainMenuForms.MainMenuForm.resources
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb

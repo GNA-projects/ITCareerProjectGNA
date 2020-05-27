@@ -176,6 +176,7 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOp
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Memory.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\DatabaseOperations\obj\Debug\DatabaseOperations.dll

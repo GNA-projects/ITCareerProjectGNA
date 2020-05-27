@@ -17,6 +17,25 @@ C:\Users\Nikih\Desktop\ITCareerProjectTest\SaveZone v.2\SaveZone\obj\Debug\SafeZ
 C:\Users\Nikih\Desktop\ITCareerProjectTest\SaveZone v.2\SaveZone\obj\Debug\SafeZone.csproj.CopyComplete
 C:\Users\Nikih\Desktop\ITCareerProjectTest\SaveZone v.2\SaveZone\obj\Debug\SaveZone.exe
 C:\Users\Nikih\Desktop\ITCareerProjectTest\SaveZone v.2\SaveZone\obj\Debug\SaveZone.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.api.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csprojAssemblyReference.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.CheckPassword.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.SafeZone.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.Properties.Resources.resources
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.GenerateResource.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CopyComplete
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
@@ -55,6 +74,37 @@ C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Compone
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CopyComplete
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Zstandard.Net.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
@@ -105,76 +155,56 @@ C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.api.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe.config
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Zstandard.Net.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Ubiety.Dns.Core.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll.config
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.xml
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csprojAssemblyReference.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe.config
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.CheckPassword.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.SafeZone.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.Properties.Resources.resources
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.GenerateResource.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CoreCompileInputs.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CopyComplete
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.pdb
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Zstandard.Net.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Ubiety.Dns.Core.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.pdb
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll.config
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
-C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.api.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe.config
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.pdb
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Zstandard.Net.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\BouncyCastle.Crypto.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Ubiety.Dns.Core.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.pdb
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll.config
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.pdb
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csprojAssemblyReference.cache
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.CheckPassword.resources
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.SafeZone.resources
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.Properties.Resources.resources
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.GenerateResource.cache
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CoreCompileInputs.cache
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CopyComplete
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe
+E:\GDN PROJECT TEST\Test Backup\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.engine.dll
@@ -183,6 +213,8 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\SaveZone.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.dll
@@ -196,14 +228,23 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\MySql.Data.EntityFramework.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\nunit.framework.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.CheckPassword.resources
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.SafeZone.resources
@@ -213,15 +254,4 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SafeZone.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.exe
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\obj\Debug\SaveZone.pdb
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.dll
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Google.Protobuf.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.Streams.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\Renci.SshNet.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Buffers.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Compression.LZ4.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\K4os.Hash.xxHash.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Memory.xml
-C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\SafeZone\bin\Debug\System.Numerics.Vectors.xml

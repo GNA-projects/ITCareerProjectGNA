@@ -13,7 +13,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase(@"C:\Users\Nikih\Desktop\Resources")]
         public void DeleteMethodDeletesFilesSuccesfully(string sourcePath)
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             DeleteFileBindingModel bindingModel = new DeleteFileBindingModel();
             bindingModel.FileSourcePath = sourcePath;
 
@@ -32,7 +32,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase(@"C:\Users\Nikih\Desktop\Resources")]
         public void DeleteMethodFailed(string sourcePath)
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             DeleteFileBindingModel bindingModel = new DeleteFileBindingModel();
             bindingModel.FileSourcePath = sourcePath;
 

@@ -88,7 +88,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
             thread.Join();
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
 
             Assert.AreEqual(path, sourcePath.GetValue(searchService));
 

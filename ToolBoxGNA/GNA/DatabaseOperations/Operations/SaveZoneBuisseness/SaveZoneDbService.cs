@@ -24,12 +24,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                     file_type = "File For Encryption",
                     isSuccessfull = isSuccesfull
                 };
-
-                context.Operation_Info.Add(encryptInfo);
-                context.SaveChanges();
-
-                context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == encryptInfo.id).Users.Add(user);
-                user.last_operation_id = 8;
+                user.Operation_Info.Add(encryptInfo);
                 context.SaveChanges();
             }
         }
@@ -38,7 +33,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 EncryptorEngine encrypt = new EncryptorEngine()
                 {
                     user_Id = CurrentUser.user.id,
@@ -46,7 +41,6 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                     encrypted_password = password,
                     encrypted_IV = IV,
                 };
-
                 context.EncryptorEngine.Add(encrypt);
                 context.SaveChanges();
             }
@@ -57,6 +51,7 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info decryptInfo = new Operation_Info()
                 {
                     operation_id = 9,
@@ -66,20 +61,15 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                     file_type = "File For Decryption",
                     isSuccessfull = isSuccesfull
                 };
-
-                context.Operation_Info.Add(decryptInfo);
-                context.SaveChanges();
-
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
-                context.Operation_Info.Include("Users").FirstOrDefault(x => x.id == decryptInfo.id).Users.Add(user);
-                user.last_operation_id = 9;
-                context.SaveChanges();
+                user.Operation_Info.Add(decryptInfo);
+                context.SaveChanges();  
             }
         }
         public static void AddDecryptFileEngine(string fileName, string destPath, string password, string IV)
         {
             using (GNAEntities context = new GNAEntities())
             {
+                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 EncryptorEngine decrypt = new EncryptorEngine()
                 {
                     user_Id = CurrentUser.user.id,
@@ -120,8 +110,5 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                 context.SaveChanges();
             }
         }
-
-
-
     }
 }

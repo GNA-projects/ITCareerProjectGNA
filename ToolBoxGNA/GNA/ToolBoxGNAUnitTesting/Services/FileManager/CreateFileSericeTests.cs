@@ -14,7 +14,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void CreateMethodCreatesTextFileSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CreateTextFileService fileService = new CreateTextFileService();
             CreateFileBindingModel bindingModel = new CreateFileBindingModel();
 
@@ -29,7 +29,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void CreateMethodCreatesWordFileSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CreateWordFileService fileService = new CreateWordFileService();
             CreateFileBindingModel bindingModel = new CreateFileBindingModel();
 
@@ -44,7 +44,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void CreateMethodCreatesPowerPointFileSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CreatePowerPointFileService fileService = new CreatePowerPointFileService();
             CreateFileBindingModel bindingModel = new CreateFileBindingModel();
 
@@ -59,7 +59,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void CreateMethodCreatesExcelFileSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CreateExelFileService fileService = new CreateExelFileService();
             CreateFileBindingModel bindingModel = new CreateFileBindingModel();
 
@@ -74,7 +74,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
         [TestCase]
         public void CreateMethodCreatesRarFileSuccesfully()
         {
-            CurrentUser.Username = "Test";
+            CurrentUser.user.username = "Test";
             CreateRarFileService fileService = new CreateRarFileService();
             CreateFileBindingModel bindingModel = new CreateFileBindingModel();
 
