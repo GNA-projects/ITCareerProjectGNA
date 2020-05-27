@@ -64,7 +64,7 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="user_email" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="user_password" Type="varchar" MaxLength="512" Nullable="false" />
+    <Property Name="user_password" Type="blob" Nullable="false" />
     <Property Name="account_website" Type="varchar" MaxLength="256" Nullable="false" />
   </EntityType>
   <EntityType Name="Users">

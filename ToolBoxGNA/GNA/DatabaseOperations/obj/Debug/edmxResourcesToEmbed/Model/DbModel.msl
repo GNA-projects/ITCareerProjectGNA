@@ -43,17 +43,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="UserPasswordManager">
-      <EntityTypeMapping TypeName="GNAModel.UserPasswordManager">
-        <MappingFragment StoreEntitySet="UserPasswordManager">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="user_id" ColumnName="user_id" />
-          <ScalarProperty Name="user_email" ColumnName="user_email" />
-          <ScalarProperty Name="user_password" ColumnName="user_password" />
-          <ScalarProperty Name="account_website" ColumnName="account_website" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="GNAModel.Users">
         <MappingFragment StoreEntitySet="Users">
@@ -83,6 +72,17 @@
           <ScalarProperty Name="Time" ColumnName="Time" />
           <ScalarProperty Name="reciever_id" ColumnName="reciever_id" />
           <ScalarProperty Name="sender_id" ColumnName="sender_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserPasswordManager">
+      <EntityTypeMapping TypeName="GNAModel.UserPasswordManager">
+        <MappingFragment StoreEntitySet="UserPasswordManager">
+          <ScalarProperty Name="account_website" ColumnName="account_website" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+          <ScalarProperty Name="user_email" ColumnName="user_email" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
           <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>

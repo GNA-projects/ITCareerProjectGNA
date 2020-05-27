@@ -249,6 +249,7 @@
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "MainMenuForm";
 			this.Text = "MainMenuForm";
+			this.Load += new System.EventHandler(this.MainMenuForm_Load);
 			this.Controls.SetChildIndex(this.PanelUp, 0);
 			this.Controls.SetChildIndex(this.PanelTabs, 0);
 			this.Controls.SetChildIndex(this.PanelCurrentTab, 0);

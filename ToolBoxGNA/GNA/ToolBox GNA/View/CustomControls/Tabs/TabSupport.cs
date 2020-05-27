@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
 using DatabaseOperations.Operations.ChatBuissness;
 using DatabaseOperations.Model;
+using DatabaseOperations;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -18,21 +19,31 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabSupport()
 		{
 			InitializeComponent();
-			TimerRefreshChat.Start();
 		}
 
 		private void TabSupport_Load(object sender, EventArgs e)
 		{
-			LbUsers.Items.AddRange(ChatServices.GetUsers().ToArray());
+			List<Users> allUsers = ChatServices.GetUsers();
+			List<Users> admins = allUsers.Where(x => x.IsAdmin == true).ToList();
+			List<Users> nonAdmins = allUsers.Where(x => x.IsAdmin == false).ToList();
+			Users currentUser = allUsers.FirstOrDefault(x => x.id == CurrentUser.user.id);
+
+			LbUsers.Items.Add(currentUser);
+			LbUsers.Items.AddRange(admins.ToArray());
+			LbUsers.Items.AddRange(nonAdmins.ToArray());
 			LbUsers.DisplayMember = "username";
+
+			LbUsers.SelectedIndex = 0;
 		}
 
 		private void BtnSend_Click(object sender, EventArgs e)
 		{
 			ChatServices.SendMessage(TbMessage.Text, ((Users)LbUsers.SelectedItem).id);
-			richTextBox1.AppendText(DateTime.Now.ToString() + "  ");
-			richTextBox1.AppendText($"to {((Users)LbUsers.SelectedItem).username}" + "\r\n");
-			richTextBox1.AppendText($"{TbMessage.Text}" + "\r\n");
+			RtbChat.AppendText(DateTime.Now.ToString() + "  ");
+			RtbChat.AppendText($"to {((Users)LbUsers.SelectedItem).username}" + "\r\n");
+			RtbChat.AppendText($"{TbMessage.Text}" + "\r\n");
+			TbMessage.Text = "";
+			TbMessage.Focus();
 		}
 
 		private void TimerRefreshChat_Tick(object sender, EventArgs e)
@@ -41,12 +52,34 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 			if (messageId > 0)
 			{
 				ChatMessages message = ChatServices.ReturnMessage(messageId);
-				richTextBox1.AppendText(DateTime.Now.ToString() + "  ");
-				richTextBox1.AppendText($"from {ChatServices.GetUsers(message.sender_id)}" + "\r\n");
-				richTextBox1.AppendText($"{message.Message}" + "\r\n");
+				RtbChat.AppendText(DateTime.Now.ToString() + "  ");
+				RtbChat.AppendText($"from {ChatServices.GetUsers(message.sender_id)}" + "\r\n");
+				RtbChat.AppendText($"{message.Message}" + "\r\n");
 				ChatServices.SetFlagRead(messageId);
 			}
 
+		}
+
+		private void TbMessage_KeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Enter)
+			{
+				BtnSend_Click(null,null);
+			}
+		}
+
+		private void LbUsers_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			RtbChat.Text = "";
+			TimerRefreshChat.Stop();
+			List<ChatMessages> chatMessages = ChatServices.ReturnReadMessages(((Users)LbUsers.SelectedItem).id);
+			foreach (var message in chatMessages)
+			{
+				RtbChat.AppendText(DateTime.Now.ToString() + "  ");
+				RtbChat.AppendText($"from {ChatServices.GetUsers(message.sender_id)}" + "\r\n");
+				RtbChat.AppendText($"{message.Message}" + "\r\n");
+			}
+			TimerRefreshChat.Start();
 		}
 	}
 }

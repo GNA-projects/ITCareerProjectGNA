@@ -29,7 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+			this.RtbChat = new System.Windows.Forms.RichTextBox();
 			this.TbMessage = new System.Windows.Forms.TextBox();
 			this.BtnSend = new System.Windows.Forms.Button();
 			this.LbUsers = new System.Windows.Forms.ListBox();
@@ -38,16 +38,16 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
-			// richTextBox1
+			// RtbChat
 			// 
-			this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
-			this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-			this.richTextBox1.ForeColor = System.Drawing.Color.White;
-			this.richTextBox1.Location = new System.Drawing.Point(154, 52);
-			this.richTextBox1.Name = "richTextBox1";
-			this.richTextBox1.Size = new System.Drawing.Size(376, 316);
-			this.richTextBox1.TabIndex = 0;
-			this.richTextBox1.Text = "";
+			this.RtbChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(40)))), ((int)(((byte)(100)))));
+			this.RtbChat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+			this.RtbChat.ForeColor = System.Drawing.Color.White;
+			this.RtbChat.Location = new System.Drawing.Point(154, 52);
+			this.RtbChat.Name = "RtbChat";
+			this.RtbChat.Size = new System.Drawing.Size(376, 316);
+			this.RtbChat.TabIndex = 0;
+			this.RtbChat.Text = "";
 			// 
 			// TbMessage
 			// 
@@ -55,6 +55,7 @@
 			this.TbMessage.Name = "TbMessage";
 			this.TbMessage.Size = new System.Drawing.Size(295, 20);
 			this.TbMessage.TabIndex = 1;
+			this.TbMessage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbMessage_KeyDown);
 			// 
 			// BtnSend
 			// 
@@ -79,6 +80,7 @@
 			this.LbUsers.Name = "LbUsers";
 			this.LbUsers.Size = new System.Drawing.Size(120, 340);
 			this.LbUsers.TabIndex = 3;
+			this.LbUsers.SelectedIndexChanged += new System.EventHandler(this.LbUsers_SelectedIndexChanged);
 			// 
 			// label1
 			// 
@@ -113,7 +115,7 @@
 			this.Controls.Add(this.LbUsers);
 			this.Controls.Add(this.BtnSend);
 			this.Controls.Add(this.TbMessage);
-			this.Controls.Add(this.richTextBox1);
+			this.Controls.Add(this.RtbChat);
 			this.Name = "TabSupport";
 			this.Load += new System.EventHandler(this.TabSupport_Load);
 			this.ResumeLayout(false);
@@ -123,7 +125,7 @@
 
 		#endregion
 
-		private System.Windows.Forms.RichTextBox richTextBox1;
+		private System.Windows.Forms.RichTextBox RtbChat;
 		private System.Windows.Forms.TextBox TbMessage;
 		private System.Windows.Forms.Button BtnSend;
 		private System.Windows.Forms.ListBox LbUsers;

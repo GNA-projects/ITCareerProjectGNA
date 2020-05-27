@@ -74,6 +74,14 @@ namespace DatabaseOperations.Operations.ChatBuissness
 				return context.ChatMessages.FirstOrDefault(x => x.id == messageId);
 			}
 		}
+		public static List<ChatMessages> ReturnReadMessages(int chatFriendId)
+		{
+			using (GNAEntities context = new GNAEntities())
+			{
+				List<ChatMessages> allChatMessages = context.ChatMessages.Where(x => (x.sender_id == chatFriendId && x.reciever_id == CurrentUser.user.id) || (x.sender_id == CurrentUser.user.id && x.reciever_id == chatFriendId)).ToList();
+				return allChatMessages.Where(x => x.read == 1).ToList();
+			}
+		}
 
 		public static void SetFlagRead(int messageId)
 		{

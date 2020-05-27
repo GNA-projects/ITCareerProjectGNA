@@ -17,7 +17,6 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		public TabHome()
 		{
 			InitializeComponent();
-			usernameLabel.Text = CurrentUser.user.username;
 		}
 	}
 }

@@ -51,13 +51,10 @@ namespace DatabaseOperations.Operations.PasswordManagerBuissiness
 					string protectedPassword = ASCIIEncoding.ASCII.GetString(protectedPassByte);
 					UserPasswordManager passwordManager = new UserPasswordManager()
 					{
-						user_password = protectedPassword,
+						user_password = protectedPassByte,
 						account_website = passInfo.LoginUrl,
 						user_email = passInfo.LoginUsername
 					};
-					byte[] UUpasswordByte = ASCIIEncoding.ASCII.GetBytes(protectedPassword);
-					byte[] UUprotectedPassByte = ProtectedData.Unprotect(UUpasswordByte, null, DataProtectionScope.CurrentUser);
-					string UUprotectedPassword = ASCIIEncoding.ASCII.GetString(UUprotectedPassByte);
 					CurrentUser.user.UserPasswordManager.Add(passwordManager);
 				}
 				context.SaveChanges();

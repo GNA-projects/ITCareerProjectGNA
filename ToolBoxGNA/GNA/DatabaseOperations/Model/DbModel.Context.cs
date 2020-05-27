@@ -29,8 +29,8 @@ namespace DatabaseOperations.Model
         public virtual DbSet<Operation_Ids> Operation_Ids { get; set; }
         public virtual DbSet<Operation_Info> Operation_Info { get; set; }
         public virtual DbSet<Operation_Types> Operation_Types { get; set; }
-        public virtual DbSet<UserPasswordManager> UserPasswordManager { get; set; }
         public virtual DbSet<Users> Users { get; set; }
         public virtual DbSet<ChatMessages> ChatMessages { get; set; }
+        public virtual DbSet<UserPasswordManager> UserPasswordManager { get; set; }
     }
 }

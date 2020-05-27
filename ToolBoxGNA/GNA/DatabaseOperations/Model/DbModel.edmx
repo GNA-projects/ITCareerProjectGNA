@@ -69,7 +69,7 @@
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="user_id" Type="int" Nullable="false" />
           <Property Name="user_email" Type="varchar" MaxLength="45" Nullable="false" />
-          <Property Name="user_password" Type="varchar" MaxLength="512" Nullable="false" />
+          <Property Name="user_password" Type="blob" Nullable="false" />
           <Property Name="account_website" Type="varchar" MaxLength="256" Nullable="false" />
         </EntityType>
         <EntityType Name="Users">
@@ -282,17 +282,6 @@
           <Property Name="type_name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Operation_Info" Relationship="Self.FK_Operation_Types_Operation_Info" FromRole="Operation_Types" ToRole="Operation_Info" />
         </EntityType>
-        <EntityType Name="UserPasswordManager">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="user_id" Type="Int32" Nullable="false" />
-          <Property Name="user_email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="user_password" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="account_website" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Users" Relationship="Self.FK_UserUserPasswordManager" FromRole="UserPasswordManager" ToRole="Users" />
-        </EntityType>
         <EntityType Name="Users">
           <Key>
             <PropertyRef Name="id" />
@@ -304,11 +293,11 @@
           <Property Name="last_operation_id" Type="Int32" />
           <Property Name="IsAdmin" Type="Boolean" />
           <NavigationProperty Name="EncryptorEngine" Relationship="Self.fk_user_id_users_id" FromRole="Users" ToRole="EncryptorEngine" />
-          <NavigationProperty Name="UserPasswordManager" Relationship="Self.FK_UserUserPasswordManager" FromRole="Users" ToRole="UserPasswordManager" />
           <NavigationProperty Name="Operation_Info" Relationship="Self.User_Operation_Info" FromRole="Users" ToRole="Operation_Info" />
           <Property Name="register_date" Type="DateTime" />
           <NavigationProperty Name="ChatMessages" Relationship="GNAModel.fk_reciever_user1" FromRole="Users" ToRole="ChatMessages" />
           <NavigationProperty Name="ChatMessages1" Relationship="GNAModel.fk_sender_user1" FromRole="Users" ToRole="ChatMessages" />
+          <NavigationProperty Name="UserPasswordManager" Relationship="GNAModel.FK_UserUserPasswordManager" FromRole="Users" ToRole="UserPasswordManager" />
         </EntityType>
         <Association Name="fk_user_id_users_id">
           <End Role="Users" Type="Self.Users" Multiplicity="1" />
@@ -346,18 +335,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_UserUserPasswordManager">
-          <End Role="Users" Type="Self.Users" Multiplicity="1" />
-          <End Role="UserPasswordManager" Type="Self.UserPasswordManager" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Users">
-              <PropertyRef Name="id" />
-            </Principal>
-            <Dependent Role="UserPasswordManager">
-              <PropertyRef Name="user_id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="User_Operation_Info">
           <End Role="Operation_Info" Type="Self.Operation_Info" Multiplicity="*" />
           <End Role="Users" Type="Self.Users" Multiplicity="*" />
@@ -367,7 +344,6 @@
           <EntitySet Name="Operation_Ids" EntityType="Self.Operation_Ids" />
           <EntitySet Name="Operation_Info" EntityType="Self.Operation_Info" />
           <EntitySet Name="Operation_Types" EntityType="Self.Operation_Types" />
-          <EntitySet Name="UserPasswordManager" EntityType="Self.UserPasswordManager" />
           <EntitySet Name="Users" EntityType="Self.Users" />
           <AssociationSet Name="fk_user_id_users_id" Association="Self.fk_user_id_users_id">
             <End Role="Users" EntitySet="Users" />
@@ -381,10 +357,6 @@
             <End Role="Operation_Types" EntitySet="Operation_Types" />
             <End Role="Operation_Info" EntitySet="Operation_Info" />
           </AssociationSet>
-          <AssociationSet Name="FK_UserUserPasswordManager" Association="Self.FK_UserUserPasswordManager">
-            <End Role="Users" EntitySet="Users" />
-            <End Role="UserPasswordManager" EntitySet="UserPasswordManager" />
-          </AssociationSet>
           <AssociationSet Name="User_Operation_Info" Association="Self.User_Operation_Info">
             <End Role="Operation_Info" EntitySet="Operation_Info" />
             <End Role="Users" EntitySet="Users" />
@@ -397,6 +369,11 @@
           <AssociationSet Name="fk_sender_user1" Association="GNAModel.fk_sender_user1">
             <End Role="Users" EntitySet="Users" />
             <End Role="ChatMessages" EntitySet="ChatMessages" />
+          </AssociationSet>
+          <EntitySet Name="UserPasswordManager" EntityType="GNAModel.UserPasswordManager" />
+          <AssociationSet Name="FK_UserUserPasswordManager" Association="GNAModel.FK_UserUserPasswordManager">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserPasswordManager" EntitySet="UserPasswordManager" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="ChatMessages">
@@ -433,6 +410,31 @@
             </Principal>
             <Dependent Role="ChatMessages">
               <PropertyRef Name="sender_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="UserPasswordManager">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="user_email" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="user_password" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="account_website" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Users" Relationship="GNAModel.FK_UserUserPasswordManager" FromRole="UserPasswordManager" ToRole="Users" />
+        </EntityType>
+        <Association Name="FK_UserUserPasswordManager">
+          <End Type="GNAModel.Users" Role="Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="GNAModel.UserPasswordManager" Role="UserPasswordManager" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="UserPasswordManager">
+              <PropertyRef Name="user_id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -484,17 +486,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="UserPasswordManager">
-            <EntityTypeMapping TypeName="GNAModel.UserPasswordManager">
-              <MappingFragment StoreEntitySet="UserPasswordManager">
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="user_id" ColumnName="user_id" />
-                <ScalarProperty Name="user_email" ColumnName="user_email" />
-                <ScalarProperty Name="user_password" ColumnName="user_password" />
-                <ScalarProperty Name="account_website" ColumnName="account_website" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="GNAModel.Users">
               <MappingFragment StoreEntitySet="Users">
@@ -524,6 +515,17 @@
                 <ScalarProperty Name="Time" ColumnName="Time" />
                 <ScalarProperty Name="reciever_id" ColumnName="reciever_id" />
                 <ScalarProperty Name="sender_id" ColumnName="sender_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserPasswordManager">
+            <EntityTypeMapping TypeName="GNAModel.UserPasswordManager">
+              <MappingFragment StoreEntitySet="UserPasswordManager">
+                <ScalarProperty Name="account_website" ColumnName="account_website" />
+                <ScalarProperty Name="user_password" ColumnName="user_password" />
+                <ScalarProperty Name="user_email" ColumnName="user_email" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>

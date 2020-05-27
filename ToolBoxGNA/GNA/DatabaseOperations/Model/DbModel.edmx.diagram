@@ -9,16 +9,16 @@
         <EntityTypeShape EntityType="GNAModel.Operation_Ids" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
         <EntityTypeShape EntityType="GNAModel.Operation_Info" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
         <EntityTypeShape EntityType="GNAModel.Operation_Types" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="GNAModel.UserPasswordManager" Width="1.5" PointX="7.5" PointY="7.25" IsExpanded="true" />
         <EntityTypeShape EntityType="GNAModel.Users" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
         <AssociationConnector Association="GNAModel.fk_user_id_users_id" ManuallyRouted="false" />
         <AssociationConnector Association="GNAModel.FK_Operation_Ids_Operation_Info" ManuallyRouted="false" />
         <AssociationConnector Association="GNAModel.FK_Operation_Types_Operation_Info" ManuallyRouted="false" />
-        <AssociationConnector Association="GNAModel.FK_UserUserPasswordManager" ManuallyRouted="false" />
         <AssociationConnector Association="GNAModel.User_Operation_Info" ManuallyRouted="false" />
         <EntityTypeShape EntityType="GNAModel.ChatMessages" Width="1.5" PointX="7.125" PointY="10.625" />
         <AssociationConnector Association="GNAModel.fk_reciever_user1" />
         <AssociationConnector Association="GNAModel.fk_sender_user1" />
+        <EntityTypeShape EntityType="GNAModel.UserPasswordManager" Width="1.5" PointX="7.5" PointY="1.25" />
+        <AssociationConnector Association="GNAModel.FK_UserUserPasswordManager" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
