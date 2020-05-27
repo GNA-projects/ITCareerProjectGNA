@@ -17,7 +17,7 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
             {
                 if (isSuccesfull)
                 {
-                    Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                    CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                     Operation_Info tempInfo = new Operation_Info()
                     {
                         operation_id = 7,
@@ -27,14 +27,14 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
-                    user.last_operation_id = 7;
-                    user.Operation_Info.Add(tempInfo);
+                    CurrentUser.user.last_operation_id = 7;
+                    CurrentUser.user.Operation_Info.Add(tempInfo);
                     context.SaveChanges();
                 }
                 else
                 {
 
-                    Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                    CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                     Operation_Info tempInfo = new Operation_Info()
                     {
                         operation_id = 7,
@@ -44,8 +44,8 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
-                    user.last_operation_id = 7;
-                    user.Operation_Info.Add(tempInfo);
+                    CurrentUser.user.last_operation_id = 7;
+                    CurrentUser.user.Operation_Info.Add(tempInfo);
                     context.SaveChanges();
                 }
 

@@ -18,5 +18,10 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void BtnGetInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

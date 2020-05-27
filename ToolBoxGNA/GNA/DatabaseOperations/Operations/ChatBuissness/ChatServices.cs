@@ -26,16 +26,16 @@ namespace DatabaseOperations.Operations.ChatBuissness
 		{
 			using (GNAEntities context = new GNAEntities())
 			{
-				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+				CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
 				ChatMessages chatMessage = new ChatMessages()
 				{
 					Time = DateTime.Now.ToString(),
 					read = 0,
 					Message = message,
 					reciever_id = reciever_id,
-					sender_id = user.id,
+					sender_id = CurrentUser.user.id,
 				};
-				user.last_operation_id = 15;
+				CurrentUser.user.last_operation_id = 15;
 				context.ChatMessages.Add(chatMessage);
 				context.SaveChanges();
 			}

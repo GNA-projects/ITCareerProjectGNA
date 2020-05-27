@@ -13,7 +13,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info searchInfo = new Operation_Info()
                 {
                     operation_id = 1,
@@ -24,8 +24,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     isSuccessfull = isCompleted,
                    
                 };
-                user.last_operation_id = 1;
-                user.Operation_Info.Add(searchInfo);
+                CurrentUser.user.last_operation_id = 1;
+                CurrentUser.user.Operation_Info.Add(searchInfo);
                 context.SaveChanges();
             }
         }
@@ -33,7 +33,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info copyInfo = new Operation_Info()
                 {
                     operation_id = 2,
@@ -43,8 +43,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-                user.last_operation_id = 2;
-                user.Operation_Info.Add(copyInfo);
+                CurrentUser.user.last_operation_id = 2;
+                CurrentUser.user.Operation_Info.Add(copyInfo);
                 context.SaveChanges();
 
                
@@ -54,7 +54,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info moveInfo = new Operation_Info()
                 {
                     operation_id = 3,
@@ -64,8 +64,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-                user.last_operation_id = 3;
-                user.Operation_Info.Add(moveInfo);
+                CurrentUser.user.last_operation_id = 3;
+                CurrentUser.user.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
             }
@@ -74,7 +74,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info deleteInfo = new Operation_Info()
                 {
                     operation_id = 4,
@@ -84,8 +84,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-                user.last_operation_id = 4;
-                user.Operation_Info.Add(deleteInfo);
+                CurrentUser.user.last_operation_id = 4;
+                CurrentUser.user.Operation_Info.Add(deleteInfo);
                 context.SaveChanges();
 
                
@@ -95,7 +95,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info moveInfo = new Operation_Info()
                 {
                     operation_id = 5,
@@ -105,8 +105,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-                user.last_operation_id = 5;
-                user.Operation_Info.Add(moveInfo);
+                CurrentUser.user.last_operation_id = 5;
+                CurrentUser.user.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
                 
@@ -116,7 +116,7 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
         {
             using (GNAEntities context = new GNAEntities())
             {
-                Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+                CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
                 Operation_Info renameInfo = new Operation_Info()
                 {
                     operation_id = 6,
@@ -126,8 +126,8 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-                user.last_operation_id = 6;
-                user.Operation_Info.Add(renameInfo);
+                CurrentUser.user.last_operation_id = 6;
+                CurrentUser.user.Operation_Info.Add(renameInfo);
                
             }
         }
