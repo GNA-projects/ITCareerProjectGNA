@@ -69,8 +69,8 @@
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="user_id" Type="int" Nullable="false" />
           <Property Name="user_email" Type="varchar" MaxLength="45" Nullable="false" />
-          <Property Name="user_password" Type="varchar" MaxLength="16" Nullable="false" />
-          <Property Name="account_website" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="user_password" Type="varchar" MaxLength="512" Nullable="false" />
+          <Property Name="account_website" Type="varchar" MaxLength="256" Nullable="false" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -289,8 +289,8 @@
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="user_id" Type="Int32" Nullable="false" />
           <Property Name="user_email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="user_password" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="account_website" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="user_password" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="account_website" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Users" Relationship="Self.FK_UserUserPasswordManager" FromRole="UserPasswordManager" ToRole="Users" />
         </EntityType>
         <EntityType Name="Users">

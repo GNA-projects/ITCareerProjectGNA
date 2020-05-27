@@ -48,12 +48,6 @@ C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\ob
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
 C:\Users\Nikih\Desktop\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.pdb
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CoreCompileInputs.cache
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
-C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
 C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.pdb
@@ -62,3 +56,15 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\WifiCheck.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CoreCompileInputs.cache
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll.config
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.xml
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csprojAssemblyReference.cache

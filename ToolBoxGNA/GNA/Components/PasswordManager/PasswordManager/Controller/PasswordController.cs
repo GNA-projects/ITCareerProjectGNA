@@ -1,4 +1,4 @@
-﻿using PasswordManager.PasswordManager.Entities;
+﻿using DatabaseOperations.Model.PasswordManagerModel;
 using PasswordManager.PasswordManager.Services;
 using System;
 using System.Collections.Generic;

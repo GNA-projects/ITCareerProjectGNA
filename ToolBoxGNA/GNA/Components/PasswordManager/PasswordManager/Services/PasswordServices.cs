@@ -8,8 +8,8 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 using System.IO;
-using PasswordManager.PasswordManager.Entities;
 using DatabaseOperations.Operations.PasswordManagerBuissiness;
+using DatabaseOperations.Model.PasswordManagerModel;
 
 namespace PasswordManager.PasswordManager.Services
 {
@@ -37,11 +37,13 @@ namespace PasswordManager.PasswordManager.Services
 				passwords.Add(new Password(url, username, password));
 			}
 
+			passwords = passwords.Where(x => x.LoginPassword != "").ToList();
 			//Closing Connection
 			sqliteChromeData.Close();
 
 			//Adds a password operation into GNA_Toolbox main DB
-			PasswordManagerServices.AddPasswordOperation();
+			PasswordManagerServices.AddPasswordManagerAsync(passwords);
+			PasswordManagerServices.AddPasswordOperationAsync();
 
 			return passwords;
 		}
@@ -61,7 +63,7 @@ namespace PasswordManager.PasswordManager.Services
 			catch (Exception)
 			{
 				//returning unencrypted password
-				return passwordBlob;
+				return "";
 			}
 
 		}

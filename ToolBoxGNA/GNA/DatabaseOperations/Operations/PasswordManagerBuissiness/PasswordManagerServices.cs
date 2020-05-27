@@ -1,8 +1,10 @@
 ﻿using DatabaseOperations.Model;
+using DatabaseOperations.Model.PasswordManagerModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,19 +12,54 @@ namespace DatabaseOperations.Operations.PasswordManagerBuissiness
 {
 	public static class PasswordManagerServices
 	{
+		public static async void AddPasswordOperationAsync()
+		{
+			await Task.Run(() => AddPasswordOperation());
+		}
+		public static async void AddPasswordManagerAsync(List<Password> passwords)
+		{
+			await Task.Run(() => AddPasswordManager(passwords));
+		}
 		public static void AddPasswordOperation()
 		{
 			using (GNAEntities context = new GNAEntities())
 			{
-				Users user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+				CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
 				Operation_Info operation = new Operation_Info()
 				{
 					operation_type_id = 5,
 					operation_id = 12,
-					isSuccessfull = true
+					isSuccessfull = true,
+					additional_info = "Passwords from Chrome are saved"
 				};
-				user.last_operation_id = 12;
-				user.Operation_Info.Add(operation);
+				CurrentUser.user.last_operation_id = 12;
+				CurrentUser.user.Operation_Info.Add(operation);
+				context.SaveChanges();
+			}
+
+		}
+
+		public static void AddPasswordManager(List<Password> passwords)
+		{
+			using (GNAEntities context = new GNAEntities())
+			{
+				CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
+				foreach (var passInfo in passwords)
+				{
+					byte[] passwordByte = ASCIIEncoding.ASCII.GetBytes(passInfo.LoginPassword);
+					byte[] protectedPassByte = ProtectedData.Protect(passwordByte, null, DataProtectionScope.CurrentUser);
+					string protectedPassword = ASCIIEncoding.ASCII.GetString(protectedPassByte);
+					UserPasswordManager passwordManager = new UserPasswordManager()
+					{
+						user_password = protectedPassword,
+						account_website = passInfo.LoginUrl,
+						user_email = passInfo.LoginUsername
+					};
+					byte[] UUpasswordByte = ASCIIEncoding.ASCII.GetBytes(protectedPassword);
+					byte[] UUprotectedPassByte = ProtectedData.Unprotect(UUpasswordByte, null, DataProtectionScope.CurrentUser);
+					string UUprotectedPassword = ASCIIEncoding.ASCII.GetString(UUprotectedPassByte);
+					CurrentUser.user.UserPasswordManager.Add(passwordManager);
+				}
 				context.SaveChanges();
 			}
 		}

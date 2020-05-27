@@ -131,6 +131,7 @@
     <Compile Include="Model\Operation_Types.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\PasswordManagerModel\Password.cs" />
     <Compile Include="Model\UserPasswordManager.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
@@ -146,6 +147,7 @@
     <Compile Include="Operations\PasswordManagerBuissiness\PasswordManagerServices.cs" />
     <Compile Include="Operations\SaveZoneBuisseness\SaveZoneDbService.cs" />
     <Compile Include="Operations\TempDeleterBuisseness\TempDeleterDbService.cs" />
+    <Compile Include="Operations\WifiCheck\WifiServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
