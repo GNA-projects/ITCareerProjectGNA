@@ -18,12 +18,13 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 1,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
+                   
                 };
-
+                user.last_operation_id = 1;
                 user.Operation_Info.Add(searchInfo);
                 context.SaveChanges();
             }
@@ -37,12 +38,12 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 2,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-
+                user.last_operation_id = 2;
                 user.Operation_Info.Add(copyInfo);
                 context.SaveChanges();
 
@@ -58,12 +59,12 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 3,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-
+                user.last_operation_id = 3;
                 user.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
@@ -78,12 +79,12 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 4,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-
+                user.last_operation_id = 4;
                 user.Operation_Info.Add(deleteInfo);
                 context.SaveChanges();
 
@@ -99,12 +100,12 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 5,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-
+                user.last_operation_id = 5;
                 user.Operation_Info.Add(moveInfo);
                 context.SaveChanges();
 
@@ -120,12 +121,12 @@ namespace DatabaseOperations.Operations.FileManagerBuisseness
                 {
                     operation_id = 6,
                     operation_type_id = 1,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = fileType,
                     isSuccessfull = isCompleted,
                 };
-
+                user.last_operation_id = 6;
                 user.Operation_Info.Add(renameInfo);
                
             }

@@ -101,13 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CurrentUsers\CurrentUser.cs" />
-    <Compile Include="Model\Chat.cs">
-      <DependentUpon>DbModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Model\ChatMessages.cs">
-      <DependentUpon>DbModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Chat_Info.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\DbModel.Context.cs">

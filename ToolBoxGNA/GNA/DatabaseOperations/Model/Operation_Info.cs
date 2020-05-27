@@ -22,11 +22,11 @@ namespace DatabaseOperations.Model
     
         public int id { get; set; }
         public int operation_id { get; set; }
-        public string file_name { get; set; }
         public string file_path { get; set; }
         public string file_type { get; set; }
         public int operation_type_id { get; set; }
         public Nullable<bool> isSuccessfull { get; set; }
+        public string additional_info { get; set; }
     
         public virtual Operation_Ids Operation_Ids { get; set; }
         public virtual Operation_Types Operation_Types { get; set; }

@@ -35,6 +35,7 @@ namespace DatabaseOperations.Operations.ChatBuissness
 					reciever_id = reciever_id,
 					sender_id = user.id,
 				};
+				user.last_operation_id = 15;
 				context.ChatMessages.Add(chatMessage);
 				context.SaveChanges();
 			}

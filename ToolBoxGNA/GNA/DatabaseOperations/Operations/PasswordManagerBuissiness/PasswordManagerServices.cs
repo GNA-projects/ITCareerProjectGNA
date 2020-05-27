@@ -21,6 +21,7 @@ namespace DatabaseOperations.Operations.PasswordManagerBuissiness
 					operation_id = 12,
 					isSuccessfull = true
 				};
+				user.last_operation_id = 12;
 				user.Operation_Info.Add(operation);
 				context.SaveChanges();
 			}

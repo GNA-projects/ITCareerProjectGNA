@@ -11,7 +11,6 @@ namespace SaveZone.Services.DecryptFileService
     /* this is a class used for decrypting a file */
     public class DecryptorFileService : IDecryptorFileService
     {
-        bool isDone = false;
         public void AESDecryptFile(string fileName, string filePath, DecryptFileBindingModel decryptFileBindingModel, CheckPasswordBindingModel passwordBindingModel)
         {
             //Checks from the database if the password and the IV that the user has given matches the password and the IV of the ecnrypted file
@@ -47,7 +46,6 @@ namespace SaveZone.Services.DecryptFileService
                     }
 
                 }
-                isDone = true;
                 //Saves the decrypted file to the database
                 SaveZoneDbService.AddDecryptFileEngine(filePath, filePath, SaveZoneDbService.GetEntity(filePath).encrypted_IV, SaveZoneDbService.GetEntity(filePath).encrypted_password);
                 //Removes the encrypted file from the database

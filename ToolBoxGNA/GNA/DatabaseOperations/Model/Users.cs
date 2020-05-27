@@ -17,9 +17,6 @@ namespace DatabaseOperations.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Users()
         {
-            this.Chat = new HashSet<Chat>();
-            this.Chat1 = new HashSet<Chat>();
-            this.Chat_Info = new HashSet<Chat_Info>();
             this.EncryptorEngine = new HashSet<EncryptorEngine>();
             this.UserPasswordManager = new HashSet<UserPasswordManager>();
             this.Operation_Info = new HashSet<Operation_Info>();
@@ -35,12 +32,6 @@ namespace DatabaseOperations.Model
         public Nullable<bool> IsAdmin { get; set; }
         public Nullable<System.DateTime> register_date { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Chat> Chat { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Chat> Chat1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Chat_Info> Chat_Info { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EncryptorEngine> EncryptorEngine { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -25,8 +25,6 @@ namespace DatabaseOperations.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Chat> Chat { get; set; }
-        public virtual DbSet<Chat_Info> Chat_Info { get; set; }
         public virtual DbSet<EncryptorEngine> EncryptorEngine { get; set; }
         public virtual DbSet<Operation_Ids> Operation_Ids { get; set; }
         public virtual DbSet<Operation_Info> Operation_Info { get; set; }

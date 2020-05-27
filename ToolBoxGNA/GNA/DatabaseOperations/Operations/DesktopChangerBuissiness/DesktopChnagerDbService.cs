@@ -19,11 +19,12 @@ namespace DatabaseOperations.Operations.DesktopChangerBuissiness
                 {
                     operation_type_id = 7,
                     operation_id = 14,
-                    file_name = filename,
+                    additional_info = filename,
                     file_path = path,
                     file_type = "Image",
                     isSuccessfull = isSuccessfull
                 };
+                user.last_operation_id = 14;
                 user.Operation_Info.Add(deskChangerInfo);
                 context.SaveChanges();
                 

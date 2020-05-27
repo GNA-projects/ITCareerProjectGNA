@@ -22,12 +22,12 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                     {
                         operation_id = 7,
                         operation_type_id = 2,
-                        file_name = "Temp File",
+                        additional_info = "Temp File",
                         file_path = Path.GetTempPath(),
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
-
+                    user.last_operation_id = 7;
                     user.Operation_Info.Add(tempInfo);
                     context.SaveChanges();
                 }
@@ -39,12 +39,12 @@ namespace DatabaseOperations.Operations.TempDeleterBuisseness
                     {
                         operation_id = 7,
                         operation_type_id = 2,
-                        file_name = $"{count} undeleted temp files",
+                        additional_info = $"{count} undeleted temp files",
                         file_path = Path.GetTempPath(),
                         file_type = "TempFile",
                         isSuccessfull = isSuccesfull,
                     };
-
+                    user.last_operation_id = 7;
                     user.Operation_Info.Add(tempInfo);
                     context.SaveChanges();
                 }

@@ -90,6 +90,7 @@ namespace FileSearcherDemo.Services.DeleteFileServices
                 foundFilesCount = "No files found.";
                 MessageBox.Show("No files found.", "None files", MessageBoxButtons.OK, MessageBoxIcon.None, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
+
             }
         }
         private void CheckMessageBoxInput()
@@ -127,6 +128,7 @@ namespace FileSearcherDemo.Services.DeleteFileServices
             specificDeleteFileDialog = new OpenFileDialog();
             specificDeleteFileDialog.Multiselect = true;
             specificDeleteFileDialog.InitialDirectory = deleteFileDialog.SelectedPath;
+            specificDeleteFileDialog.ShowDialog();
         }
         private void SetListWithSpecificFiles()
         {

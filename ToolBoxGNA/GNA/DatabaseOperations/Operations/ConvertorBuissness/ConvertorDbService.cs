@@ -18,12 +18,12 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                 {
                     operation_id = 10,
                     operation_type_id = 4,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = "Document",
                     isSuccessfull = isSuccsessful,
                 };
-                
+                user.last_operation_id = 10;
                 user.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
             }
@@ -39,12 +39,12 @@ namespace DatabaseOperations.Operations.ConvertorBuissness
                 {
                     operation_id = 11,
                     operation_type_id = 4,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = filePath,
                     file_type = "Image",
                     isSuccessfull = isSuccsessful,
                 };
-
+                user.last_operation_id = 11;
                 user.Operation_Info.Add(docConvInfo);
                 context.SaveChanges();
 

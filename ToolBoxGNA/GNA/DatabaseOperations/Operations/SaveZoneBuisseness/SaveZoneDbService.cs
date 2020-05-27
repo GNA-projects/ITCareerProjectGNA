@@ -19,11 +19,12 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                 {
                     operation_id = 8,
                     operation_type_id = 3,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = path,
                     file_type = "File For Encryption",
                     isSuccessfull = isSuccesfull
                 };
+                user.last_operation_id = 8;
                 user.Operation_Info.Add(encryptInfo);
                 context.SaveChanges();
             }
@@ -56,11 +57,12 @@ namespace DatabaseOperations.Operations.SaveZoneBuisseness
                 {
                     operation_id = 9,
                     operation_type_id = 3,
-                    file_name = fileName,
+                    additional_info = fileName,
                     file_path = path,
                     file_type = "File For Decryption",
                     isSuccessfull = isSuccesfull
                 };
+                user.last_operation_id = 9;
                 user.Operation_Info.Add(decryptInfo);
                 context.SaveChanges();  
             }
