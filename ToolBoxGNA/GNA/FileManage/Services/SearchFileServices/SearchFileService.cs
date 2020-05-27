@@ -87,7 +87,7 @@ namespace FileSearcherDemo.Services.SearchFileServices
                 catch (InvalidOperationException)
                 {
 
-                    MessageBox.Show("Please, enter a name for a file before trying to search file again", "Enter name", 
+                    MessageBox.Show("Please, enter a name for a file before trying to search file again", "Enter name",
                                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
                     return;
@@ -114,11 +114,10 @@ namespace FileSearcherDemo.Services.SearchFileServices
                 //Checks the lenght of the added files
                 CheckFileLenght(searchFileBindingModel.FilterFoundFiles);
             }
-            else
-            {
-                SearchFileForm.Dispose();
-                SearchFileForm = new SearchFile();
-            }
+
+            SearchFileForm.Dispose();
+            SearchFileForm = new SearchFile();
+
         }
         private void CheckFileLenght(string[] files)
         {
@@ -127,7 +126,7 @@ namespace FileSearcherDemo.Services.SearchFileServices
             if (files.Length > 0)
             {
                 //Asks the user if he wants to save the found files.
-                searchFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to save them?", "Files Found", 
+                searchFileMessageBox = MessageBox.Show($"Found {files.Length} file(s). Do you want to save them?", "Files Found",
                                 MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, 0,
                                 MessageBoxOptions.DefaultDesktopOnly);
                 //If he does not want to save them it shows him only the found files, without saving them anywhere.
@@ -135,7 +134,7 @@ namespace FileSearcherDemo.Services.SearchFileServices
                 foreach (var file in files)
                 {
 
-                    FileDatabaseServices.AddSearchOperation(file,sourcePath,"File",true);
+                    FileDatabaseServices.AddSearchOperation(file, sourcePath, "File", true);
                     sb.AppendLine(file);
 
                 }

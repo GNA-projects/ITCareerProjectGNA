@@ -101,11 +101,10 @@ namespace FileSearcherDemo.Services.CreateFileServices
                 //Checks the user input in CreateFile form if the users hasn't pressed Cancel
                 CheckUserPressedButton(createFileBindingModel);
             }
-            else
-            {
-                CreateFileForm.Dispose();
-                CreateFileForm = new CreateFile();
-            }
+
+            CreateFileForm.Dispose();
+            CreateFileForm = new CreateFile();
+
         }
         private void CheckUserPressedButton(CreateFileBindingModel createFileBindingModel)
         {

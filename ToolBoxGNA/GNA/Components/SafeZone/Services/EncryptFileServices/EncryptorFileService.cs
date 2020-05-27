@@ -25,7 +25,7 @@ namespace SaveZone.Services.EncryptFileService
         {
             //Checks from the database if the file choosen is already encrypted. If it is stored in the database
             //as an encrypted file it says that it is already encrypted.
-            if (SaveZoneDbService.GetAllEntitiesWithName(filePath).Count==0)
+            if (SaveZoneDbService.GetAllEntitiesWithName(filePath).Count == 0)
             {
                 //Adds to a list the file name of the file choosen.
                 decryptBindingModel.EncryptedFiles.Add(encryptBindingModel.FileName);
@@ -47,7 +47,7 @@ namespace SaveZone.Services.EncryptFileService
                 encryptBindingModel.IsEncrypted = true;
                 //Adds encrypted file to the database
                 SaveZoneDbService.AddEncryptFileInfo(encryptBindingModel.FileName, encryptBindingModel.FileSourcePath, true);
-                
+
             }
             else
             {
@@ -162,6 +162,5 @@ namespace SaveZone.Services.EncryptFileService
             encryptBindingModel.IV = IV;
             decryptBindingModel.IV = IV;
         }
-
     }
 }

@@ -100,11 +100,9 @@ namespace FileSearcherDemo.Services.RenameFileService
                     oldName = "File was not renamed";
                 }
             }
-            else
-            {
-                RenameFileForm.Dispose();
-                RenameFileForm = new RenameFile();
-            }
+
+            RenameFileForm.Dispose();
+            RenameFileForm = new RenameFile();
 
         }
     }
