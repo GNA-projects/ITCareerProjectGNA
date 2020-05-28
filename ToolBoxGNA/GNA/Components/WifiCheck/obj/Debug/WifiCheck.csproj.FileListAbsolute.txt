@@ -80,3 +80,8 @@ C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\W
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.csproj.CopyComplete
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.dll
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\obj\Debug\WifiCheck.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.xml
