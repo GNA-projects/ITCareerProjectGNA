@@ -19,5 +19,9 @@ namespace UserInfo.Controller
 		{
 			return CurrentUser.user.username;
 		}
+		public static void ChangeUserPassword(string newPassword)
+		{
+			UserService.ChangeUserPassword(newPassword);
+		}
 	}
 }

@@ -21,5 +21,9 @@ namespace UserInfo.Service
 
 			return stringBuilder.ToString();
 		}
+		public static void ChangeUserPassword(string newPassword)
+		{
+			UserDbServices.ChangePassword(newPassword);
+		}
 	}
 }

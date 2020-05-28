@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
 using UserInfo.Controller;
+using UserInfo.Service;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -26,6 +27,16 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 
 			//Gets information about user
 			RtbUserInfo.Text = UserController.GetUserInfo();
+		}
+
+		private void BtnChangePassword_Click(object sender, EventArgs e)
+		{
+			if (TbPassword.Text != "")
+			{
+				UserService.ChangeUserPassword(TbPassword.Text);
+			}
+			RtbUserInfo.Text = $"Congratulations your new password is: \"{TbPassword.Text}\"";
+			TbPassword.Text = "";
 		}
 	}
 }
