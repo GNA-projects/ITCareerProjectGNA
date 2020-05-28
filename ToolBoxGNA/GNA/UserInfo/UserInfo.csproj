@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\UserController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\UserService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Service\" />
+    <ProjectReference Include="..\DatabaseOperations\DatabaseOperations.csproj">
+      <Project>{32f0b259-4ecf-4736-9a4f-5477bd148e62}</Project>
+      <Name>DatabaseOperations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

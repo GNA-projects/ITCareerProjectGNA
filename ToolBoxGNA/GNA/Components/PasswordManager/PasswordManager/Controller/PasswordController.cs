@@ -14,5 +14,10 @@ namespace PasswordManager.PasswordManager.Controller
 		{
 			return PasswordServices.GetChromePasswords();
 		}
+
+		public static string GeneratePassword()
+		{
+			return PasswordServices.RandomPassword();
+		}
 	}
 }

@@ -305,6 +305,10 @@
       <Project>{E42FA2A2-2261-42D1-97FA-A09302499253}</Project>
       <Name>FileManage</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UserInfo\UserInfo.csproj">
+      <Project>{28682C8D-49C4-4364-A32C-F691AF7317DB}</Project>
+      <Name>UserInfo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.3\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.3\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets')" />

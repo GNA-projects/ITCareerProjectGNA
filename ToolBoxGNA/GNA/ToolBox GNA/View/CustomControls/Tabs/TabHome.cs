@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs.Design;
-using DatabaseOperations;
+using UserInfo.Controller;
 
 namespace ToolBox_GNA.View.CustomControls.Tabs
 {
@@ -19,9 +19,13 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 			InitializeComponent();
 		}
 
-        private void BtnGetInfo_Click(object sender, EventArgs e)
-        {
+		private void TabHome_Load(object sender, EventArgs e)
+		{
+			//Sets the Welcome text
+			LblWelcome.Text = $"Welcome {UserController.GetUsername()}, Here is some information about you:";
 
-        }
-    }
+			//Gets information about user
+			RtbUserInfo.Text = UserController.GetUserInfo();
+		}
+	}
 }

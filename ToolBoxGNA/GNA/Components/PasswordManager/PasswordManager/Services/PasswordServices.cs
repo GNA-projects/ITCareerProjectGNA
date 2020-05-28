@@ -89,5 +89,35 @@ namespace PasswordManager.PasswordManager.Services
 			return dataSource + localData + defaultPath;
 		}
 
+		public static string RandomPassword()
+		{
+			List<char> password = new List<char>();
+
+			const string alphanumericUpperCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			const string alphanumericLowerCharacters = "abcdefghijklmnopqrstuvwxyz";
+			const string alphanumericNumCharacters = "0123456789";
+
+			Random random = new Random();
+
+			for (int i = 0; i < random.Next(15, 20); i++)
+			{
+				int array = random.Next(1, 4);
+				if (array == 1)
+				{
+					password.Add(alphanumericUpperCharacters[random.Next(alphanumericUpperCharacters.Length)]);
+				}
+				if (array == 2)
+				{
+					password.Add(alphanumericLowerCharacters[random.Next(alphanumericLowerCharacters.Length)]);
+				}
+				if (array == 3)
+				{
+					password.Add(alphanumericNumCharacters[random.Next(alphanumericNumCharacters.Length)]);
+				}
+			}
+
+			return new string(password.ToArray());
+		}
+
 	}
 }

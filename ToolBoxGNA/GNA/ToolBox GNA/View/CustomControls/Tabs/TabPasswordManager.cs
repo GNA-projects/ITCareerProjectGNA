@@ -36,5 +36,10 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 			TbUsername.Text = ((Password)LbUrls.SelectedItem).LoginUsername;
 			TbPassword.Text = ((Password)LbUrls.SelectedItem).LoginPassword;
 		}
+
+		private void BtnGeneratePass_Click(object sender, EventArgs e)
+		{
+			TbRandomPass.Text = PasswordController.GeneratePassword();
+		}
 	}
 }

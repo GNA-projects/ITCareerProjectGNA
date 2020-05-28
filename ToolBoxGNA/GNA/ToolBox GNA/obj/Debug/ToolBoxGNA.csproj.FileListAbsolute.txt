@@ -608,3 +608,5 @@ C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBoxGNA.csproj.CopyComplete
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.exe
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.dll
+C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.pdb
