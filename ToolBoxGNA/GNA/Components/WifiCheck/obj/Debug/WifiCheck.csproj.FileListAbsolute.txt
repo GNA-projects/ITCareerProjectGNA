@@ -85,3 +85,8 @@ C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.pdb
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll.config
 C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.xml
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\DatabaseOperations.dll.config
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\Components\WifiCheck\bin\Debug\EntityFramework.xml

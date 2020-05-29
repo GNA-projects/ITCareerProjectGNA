@@ -352,3 +352,5 @@ C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.csproj.CopyComplete
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\obj\Debug\ToolBoxGNAUnitTesting.pdb
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\UserInfo.dll
+C:\Users\Gosho\Desktop\SoftUni Project\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBoxGNAUnitTesting\bin\Debug\UserInfo.pdb

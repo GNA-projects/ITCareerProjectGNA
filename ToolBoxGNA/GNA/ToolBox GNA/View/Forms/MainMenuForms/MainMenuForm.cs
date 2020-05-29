@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolBox_GNA.View.CustomControls.Tabs;
 using ToolBox_GNA.View.Forms.DesignForms;
+using UserInfo.Controller;
+using UserInfo.Service;
 
 namespace ToolBox_GNA.View.Forms.MainMenuForms
 {
@@ -148,6 +150,11 @@ namespace ToolBox_GNA.View.Forms.MainMenuForms
 				Parent = PanelCurrentTab
 			};
 			tabHome.Show();
+		}
+
+		private void BtnLogOut_Click(object sender, EventArgs e)
+		{
+			UserController.LogOut(this, new LoginRegisterForms.LoginForm());
 		}
 	}
 }

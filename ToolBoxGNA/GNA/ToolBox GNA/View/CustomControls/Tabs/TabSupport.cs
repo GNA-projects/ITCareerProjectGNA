@@ -24,8 +24,8 @@ namespace ToolBox_GNA.View.CustomControls.Tabs
 		private void TabSupport_Load(object sender, EventArgs e)
 		{
 			List<Users> allUsers = ChatServices.GetUsers();
-			List<Users> admins = allUsers.Where(x => x.IsAdmin == true).ToList();
-			List<Users> nonAdmins = allUsers.Where(x => x.IsAdmin == false).ToList();
+			List<Users> admins = allUsers.Where(x => x.IsAdmin == true && x.id != CurrentUser.user.id).ToList();
+			List<Users> nonAdmins = allUsers.Where(x => x.IsAdmin == false && x.id != CurrentUser.user.id).ToList();
 			Users currentUser = allUsers.FirstOrDefault(x => x.id == CurrentUser.user.id);
 
 			LbUsers.Items.Add(currentUser);

@@ -32,7 +32,7 @@ namespace DatabaseOperations.Operations.LoginRegister
                     username = Username,
                     password = pass,
                     register_date = DateTime.Now,
-                    IsAdmin = true
+                    IsAdmin = false
                 };
                 context.Users.Add(user);
                 context.SaveChanges();

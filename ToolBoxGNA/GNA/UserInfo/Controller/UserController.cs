@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using UserInfo.Service;
 
 namespace UserInfo.Controller
@@ -22,6 +23,11 @@ namespace UserInfo.Controller
 		public static void ChangeUserPassword(string newPassword)
 		{
 			UserService.ChangeUserPassword(newPassword);
+		}
+
+		public static void LogOut(Form mainForm, Form Login)
+		{
+			UserService.LogOut(mainForm, Login);
 		}
 	}
 }
