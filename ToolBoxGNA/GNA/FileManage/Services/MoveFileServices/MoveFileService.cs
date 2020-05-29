@@ -118,7 +118,7 @@ namespace FileSearcherDemo.Services.MoveFileServices
                 MoveSpecificFiles();
             }
             //He has pressed Cancel and it resets the variables
-            else
+            else if (moveFileMessageBox == DialogResult.Cancel)
             {
                 foundFilesCount = " ";
                 sb.Clear();

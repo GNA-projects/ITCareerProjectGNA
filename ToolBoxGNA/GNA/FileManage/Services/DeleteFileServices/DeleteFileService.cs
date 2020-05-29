@@ -108,7 +108,7 @@ namespace FileSearcherDemo.Services.DeleteFileServices
                 DeleteSpecificFiles();
             }
             //He has pressed Cancel and it resets the variables
-            else
+            else if (deleteFileMessageBox == DialogResult.Cancel)
             {
                 foundFilesCount = " ";
                 sb.Clear();

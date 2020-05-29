@@ -610,3 +610,5 @@ C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\
 C:\Users\Nikih\Desktop\GNAProject\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\obj\Debug\ToolBox GNA.pdb
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.dll
 C:\Users\GOGO\Desktop\ItKarieraProgram\ITCareerProjectGNA\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.pdb
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.dll
+C:\Users\Admin\Desktop\GroupProject\ITCareerProjectGDN\ToolBoxGNA\GNA\ToolBox GNA\bin\Debug\UserInfo.pdb

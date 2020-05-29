@@ -39,7 +39,13 @@ namespace DatabaseOperations.Operations.UserBuissness
 			using (GNAEntities context = new GNAEntities())
 			{
 				CurrentUser.user = context.Users.FirstOrDefault(x => x.id == CurrentUser.user.id);
-				return context.Operation_Ids.FirstOrDefault(x => x.id == CurrentUser.user.last_operation_id).operation_name;
+				if(CurrentUser.user.last_operation_id == null)
+				{
+					return "No Recent Operations";
+
+				}
+				var lastOperation = context.Operation_Ids.FirstOrDefault(x => x.id == CurrentUser.user.last_operation_id).operation_name;
+				return lastOperation;
 			}
 		}
 		public static void ChangePassword(string newPassword)

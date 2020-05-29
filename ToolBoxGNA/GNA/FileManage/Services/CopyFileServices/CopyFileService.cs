@@ -99,7 +99,7 @@ namespace FileSearcherDemo.Services.CopyFileServices
             {
                 foundFilesCount = "No files found.";
                 MessageBox.Show("No files found.", "None files", 
-                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.None, 0,
+                    MessageBoxButtons.OK, MessageBoxIcon.None, 0,
                     MessageBoxOptions.DefaultDesktopOnly);
             }
         }
@@ -118,7 +118,7 @@ namespace FileSearcherDemo.Services.CopyFileServices
                 CopySpecificFiles();
             }
             //He has pressed Cancel and it resets the variables
-            else
+            else if(copyFileMessageBox == DialogResult.Cancel)
             {
                 foundFilesCount = " ";
                 sb.Clear();
@@ -132,6 +132,7 @@ namespace FileSearcherDemo.Services.CopyFileServices
             saveDialog.Description = "Save Files Directory";
             saveDialog.RootFolder = Environment.SpecialFolder.Desktop;
             DialogResult saveresult = saveDialog.ShowDialog();
+            
             if (saveresult == DialogResult.OK)
             {
                 //Saves the destination path in copyFileBindingModel.FileDestPath
