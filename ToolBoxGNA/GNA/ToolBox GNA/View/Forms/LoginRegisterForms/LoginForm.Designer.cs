@@ -203,7 +203,6 @@
             this.Margin = new System.Windows.Forms.Padding(3);
             this.Name = "LoginForm";
             this.Text = "";
-            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.Controls.SetChildIndex(this.PanelRegister, 0);
             this.Controls.SetChildIndex(this.PanelUsername, 0);
             this.Controls.SetChildIndex(this.PanelPassword, 0);

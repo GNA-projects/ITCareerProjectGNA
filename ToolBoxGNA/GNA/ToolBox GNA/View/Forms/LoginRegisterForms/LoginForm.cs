@@ -7,6 +7,8 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -35,21 +37,46 @@ namespace ToolBox_GNA.View.Forms.LoginRegisterForms
 			////UserPresenter.SetUserLoginData(TextBoxUsername.Text, TextBoxPassword.Text);
 			//Logging in to the Main Menu Form
 			// bool exists =  LoginService.CheckIf(TextBoxUsername.Text, TextBoxPassword.Text);
-			if (LoginService.LoginUser(TextBoxUsername.Text,TextBoxPassword.Text))
+			if (NetTest())
 			{
-                MainMenuForm mainMenuForm = new MainMenuForm();
-                mainMenuForm.Show();
-                this.Hide();
-            }
-            else
-            {
-                LabelMessage.Text = "Username or password is wrong! Please enter the correct credentials!";
-            }
+				if (LoginService.LoginUser(TextBoxUsername.Text, TextBoxPassword.Text))
+				{
+					MainMenuForm mainMenuForm = new MainMenuForm();
+					mainMenuForm.Show();
+					this.Hide();
+				}
+				else
+				{
+					LabelMessage.Text = "Username or password is wrong! Please enter the correct credentials!";
+				}
+			}
+			else { MessageBox.Show("Please secure an internet connections before using GNA"); }
+			
         }
-
-		private void LoginForm_Load(object sender, EventArgs e)
+		public bool NetTest()
 		{
+			PingReply pingStatus;
+			try
+			{
+				Ping ping = new Ping();
 
+				pingStatus = ping.Send(IPAddress.Parse("208.69.34.231"));
+			}
+			catch (Exception)
+			{
+
+				return false;
+			}
+
+
+			if (pingStatus.Status == IPStatus.Success)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
 	}
 }
