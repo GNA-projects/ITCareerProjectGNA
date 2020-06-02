@@ -12,6 +12,7 @@ namespace ToolBoxGNAUnitTesting.Services.Convertor
     [TestFixture()]
     public class DocumetConvertorServiceTests
     {
+        //TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
         [TestCase(@"C:\Users\Admin\Desktop\TestFolderReadOnly\Test.docx.docx", @"C:\Users\Admin\Desktop\TestFolderReadOnly")]
 
         public void DocumentConvertor_CorrectCase_SameFolder(string input, string output)

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 namespace ToolBoxGNAUnitTesting.Services.FileManager
 {
     public class RenameServiceTests
+    //TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
     {
         [TestCase]
         public void RenameMethodRenamesFilesCorrectlly()

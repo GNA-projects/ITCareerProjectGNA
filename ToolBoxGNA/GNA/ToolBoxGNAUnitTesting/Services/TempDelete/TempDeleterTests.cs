@@ -10,6 +10,7 @@ using TempDeleter;
 
 namespace ToolBoxGNAUnitTesting.Services.TempDelete
 {
+    //TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
     [TestFixture()]
     public class TempFileDeleterServiceTests
     {

@@ -15,6 +15,7 @@ namespace ToolBoxGNAUnitTesting.Services.FileManager
 {
     class SearchSericeTests
     {
+        //TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
         [TestCase(@"E:\Star Wars Jedi Fallen Order", 16)]
         [TestCase(@"C:\Users\Nikih\Desktop\Recources 2", 1)]
         public void GetsAllFilesFromTheDictionary(string path, int filesCount)

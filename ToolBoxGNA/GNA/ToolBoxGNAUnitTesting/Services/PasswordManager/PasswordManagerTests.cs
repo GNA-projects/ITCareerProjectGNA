@@ -7,6 +7,7 @@ namespace ToolBoxGNAUnitTesting.Services.PasswordManager
 	[TestClass]
 	public class PasswordManagerTests
 	{
+		//TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
 		[TestMethod]
 		public void ReturnSqlitePathToChrome_IsNotNull()
 		{

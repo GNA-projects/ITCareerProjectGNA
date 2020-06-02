@@ -8,6 +8,7 @@ using System.Reflection;
 namespace ToolBoxGNAUnitTesting.Services.FileManager
 {
     public class MoveServiceTests
+    //TODO: TESTS NEED TO SETUP DIFFERENT PARAMETHERS FOR DIFFERENT MACHINES
     {
         [TestCase(@"C:\Users\Nikih\Desktop\aaa")]
         public void MoveMethodMovesFilesSuccesfully(string destPath)
